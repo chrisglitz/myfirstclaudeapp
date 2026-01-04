@@ -5,14 +5,14 @@ Your complete on-the-go keto meal tracking companion! KetoKompanion helps you ma
 ## Features
 
 ### 🍔 Restaurant Finder
-- **Directory of keto-friendly restaurants** including:
-  - McDonald's
-  - Wawa
-  - Wegmans
-  - Seasons Pizza
-  - Chipotle
-  - Subway
-- **Precise nutritional data** for each meal option
+- **36 major restaurant chains** including:
+  - Fast Food: McDonald's, Wendy's, Burger King, Five Guys, In-N-Out, Shake Shack, Chick-fil-A, Arby's, Popeyes, KFC
+  - Mexican: Chipotle, Taco Bell, Qdoba, Moe's Southwest Grill
+  - Sandwich Shops: Subway, Jersey Mike's, Jimmy John's, Firehouse Subs, Panera
+  - Convenience: Wawa, Wegmans, Starbucks, Dunkin'
+  - Casual Dining: Olive Garden, Red Lobster, Outback, Texas Roadhouse, Buffalo Wild Wings, Applebee's, TGI Fridays, Chili's, Red Robin, Longhorn, P.F. Chang's
+  - Local: Seasons Pizza
+- **100+ keto meal options** with precise nutritional data
 - **Optimal meal suggestions** marked with stars
 - **Sorting options**: Lowest carbs, highest protein, or best price
 - Complete macro breakdown: net carbs, protein, fat, and calories
@@ -40,10 +40,15 @@ Your complete on-the-go keto meal tracking companion! KetoKompanion helps you ma
 ### 🛒 Grocery Budget Optimizer
 - **Enter your budget** and get optimal shopping recommendations
 - **Smart algorithm** balances proteins, dairy, and vegetables
-- **20+ keto-friendly grocery items** with complete nutritional data
+- **70 keto-friendly grocery items** including:
+  - Proteins: chicken, beef, pork, fish, eggs, deli meats
+  - Dairy: cheese varieties, cream, butter, yogurt
+  - Vegetables: leafy greens, cruciferous veggies, low-carb options
+  - Nuts & Seeds: almonds, walnuts, macadamia, chia, flax
+  - Snacks: pork rinds, beef jerky, pickles, olives
+  - Condiments: mayo, dressings, sauces
 - **Adjust quantities** for each recommended item
 - **Real-time totals** for cost and macros
-- **Complete item reference** with all available options
 - Optimized for maximum protein and minimum carbs per dollar
 
 ## Tech Stack
@@ -77,21 +82,39 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ### Deployment to Vercel
 
-1. **Push to GitHub**:
+#### Option 1: Deploy via Vercel Dashboard (Recommended)
+
+1. **Push to GitHub** (already done):
    ```bash
-   git add .
-   git commit -m "Initial KetoKompanion app"
-   git push origin main
+   git push origin claude/keto-meal-finder-ceBCM
    ```
 
 2. **Deploy to Vercel**:
-   - Go to [vercel.com](https://vercel.com)
-   - Click "New Project"
-   - Import your GitHub repository
-   - Vercel will auto-detect Next.js and configure everything
-   - Click "Deploy"
+   - Go to [vercel.com](https://vercel.com) and sign in
+   - Click **"New Project"**
+   - Click **"Import Git Repository"**
+   - Select your `myfirstclaudeapp` repository
+   - Vercel will auto-detect Next.js settings
+   - Click **"Deploy"**
+   - Wait 2-3 minutes for deployment
 
-Your app will be live in minutes!
+3. **Access Your App**:
+   - Vercel will provide a URL like: `https://myfirstclaudeapp.vercel.app`
+   - Or with your username: `https://myfirstclaudeapp-username.vercel.app`
+
+#### Option 2: Deploy via Vercel CLI
+
+```bash
+# Login to Vercel (first time only)
+vercel login
+
+# Deploy to production
+vercel --prod
+
+# Follow the prompts - press Enter to use defaults
+```
+
+Your app will be live in minutes at the provided URL!
 
 ## Usage Guide
 
