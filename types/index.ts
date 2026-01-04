@@ -1,6 +1,9 @@
+export type VenueCategory = 'Fast Food' | 'Casual Dining' | 'Fine Dining' | 'Coffee Shop' | 'Convenience Store' | 'Grocery Store' | 'Mexican' | 'Asian' | 'Sandwich Shop' | 'Pizza' | 'Steakhouse' | 'Seafood' | 'Wings & Sports Bar';
+
 export interface Restaurant {
   id: string;
   name: string;
+  category: VenueCategory;
   meals: Meal[];
 }
 

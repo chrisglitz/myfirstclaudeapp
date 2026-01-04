@@ -19,31 +19,34 @@ export default function Home() {
   ];
 
   return (
-    <main className="min-h-screen bg-gradient-to-b from-green-50 to-white">
-      {/* Header */}
-      <div className="bg-keto-primary text-white py-6 px-4 shadow-lg">
-        <div className="max-w-7xl mx-auto">
-          <h1 className="text-4xl font-bold mb-2">KetoKompanion</h1>
-          <p className="text-green-100">Your complete keto meal & progress tracker</p>
+    <main className="min-h-screen bg-gray-50">
+      {/* Header - Apple Style */}
+      <div className="bg-white border-b border-gray-200">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+          <h1 className="text-4xl font-semibold text-gray-900 tracking-tight">KetoKompanion</h1>
+          <p className="text-base text-gray-600 mt-1">Your complete keto meal & progress tracker</p>
         </div>
       </div>
 
-      {/* Navigation Tabs */}
-      <div className="bg-white shadow-md sticky top-0 z-10">
-        <div className="max-w-7xl mx-auto px-4">
-          <div className="flex overflow-x-auto">
+      {/* Navigation Tabs - iOS Style */}
+      <div className="bg-white border-b border-gray-200 sticky top-0 z-10 backdrop-blur-lg bg-white/95">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex overflow-x-auto scrollbar-hide">
             {tabs.map((tab) => (
               <button
                 key={tab.id}
                 onClick={() => setActiveTab(tab.id)}
-                className={`flex-1 min-w-fit px-6 py-4 font-semibold transition-colors ${
+                className={`flex-shrink-0 px-6 py-4 font-medium transition-colors relative ${
                   activeTab === tab.id
-                    ? 'text-keto-primary border-b-4 border-keto-primary'
-                    : 'text-gray-600 hover:text-keto-primary hover:bg-gray-50'
+                    ? 'text-blue-600'
+                    : 'text-gray-600 hover:text-gray-900'
                 }`}
               >
-                <span className="mr-2">{tab.icon}</span>
-                {tab.name}
+                <span className="mr-2 text-lg">{tab.icon}</span>
+                <span>{tab.name}</span>
+                {activeTab === tab.id && (
+                  <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-blue-600 rounded-full" />
+                )}
               </button>
             ))}
           </div>
@@ -51,7 +54,7 @@ export default function Home() {
       </div>
 
       {/* Content */}
-      <div className="max-w-7xl mx-auto px-4 py-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         {activeTab === 'restaurants' && <RestaurantFinder />}
         {activeTab === 'tracker' && <DailyTracker />}
         {activeTab === 'weight' && <WeightTracker />}
@@ -59,15 +62,15 @@ export default function Home() {
       </div>
 
       {/* Footer */}
-      <footer className="bg-gray-100 mt-16 py-8 px-4">
-        <div className="max-w-7xl mx-auto text-center text-gray-600">
-          <p className="mb-2">
-            <strong>KetoKompanion</strong> - Your on-the-go keto companion
+      <footer className="bg-white border-t border-gray-200 mt-16 py-12 px-4">
+        <div className="max-w-7xl mx-auto text-center">
+          <p className="text-lg font-semibold text-gray-900 mb-2">
+            KetoKompanion
           </p>
-          <p className="text-sm">
-            Track meals • Monitor weight • Optimize grocery shopping • Find keto-friendly restaurants
+          <p className="text-sm text-gray-600 mb-4">
+            Track meals · Monitor weight · Optimize groceries · Find keto venues
           </p>
-          <p className="text-xs mt-4 text-gray-500">
+          <p className="text-xs text-gray-500">
             Data stored locally in your browser. No account required.
           </p>
         </div>
