@@ -713,5 +713,714 @@ export const groceryItems: GroceryItem[] = [
     fat: 24,
     servings: 4,
     carbsPerDollar: 0
+  },
+  // More Proteins
+  {
+    id: 'g-71',
+    name: 'Lamb Chops (1lb)',
+    price: 14.99,
+    carbs: 0,
+    protein: 84,
+    fat: 68,
+    servings: 4,
+    carbsPerDollar: 0
+  },
+  {
+    id: 'g-72',
+    name: 'Duck Breast (1lb)',
+    price: 12.99,
+    carbs: 0,
+    protein: 76,
+    fat: 52,
+    servings: 4,
+    carbsPerDollar: 0
+  },
+  {
+    id: 'g-73',
+    name: 'Venison (1lb)',
+    price: 16.99,
+    carbs: 0,
+    protein: 96,
+    fat: 12,
+    servings: 4,
+    carbsPerDollar: 0
+  },
+  {
+    id: 'g-74',
+    name: 'Bison Ground Meat (1lb)',
+    price: 11.99,
+    carbs: 0,
+    protein: 92,
+    fat: 28,
+    servings: 4,
+    carbsPerDollar: 0
+  },
+  {
+    id: 'g-75',
+    name: 'Sardines in Oil (4oz can, 4 pack)',
+    price: 8.99,
+    carbs: 0,
+    protein: 88,
+    fat: 44,
+    servings: 4,
+    carbsPerDollar: 0
+  },
+  {
+    id: 'g-76',
+    name: 'Anchovies (2oz jar)',
+    price: 4.99,
+    carbs: 0,
+    protein: 16,
+    fat: 8,
+    servings: 4,
+    carbsPerDollar: 0
+  },
+  {
+    id: 'g-77',
+    name: 'Mackerel (1lb)',
+    price: 8.99,
+    carbs: 0,
+    protein: 80,
+    fat: 56,
+    servings: 4,
+    carbsPerDollar: 0
+  },
+  {
+    id: 'g-78',
+    name: 'Cod Fillets (1lb)',
+    price: 10.99,
+    carbs: 0,
+    protein: 88,
+    fat: 4,
+    servings: 4,
+    carbsPerDollar: 0
+  },
+  {
+    id: 'g-79',
+    name: 'Tilapia Fillets (1lb)',
+    price: 7.99,
+    carbs: 0,
+    protein: 92,
+    fat: 12,
+    servings: 4,
+    carbsPerDollar: 0
+  },
+  {
+    id: 'g-80',
+    name: 'Halibut Steak (1lb)',
+    price: 18.99,
+    carbs: 0,
+    protein: 96,
+    fat: 16,
+    servings: 4,
+    carbsPerDollar: 0
+  },
+  {
+    id: 'g-81',
+    name: 'Scallops (1lb)',
+    price: 19.99,
+    carbs: 12,
+    protein: 72,
+    fat: 4,
+    servings: 4,
+    carbsPerDollar: 0.6
+  },
+  {
+    id: 'g-82',
+    name: 'Crab Meat (8oz)',
+    price: 14.99,
+    carbs: 0,
+    protein: 48,
+    fat: 4,
+    servings: 4,
+    carbsPerDollar: 0
+  },
+  {
+    id: 'g-83',
+    name: 'Lobster Tail (2 pack)',
+    price: 24.99,
+    carbs: 0,
+    protein: 52,
+    fat: 6,
+    servings: 2,
+    carbsPerDollar: 0
+  },
+  // More Dairy
+  {
+    id: 'g-84',
+    name: 'Mascarpone Cheese (8oz)',
+    price: 6.99,
+    carbs: 8,
+    protein: 16,
+    fat: 88,
+    servings: 8,
+    carbsPerDollar: 1.1
+  },
+  {
+    id: 'g-85',
+    name: 'Brie Cheese (8oz)',
+    price: 7.99,
+    carbs: 2,
+    protein: 40,
+    fat: 64,
+    servings: 8,
+    carbsPerDollar: 0.3
+  },
+  {
+    id: 'g-86',
+    name: 'Blue Cheese Crumbles (4oz)',
+    price: 5.49,
+    carbs: 4,
+    protein: 24,
+    fat: 32,
+    servings: 4,
+    carbsPerDollar: 0.7
+  },
+  {
+    id: 'g-87',
+    name: 'Pepper Jack Cheese (8oz)',
+    price: 4.99,
+    carbs: 4,
+    protein: 56,
+    fat: 72,
+    servings: 8,
+    carbsPerDollar: 0.8
+  },
+  {
+    id: 'g-88',
+    name: 'Swiss Cheese (8oz)',
+    price: 5.49,
+    carbs: 8,
+    protein: 56,
+    fat: 64,
+    servings: 8,
+    carbsPerDollar: 1.5
+  },
+  {
+    id: 'g-89',
+    name: 'Provolone Cheese (8oz)',
+    price: 4.99,
+    carbs: 4,
+    protein: 52,
+    fat: 60,
+    servings: 8,
+    carbsPerDollar: 0.8
+  },
+  {
+    id: 'g-90',
+    name: 'Ricotta Cheese - Whole Milk (15oz)',
+    price: 5.99,
+    carbs: 20,
+    protein: 56,
+    fat: 64,
+    servings: 8,
+    carbsPerDollar: 3.3
+  },
+  {
+    id: 'g-91',
+    name: 'Ghee (16oz)',
+    price: 10.99,
+    carbs: 0,
+    protein: 0,
+    fat: 448,
+    servings: 32,
+    carbsPerDollar: 0
+  },
+  // More Vegetables
+  {
+    id: 'g-92',
+    name: 'Eggplant (1lb)',
+    price: 2.99,
+    carbs: 20,
+    protein: 4,
+    fat: 1,
+    servings: 4,
+    carbsPerDollar: 6.7
+  },
+  {
+    id: 'g-93',
+    name: 'Arugula (5oz)',
+    price: 3.49,
+    carbs: 8,
+    protein: 6,
+    fat: 2,
+    servings: 4,
+    carbsPerDollar: 2.3
+  },
+  {
+    id: 'g-94',
+    name: 'Swiss Chard (1 bunch)',
+    price: 2.99,
+    carbs: 12,
+    protein: 8,
+    fat: 1,
+    servings: 4,
+    carbsPerDollar: 4.0
+  },
+  {
+    id: 'g-95',
+    name: 'Bok Choy (1lb)',
+    price: 2.49,
+    carbs: 8,
+    protein: 6,
+    fat: 1,
+    servings: 4,
+    carbsPerDollar: 3.2
+  },
+  {
+    id: 'g-96',
+    name: 'Collard Greens (1 bunch)',
+    price: 2.99,
+    carbs: 16,
+    protein: 10,
+    fat: 2,
+    servings: 4,
+    carbsPerDollar: 5.4
+  },
+  {
+    id: 'g-97',
+    name: 'Artichoke Hearts (12oz jar)',
+    price: 4.99,
+    carbs: 24,
+    protein: 8,
+    fat: 2,
+    servings: 6,
+    carbsPerDollar: 4.8
+  },
+  {
+    id: 'g-98',
+    name: 'Sauerkraut (16oz)',
+    price: 3.49,
+    carbs: 12,
+    protein: 4,
+    fat: 1,
+    servings: 8,
+    carbsPerDollar: 3.4
+  },
+  {
+    id: 'g-99',
+    name: 'Kimchi (16oz)',
+    price: 5.99,
+    carbs: 16,
+    protein: 8,
+    fat: 2,
+    servings: 8,
+    carbsPerDollar: 2.7
+  },
+  {
+    id: 'g-100',
+    name: 'Seaweed Snacks (12 pack)',
+    price: 6.99,
+    carbs: 12,
+    protein: 6,
+    fat: 24,
+    servings: 12,
+    carbsPerDollar: 1.7
+  },
+  // More Fats & Oils
+  {
+    id: 'g-101',
+    name: 'Avocado Oil (16oz)',
+    price: 11.99,
+    carbs: 0,
+    protein: 0,
+    fat: 448,
+    servings: 32,
+    carbsPerDollar: 0
+  },
+  {
+    id: 'g-102',
+    name: 'MCT Oil (16oz)',
+    price: 15.99,
+    carbs: 0,
+    protein: 0,
+    fat: 448,
+    servings: 32,
+    carbsPerDollar: 0
+  },
+  {
+    id: 'g-103',
+    name: 'Sesame Oil (8oz)',
+    price: 6.99,
+    carbs: 0,
+    protein: 0,
+    fat: 224,
+    servings: 16,
+    carbsPerDollar: 0
+  },
+  {
+    id: 'g-104',
+    name: 'Walnut Oil (8oz)',
+    price: 12.99,
+    carbs: 0,
+    protein: 0,
+    fat: 224,
+    servings: 16,
+    carbsPerDollar: 0
+  },
+  // More Nuts & Seeds
+  {
+    id: 'g-105',
+    name: 'Brazil Nuts (8oz)',
+    price: 9.99,
+    carbs: 24,
+    protein: 32,
+    fat: 148,
+    servings: 8,
+    carbsPerDollar: 2.4
+  },
+  {
+    id: 'g-106',
+    name: 'Hazelnuts (8oz)',
+    price: 8.99,
+    carbs: 36,
+    protein: 30,
+    fat: 136,
+    servings: 8,
+    carbsPerDollar: 4.0
+  },
+  {
+    id: 'g-107',
+    name: 'Pine Nuts (4oz)',
+    price: 11.99,
+    carbs: 16,
+    protein: 16,
+    fat: 76,
+    servings: 8,
+    carbsPerDollar: 1.3
+  },
+  {
+    id: 'g-108',
+    name: 'Pumpkin Seeds (1lb)',
+    price: 7.99,
+    carbs: 64,
+    protein: 120,
+    fat: 196,
+    servings: 16,
+    carbsPerDollar: 8.0
+  },
+  {
+    id: 'g-109',
+    name: 'Hemp Hearts (8oz)',
+    price: 8.99,
+    carbs: 16,
+    protein: 80,
+    fat: 120,
+    servings: 16,
+    carbsPerDollar: 1.8
+  },
+  {
+    id: 'g-110',
+    name: 'Cashew Butter (16oz)',
+    price: 9.99,
+    carbs: 96,
+    protein: 64,
+    fat: 160,
+    servings: 16,
+    carbsPerDollar: 9.6
+  },
+  // Keto-Specific Items
+  {
+    id: 'g-111',
+    name: 'Almond Flour (2lb)',
+    price: 12.99,
+    carbs: 96,
+    protein: 96,
+    fat: 224,
+    servings: 32,
+    carbsPerDollar: 7.4
+  },
+  {
+    id: 'g-112',
+    name: 'Coconut Flour (1lb)',
+    price: 7.99,
+    carbs: 128,
+    protein: 32,
+    fat: 24,
+    servings: 16,
+    carbsPerDollar: 16.0
+  },
+  {
+    id: 'g-113',
+    name: 'Sugar-Free Chocolate Chips (10oz)',
+    price: 6.99,
+    carbs: 40,
+    protein: 8,
+    fat: 80,
+    servings: 10,
+    carbsPerDollar: 5.7
+  },
+  {
+    id: 'g-114',
+    name: 'Erythritol Sweetener (1lb)',
+    price: 9.99,
+    carbs: 0,
+    protein: 0,
+    fat: 0,
+    servings: 48,
+    carbsPerDollar: 0
+  },
+  {
+    id: 'g-115',
+    name: 'Monk Fruit Sweetener (8oz)',
+    price: 11.99,
+    carbs: 0,
+    protein: 0,
+    fat: 0,
+    servings: 32,
+    carbsPerDollar: 0
+  },
+  {
+    id: 'g-116',
+    name: 'Sugar-Free Maple Syrup (12oz)',
+    price: 7.99,
+    carbs: 6,
+    protein: 0,
+    fat: 0,
+    servings: 12,
+    carbsPerDollar: 0.8
+  },
+  {
+    id: 'g-117',
+    name: 'Stevia Drops (2oz)',
+    price: 8.99,
+    carbs: 0,
+    protein: 0,
+    fat: 0,
+    servings: 60,
+    carbsPerDollar: 0
+  },
+  {
+    id: 'g-118',
+    name: 'Collagen Peptides Powder (16oz)',
+    price: 24.99,
+    carbs: 0,
+    protein: 320,
+    fat: 0,
+    servings: 32,
+    carbsPerDollar: 0
+  },
+  {
+    id: 'g-119',
+    name: 'Protein Powder - Whey Isolate (2lb)',
+    price: 34.99,
+    carbs: 32,
+    protein: 640,
+    fat: 16,
+    servings: 32,
+    carbsPerDollar: 0.9
+  },
+  {
+    id: 'g-120',
+    name: 'Electrolyte Powder (30 servings)',
+    price: 19.99,
+    carbs: 0,
+    protein: 0,
+    fat: 0,
+    servings: 30,
+    carbsPerDollar: 0
+  },
+  // More Convenience Items
+  {
+    id: 'g-121',
+    name: 'Pork Skins - BBQ (4oz)',
+    price: 4.99,
+    carbs: 2,
+    protein: 56,
+    fat: 48,
+    servings: 4,
+    carbsPerDollar: 0.4
+  },
+  {
+    id: 'g-122',
+    name: 'Cheese Crisps (5oz)',
+    price: 5.99,
+    carbs: 4,
+    protein: 60,
+    fat: 80,
+    servings: 5,
+    carbsPerDollar: 0.7
+  },
+  {
+    id: 'g-123',
+    name: 'Keto Bars (12 pack)',
+    price: 24.99,
+    carbs: 48,
+    protein: 120,
+    fat: 180,
+    servings: 12,
+    carbsPerDollar: 1.9
+  },
+  {
+    id: 'g-124',
+    name: 'Smoked Almonds (8oz)',
+    price: 7.99,
+    carbs: 40,
+    protein: 48,
+    fat: 112,
+    servings: 8,
+    carbsPerDollar: 5.0
+  },
+  {
+    id: 'g-125',
+    name: 'Dark Chocolate 90% Cacao (3.5oz)',
+    price: 4.99,
+    carbs: 24,
+    protein: 12,
+    fat: 56,
+    servings: 7,
+    carbsPerDollar: 4.8
+  },
+  // Fresh Herbs & Seasonings
+  {
+    id: 'g-126',
+    name: 'Fresh Basil (1 bunch)',
+    price: 2.99,
+    carbs: 2,
+    protein: 1,
+    fat: 0,
+    servings: 8,
+    carbsPerDollar: 0.7
+  },
+  {
+    id: 'g-127',
+    name: 'Fresh Cilantro (1 bunch)',
+    price: 1.99,
+    carbs: 1,
+    protein: 1,
+    fat: 0,
+    servings: 8,
+    carbsPerDollar: 0.5
+  },
+  {
+    id: 'g-128',
+    name: 'Fresh Rosemary (1 bunch)',
+    price: 2.99,
+    carbs: 2,
+    protein: 1,
+    fat: 0,
+    servings: 8,
+    carbsPerDollar: 0.7
+  },
+  {
+    id: 'g-129',
+    name: 'Fresh Thyme (1 bunch)',
+    price: 2.99,
+    carbs: 2,
+    protein: 1,
+    fat: 0,
+    servings: 8,
+    carbsPerDollar: 0.7
+  },
+  {
+    id: 'g-130',
+    name: 'Garlic (1 bulb)',
+    price: 0.99,
+    carbs: 8,
+    protein: 2,
+    fat: 0,
+    servings: 8,
+    carbsPerDollar: 8.1
+  },
+  {
+    id: 'g-131',
+    name: 'Ginger Root (4oz)',
+    price: 1.99,
+    carbs: 16,
+    protein: 2,
+    fat: 1,
+    servings: 8,
+    carbsPerDollar: 8.0
+  },
+  {
+    id: 'g-132',
+    name: 'Everything Bagel Seasoning (8oz)',
+    price: 4.99,
+    carbs: 16,
+    protein: 8,
+    fat: 12,
+    servings: 32,
+    carbsPerDollar: 3.2
+  },
+  // More Condiments
+  {
+    id: 'g-133',
+    name: 'Pesto Sauce (8oz)',
+    price: 5.99,
+    carbs: 12,
+    protein: 16,
+    fat: 96,
+    servings: 8,
+    carbsPerDollar: 2.0
+  },
+  {
+    id: 'g-134',
+    name: 'Alfredo Sauce (16oz)',
+    price: 4.99,
+    carbs: 24,
+    protein: 16,
+    fat: 80,
+    servings: 8,
+    carbsPerDollar: 4.8
+  },
+  {
+    id: 'g-135',
+    name: 'Caesar Dressing (16oz)',
+    price: 4.49,
+    carbs: 16,
+    protein: 8,
+    fat: 192,
+    servings: 16,
+    carbsPerDollar: 3.6
+  },
+  {
+    id: 'g-136',
+    name: 'Italian Dressing (16oz)',
+    price: 3.99,
+    carbs: 32,
+    protein: 0,
+    fat: 128,
+    servings: 16,
+    carbsPerDollar: 8.0
+  },
+  {
+    id: 'g-137',
+    name: 'Apple Cider Vinegar (16oz)',
+    price: 3.49,
+    carbs: 4,
+    protein: 0,
+    fat: 0,
+    servings: 32,
+    carbsPerDollar: 1.1
+  },
+  {
+    id: 'g-138',
+    name: 'Balsamic Vinegar (16oz)',
+    price: 5.99,
+    carbs: 48,
+    protein: 0,
+    fat: 0,
+    servings: 32,
+    carbsPerDollar: 8.0
+  },
+  {
+    id: 'g-139',
+    name: 'Soy Sauce - Low Sodium (10oz)',
+    price: 3.99,
+    carbs: 16,
+    protein: 12,
+    fat: 0,
+    servings: 20,
+    carbsPerDollar: 4.0
+  },
+  {
+    id: 'g-140',
+    name: 'Coconut Aminos (8oz)',
+    price: 6.99,
+    carbs: 32,
+    protein: 4,
+    fat: 0,
+    servings: 16,
+    carbsPerDollar: 4.6
   }
 ];
