@@ -9,6 +9,7 @@ export default function RestaurantFinder() {
   const [sortBy, setSortBy] = useState<'carbs' | 'protein' | 'price'>('carbs');
   const [selectedCategory, setSelectedCategory] = useState<string>('All');
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [searchQuery, setSearchQuery] = useState<string>('');
 
   // Get unique categories
   const categories = useMemo(() => {
@@ -16,11 +17,24 @@ export default function RestaurantFinder() {
     return ['All', ...uniqueCategories.sort()];
   }, []);
 
-  // Filter restaurants by category
+  // Filter restaurants by category and search query
   const filteredRestaurants = useMemo(() => {
-    if (selectedCategory === 'All') return restaurants;
-    return restaurants.filter(r => r.category === selectedCategory);
-  }, [selectedCategory]);
+    let filtered = restaurants;
+
+    // Filter by category
+    if (selectedCategory !== 'All') {
+      filtered = filtered.filter(r => r.category === selectedCategory);
+    }
+
+    // Filter by search query
+    if (searchQuery.trim()) {
+      filtered = filtered.filter(r =>
+        r.name.toLowerCase().includes(searchQuery.toLowerCase())
+      );
+    }
+
+    return filtered;
+  }, [selectedCategory, searchQuery]);
 
   const sortedMeals = (meals: Meal[]) => {
     return [...meals].sort((a, b) => {
@@ -45,6 +59,29 @@ export default function RestaurantFinder() {
       <div>
         <h2 className="text-2xl font-bold text-keto-primary mb-4">Restaurant Finder</h2>
         <p className="text-gray-600 mb-4">Find the best keto meals at your favorite spots</p>
+      </div>
+
+      {/* Search Bar */}
+      <div className="flex items-center gap-3">
+        <label htmlFor="search-input" className="font-semibold text-gray-700">
+          Search:
+        </label>
+        <input
+          id="search-input"
+          type="text"
+          value={searchQuery}
+          onChange={(e) => setSearchQuery(e.target.value)}
+          placeholder="Search by restaurant name..."
+          className="flex-1 px-4 py-2 border-2 border-gray-300 rounded-lg focus:outline-none focus:border-keto-primary"
+        />
+        {searchQuery && (
+          <button
+            onClick={() => setSearchQuery('')}
+            className="px-4 py-2 bg-gray-200 hover:bg-gray-300 rounded-lg transition-all"
+          >
+            Clear
+          </button>
+        )}
       </div>
 
       {/* Category Filter */}

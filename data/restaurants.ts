@@ -1713,5 +1713,1252 @@ export const restaurants: Restaurant[] = [
         description: 'Grilled chicken breast with veggies, skip rice'
       }
     ]
+  },
+  {
+    id: 'traderjoes',
+    name: "Trader Joe's",
+    category: 'Grocery',
+    meals: [
+      {
+        id: 'tj-1',
+        name: 'Cauliflower Gnocchi (prepared plain)',
+        carbs: 16,
+        protein: 2,
+        fat: 8,
+        calories: 140,
+        price: 2.99,
+        isOptimal: true,
+        description: 'Lower carb pasta alternative, pan-fried in butter'
+      },
+      {
+        id: 'tj-2',
+        name: 'Organic Rotisserie Chicken (half)',
+        carbs: 0,
+        protein: 68,
+        fat: 30,
+        calories: 540,
+        price: 6.99,
+        isOptimal: true,
+        description: 'Ready-to-eat organic chicken'
+      }
+    ]
+  },
+  {
+    id: 'wholefoods',
+    name: 'Whole Foods',
+    category: 'Grocery',
+    meals: [
+      {
+        id: 'wf-1',
+        name: 'Hot Bar - Grilled Chicken & Veggies',
+        carbs: 8,
+        protein: 35,
+        fat: 18,
+        calories: 330,
+        price: 10.99,
+        isOptimal: true,
+        description: 'Grilled chicken with roasted vegetables'
+      },
+      {
+        id: 'wf-2',
+        name: 'Salad Bar - Keto Bowl',
+        carbs: 7,
+        protein: 28,
+        fat: 32,
+        calories: 420,
+        price: 11.99,
+        isOptimal: true,
+        description: 'Mixed greens, grilled protein, cheese, eggs, avocado'
+      }
+    ]
+  },
+  {
+    id: 'kroger',
+    name: 'Kroger',
+    category: 'Grocery',
+    meals: [
+      {
+        id: 'krog-1',
+        name: 'Rotisserie Chicken (whole)',
+        carbs: 0,
+        protein: 140,
+        fat: 64,
+        calories: 1100,
+        price: 5.99,
+        isOptimal: true,
+        description: 'Fresh roasted whole chicken'
+      },
+      {
+        id: 'krog-2',
+        name: 'Deli Caesar Salad with Chicken',
+        carbs: 8,
+        protein: 32,
+        fat: 26,
+        calories: 390,
+        price: 7.99,
+        isOptimal: true,
+        description: 'Pre-made salad, remove croutons'
+      }
+    ]
+  },
+  {
+    id: 'publix',
+    name: 'Publix',
+    category: 'Grocery',
+    meals: [
+      {
+        id: 'pub-1',
+        name: 'Pub Sub - Ultimate (no bread)',
+        carbs: 6,
+        protein: 32,
+        fat: 28,
+        calories: 400,
+        price: 8.99,
+        isOptimal: true,
+        description: 'All meats and cheese in a bowl'
+      },
+      {
+        id: 'pub-2',
+        name: 'Rotisserie Chicken (half)',
+        carbs: 0,
+        protein: 65,
+        fat: 28,
+        calories: 520,
+        price: 5.49,
+        isOptimal: true,
+        description: 'Fresh roasted chicken'
+      }
+    ]
+  },
+  {
+    id: 'bostonmarket',
+    name: 'Boston Market',
+    category: 'Casual Dining',
+    meals: [
+      {
+        id: 'bm-1',
+        name: 'Rotisserie Chicken (quarter, white)',
+        carbs: 2,
+        protein: 42,
+        fat: 12,
+        calories: 280,
+        price: 8.99,
+        isOptimal: true,
+        description: 'Quarter chicken with green beans'
+      },
+      {
+        id: 'bm-2',
+        name: 'Half Rotisserie Chicken',
+        carbs: 3,
+        protein: 70,
+        fat: 28,
+        calories: 550,
+        price: 11.99,
+        isOptimal: true,
+        description: 'Half chicken with steamed vegetables'
+      }
+    ]
+  },
+  {
+    id: 'elpollo',
+    name: 'El Pollo Loco',
+    category: 'Mexican',
+    meals: [
+      {
+        id: 'epl-1',
+        name: 'Double Chicken Avocado Salad',
+        carbs: 9,
+        protein: 48,
+        fat: 28,
+        calories: 470,
+        price: 9.99,
+        isOptimal: true,
+        description: 'Grilled chicken, avocado, cheese, cilantro dressing'
+      },
+      {
+        id: 'epl-2',
+        name: 'Chicken Breast (2pc)',
+        carbs: 0,
+        protein: 56,
+        fat: 14,
+        calories: 340,
+        price: 7.99,
+        isOptimal: true,
+        description: 'Fire-grilled chicken breast, no sides'
+      }
+    ]
+  },
+  {
+    id: 'delfrisco',
+    name: "Del Frisco's Grille",
+    category: 'Steakhouse',
+    meals: [
+      {
+        id: 'df-1',
+        name: 'Filet Mignon (8oz)',
+        carbs: 2,
+        protein: 48,
+        fat: 32,
+        calories: 480,
+        price: 38.99,
+        isOptimal: true,
+        description: 'Premium filet with butter, asparagus side'
+      },
+      {
+        id: 'df-2',
+        name: 'Grilled Atlantic Salmon',
+        carbs: 4,
+        protein: 44,
+        fat: 28,
+        calories: 440,
+        price: 29.99,
+        isOptimal: true,
+        description: 'Fresh salmon with seasonal vegetables'
+      }
+    ]
+  },
+  {
+    id: 'ruths',
+    name: "Ruth's Chris Steak House",
+    category: 'Steakhouse',
+    meals: [
+      {
+        id: 'rc-1',
+        name: 'Petite Filet (8oz)',
+        carbs: 1,
+        protein: 52,
+        fat: 28,
+        calories: 460,
+        price: 49.99,
+        isOptimal: true,
+        description: 'USDA Prime filet, sizzling in butter'
+      },
+      {
+        id: 'rc-2',
+        name: 'Barbecued Shrimp',
+        carbs: 5,
+        protein: 36,
+        fat: 24,
+        calories: 380,
+        price: 21.99,
+        isOptimal: true,
+        description: 'New Orleans-style BBQ shrimp'
+      }
+    ]
+  },
+  {
+    id: 'mortons',
+    name: "Morton's The Steakhouse",
+    category: 'Steakhouse',
+    meals: [
+      {
+        id: 'mort-1',
+        name: 'Center Cut Filet Mignon (8oz)',
+        carbs: 0,
+        protein: 48,
+        fat: 24,
+        calories: 400,
+        price: 54.99,
+        isOptimal: true,
+        description: 'Prime aged beef, no sides with carbs'
+      },
+      {
+        id: 'mort-2',
+        name: 'Colossal Shrimp Alexander',
+        carbs: 6,
+        protein: 32,
+        fat: 28,
+        calories: 420,
+        price: 26.99,
+        isOptimal: true,
+        description: 'Jumbo shrimp with garlic butter'
+      }
+    ]
+  },
+  {
+    id: 'flemings',
+    name: "Fleming's Prime Steakhouse",
+    category: 'Steakhouse',
+    meals: [
+      {
+        id: 'flem-1',
+        name: 'Filet Mignon (8oz)',
+        carbs: 2,
+        protein: 46,
+        fat: 26,
+        calories: 420,
+        price: 47.99,
+        isOptimal: true,
+        description: 'Prime filet with herb butter'
+      },
+      {
+        id: 'flem-2',
+        name: 'Chilean Sea Bass',
+        carbs: 3,
+        protein: 38,
+        fat: 22,
+        calories: 360,
+        price: 44.99,
+        isOptimal: true,
+        description: 'Pan-seared with vegetables'
+      }
+    ]
+  },
+  {
+    id: 'peiwei',
+    name: 'Pei Wei',
+    category: 'Asian',
+    meals: [
+      {
+        id: 'pw-1',
+        name: 'Mongolian Steak (no rice)',
+        carbs: 9,
+        protein: 32,
+        fat: 18,
+        calories: 320,
+        price: 10.99,
+        isOptimal: true,
+        description: 'Wok-fired beef with scallions, skip rice'
+      },
+      {
+        id: 'pw-2',
+        name: 'Grilled Chicken with Vegetables',
+        carbs: 7,
+        protein: 36,
+        fat: 14,
+        calories: 290,
+        price: 9.99,
+        isOptimal: true,
+        description: 'Marinated chicken with mixed veggies'
+      }
+    ]
+  },
+  {
+    id: 'pandaexpress',
+    name: 'Panda Express',
+    category: 'Asian',
+    meals: [
+      {
+        id: 'pe-1',
+        name: 'Grilled Teriyaki Chicken (no rice)',
+        carbs: 9,
+        protein: 36,
+        fat: 14,
+        calories: 300,
+        price: 9.99,
+        isOptimal: true,
+        description: 'Grilled chicken, skip rice and noodles'
+      },
+      {
+        id: 'pe-2',
+        name: 'Broccoli Beef (no rice)',
+        carbs: 8,
+        protein: 16,
+        fat: 12,
+        calories: 200,
+        price: 9.49,
+        isOptimal: true,
+        description: 'Beef and broccoli in savory sauce'
+      }
+    ]
+  },
+  {
+    id: 'noodles',
+    name: 'Noodles & Company',
+    category: 'Casual Dining',
+    meals: [
+      {
+        id: 'nc-1',
+        name: 'Zucchini Noodles with Chicken',
+        carbs: 12,
+        protein: 32,
+        fat: 18,
+        calories: 330,
+        price: 9.99,
+        isOptimal: true,
+        description: 'Spiralized zucchini with grilled chicken'
+      },
+      {
+        id: 'nc-2',
+        name: 'Chicken Caesar (no croutons)',
+        carbs: 6,
+        protein: 34,
+        fat: 24,
+        calories: 370,
+        price: 8.99,
+        isOptimal: true,
+        description: 'Grilled chicken Caesar salad'
+      }
+    ]
+  },
+  {
+    id: 'jersey',
+    name: 'Jersey Mikes',
+    category: 'Sandwich Shop',
+    meals: [
+      {
+        id: 'jer-1',
+        name: '#13 Original Italian (sub in a tub)',
+        carbs: 7,
+        protein: 28,
+        fat: 32,
+        calories: 420,
+        price: 10.99,
+        isOptimal: true,
+        description: 'All meats, cheese, veggies in a bowl'
+      },
+      {
+        id: 'jer-2',
+        name: 'Turkey & Provolone (sub in a tub)',
+        carbs: 5,
+        protein: 26,
+        fat: 20,
+        calories: 310,
+        price: 9.99,
+        isOptimal: true,
+        description: 'Turkey, cheese, lettuce, tomato'
+      }
+    ]
+  },
+  {
+    id: 'potbelly',
+    name: 'Potbelly',
+    category: 'Sandwich Shop',
+    meals: [
+      {
+        id: 'pot-1',
+        name: 'Farmhouse Salad',
+        carbs: 9,
+        protein: 32,
+        fat: 26,
+        calories: 390,
+        price: 8.99,
+        isOptimal: true,
+        description: 'Chicken, bacon, eggs, cheese, ranch'
+      },
+      {
+        id: 'pot-2',
+        name: 'Power Bowls - Chicken',
+        carbs: 8,
+        protein: 34,
+        fat: 22,
+        calories: 360,
+        price: 9.49,
+        isOptimal: true,
+        description: 'Grilled chicken with veggies'
+      }
+    ]
+  },
+  {
+    id: 'jersey',
+    name: "Which Wich",
+    category: 'Sandwich Shop',
+    meals: [
+      {
+        id: 'ww-1',
+        name: 'Turkey Lettuce Wrap',
+        carbs: 6,
+        protein: 24,
+        fat: 18,
+        calories: 280,
+        price: 8.99,
+        isOptimal: true,
+        description: 'Turkey, cheese, veggies in lettuce'
+      },
+      {
+        id: 'ww-2',
+        name: 'Italian Lettuce Wrap',
+        carbs: 7,
+        protein: 26,
+        fat: 28,
+        calories: 370,
+        price: 9.49,
+        isOptimal: true,
+        description: 'Italian meats and cheese wrapped'
+      }
+    ]
+  },
+  {
+    id: 'portillos',
+    name: "Portillo's",
+    category: 'Fast Food',
+    meals: [
+      {
+        id: 'port-1',
+        name: 'Char-Grilled Chicken Breast',
+        carbs: 4,
+        protein: 42,
+        fat: 16,
+        calories: 320,
+        price: 8.99,
+        isOptimal: true,
+        description: 'Grilled chicken with side salad'
+      },
+      {
+        id: 'port-2',
+        name: 'Italian Beef (no bread)',
+        carbs: 5,
+        protein: 28,
+        fat: 22,
+        calories: 320,
+        price: 9.49,
+        isOptimal: true,
+        description: 'Seasoned beef in a bowl with peppers'
+      }
+    ]
+  },
+  {
+    id: 'zaxbys',
+    name: "Zaxby's",
+    category: 'Fast Food',
+    meals: [
+      {
+        id: 'zax-1',
+        name: 'Grilled Chicken Caesar Zalad',
+        carbs: 8,
+        protein: 35,
+        fat: 24,
+        calories: 380,
+        price: 9.49,
+        isOptimal: true,
+        description: 'Grilled chicken, romaine, parmesan, no croutons'
+      },
+      {
+        id: 'zax-2',
+        name: 'Traditional Wings (10pc)',
+        carbs: 2,
+        protein: 48,
+        fat: 32,
+        calories: 470,
+        price: 11.99,
+        isOptimal: true,
+        description: 'Buffalo or BBQ wings'
+      }
+    ]
+  },
+  {
+    id: 'wingstop',
+    name: 'Wingstop',
+    category: 'Fast Food',
+    meals: [
+      {
+        id: 'ws-1',
+        name: 'Classic Wings (10pc)',
+        carbs: 3,
+        protein: 50,
+        fat: 34,
+        calories: 500,
+        price: 12.99,
+        isOptimal: true,
+        description: 'Traditional wings, various flavors'
+      },
+      {
+        id: 'ws-2',
+        name: 'Boneless Wings (naked, 10pc)',
+        carbs: 2,
+        protein: 42,
+        fat: 16,
+        calories: 320,
+        price: 10.99,
+        isOptimal: true,
+        description: 'Grilled chicken bites with sauce'
+      }
+    ]
+  },
+  {
+    id: 'chickensalad',
+    name: 'Chicken Salad Chick',
+    category: 'Casual Dining',
+    meals: [
+      {
+        id: 'csc-1',
+        name: 'Classic Carol Salad',
+        carbs: 7,
+        protein: 28,
+        fat: 24,
+        calories: 350,
+        price: 8.99,
+        isOptimal: true,
+        description: 'Chicken salad on lettuce bed'
+      },
+      {
+        id: 'csc-2',
+        name: 'Buffalo Barclay Salad',
+        carbs: 6,
+        protein: 30,
+        fat: 26,
+        calories: 370,
+        price: 9.49,
+        isOptimal: true,
+        description: 'Spicy buffalo chicken salad'
+      }
+    ]
+  },
+  {
+    id: 'jasons',
+    name: "Jason's Deli",
+    category: 'Sandwich Shop',
+    meals: [
+      {
+        id: 'jd-1',
+        name: 'Chicken Club Salad',
+        carbs: 9,
+        protein: 36,
+        fat: 28,
+        calories: 430,
+        price: 10.99,
+        isOptimal: true,
+        description: 'Grilled chicken, bacon, eggs, cheese'
+      },
+      {
+        id: 'jd-2',
+        name: 'Nutty Mixed-Up Salad',
+        carbs: 8,
+        protein: 32,
+        fat: 32,
+        calories: 440,
+        price: 10.49,
+        isOptimal: true,
+        description: 'Chicken, nuts, cheese, mixed greens'
+      }
+    ]
+  },
+  {
+    id: 'mcalisters',
+    name: "McAlister's Deli",
+    category: 'Sandwich Shop',
+    meals: [
+      {
+        id: 'mc-1',
+        name: 'Grilled Chicken Caesar Salad',
+        carbs: 7,
+        protein: 34,
+        fat: 26,
+        calories: 390,
+        price: 9.99,
+        isOptimal: true,
+        description: 'Grilled chicken, romaine, parmesan'
+      },
+      {
+        id: 'mc-2',
+        name: 'Chef Salad',
+        carbs: 8,
+        protein: 30,
+        fat: 24,
+        calories: 360,
+        price: 9.49,
+        isOptimal: true,
+        description: 'Turkey, ham, cheese, eggs on greens'
+      }
+    ]
+  },
+  {
+    id: 'corner',
+    name: 'Corner Bakery',
+    category: 'Casual Dining',
+    meals: [
+      {
+        id: 'cb-1',
+        name: 'Harvest Salad with Chicken',
+        carbs: 9,
+        protein: 32,
+        fat: 28,
+        calories: 410,
+        price: 10.99,
+        isOptimal: true,
+        description: 'Grilled chicken, nuts, cheese, greens'
+      },
+      {
+        id: 'cb-2',
+        name: 'Chicken Pomodori',
+        carbs: 8,
+        protein: 36,
+        fat: 22,
+        calories: 370,
+        price: 11.49,
+        isOptimal: true,
+        description: 'Grilled chicken with tomato basil, no pasta'
+      }
+    ]
+  },
+  {
+    id: 'cava',
+    name: 'CAVA',
+    category: 'Mediterranean',
+    meals: [
+      {
+        id: 'cava-1',
+        name: 'Grilled Chicken Bowl',
+        carbs: 9,
+        protein: 38,
+        fat: 24,
+        calories: 400,
+        price: 10.99,
+        isOptimal: true,
+        description: 'Chicken, greens, veggies, no rice or pita'
+      },
+      {
+        id: 'cava-2',
+        name: 'Grilled Steak Bowl',
+        carbs: 8,
+        protein: 32,
+        fat: 28,
+        calories: 410,
+        price: 11.99,
+        isOptimal: true,
+        description: 'Steak, greens, hummus, veggies'
+      }
+    ]
+  },
+  {
+    id: 'zoeskitchen',
+    name: "Zoe's Kitchen",
+    category: 'Mediterranean',
+    meals: [
+      {
+        id: 'zk-1',
+        name: 'Grilled Chicken Kabobs',
+        carbs: 5,
+        protein: 42,
+        fat: 18,
+        calories: 340,
+        price: 11.99,
+        isOptimal: true,
+        description: 'Chicken kabobs with vegetables'
+      },
+      {
+        id: 'zk-2',
+        name: 'Grilled Salmon Salad',
+        carbs: 8,
+        protein: 36,
+        fat: 26,
+        calories: 400,
+        price: 13.99,
+        isOptimal: true,
+        description: 'Grilled salmon, mixed greens, feta'
+      }
+    ]
+  },
+  {
+    id: 'lazydogsaloon',
+    name: 'Lazy Dog Restaurant',
+    category: 'Casual Dining',
+    meals: [
+      {
+        id: 'ld-1',
+        name: 'Grilled Chicken Breast',
+        carbs: 4,
+        protein: 48,
+        fat: 16,
+        calories: 340,
+        price: 14.99,
+        isOptimal: true,
+        description: 'Herb-marinated chicken with veggies'
+      },
+      {
+        id: 'ld-2',
+        name: 'Blackened Fish Tacos (no tortillas)',
+        carbs: 6,
+        protein: 32,
+        fat: 22,
+        calories: 340,
+        price: 13.99,
+        isOptimal: true,
+        description: 'Blackened fish, cabbage slaw in a bowl'
+      }
+    ]
+  },
+  {
+    id: 'californiapizzo',
+    name: 'California Pizza Kitchen',
+    category: 'Casual Dining',
+    meals: [
+      {
+        id: 'cpk-1',
+        name: 'Grilled Salmon',
+        carbs: 6,
+        protein: 40,
+        fat: 26,
+        calories: 410,
+        price: 18.99,
+        isOptimal: true,
+        description: 'Fresh salmon with asparagus'
+      },
+      {
+        id: 'cpk-2',
+        name: 'Field Greens Salad with Chicken',
+        carbs: 8,
+        protein: 32,
+        fat: 24,
+        calories: 370,
+        price: 13.99,
+        isOptimal: true,
+        description: 'Grilled chicken, greens, goat cheese'
+      }
+    ]
+  },
+  {
+    id: 'yardhouse',
+    name: 'Yard House',
+    category: 'Casual Dining',
+    meals: [
+      {
+        id: 'yh-1',
+        name: 'Grilled Chicken Breast',
+        carbs: 5,
+        protein: 46,
+        fat: 18,
+        calories: 360,
+        price: 16.99,
+        isOptimal: true,
+        description: 'Seasoned chicken with steamed broccoli'
+      },
+      {
+        id: 'yh-2',
+        name: 'Ahi Poke Nachos (no chips)',
+        carbs: 7,
+        protein: 28,
+        fat: 16,
+        calories: 280,
+        price: 14.99,
+        isOptimal: true,
+        description: 'Fresh ahi tuna with avocado'
+      }
+    ]
+  },
+  {
+    id: 'bonefish',
+    name: 'Bonefish Grill',
+    category: 'Casual Dining',
+    meals: [
+      {
+        id: 'bf-1',
+        name: 'Grilled Salmon',
+        carbs: 4,
+        protein: 42,
+        fat: 28,
+        calories: 430,
+        price: 21.99,
+        isOptimal: true,
+        description: 'Fresh Atlantic salmon with asparagus'
+      },
+      {
+        id: 'bf-2',
+        name: 'Lily\'s Chicken',
+        carbs: 6,
+        protein: 44,
+        fat: 22,
+        calories: 390,
+        price: 18.99,
+        isOptimal: true,
+        description: 'Grilled chicken with goat cheese and vegetables'
+      }
+    ]
+  },
+  {
+    id: 'carrabas',
+    name: "Carrabba's Italian Grill",
+    category: 'Casual Dining',
+    meals: [
+      {
+        id: 'car-1',
+        name: 'Chicken Bryan',
+        carbs: 5,
+        protein: 48,
+        fat: 26,
+        calories: 440,
+        price: 17.99,
+        isOptimal: true,
+        description: 'Grilled chicken, goat cheese, sundried tomatoes'
+      },
+      {
+        id: 'car-2',
+        name: 'Grilled Salmon',
+        carbs: 4,
+        protein: 40,
+        fat: 24,
+        calories: 380,
+        price: 19.99,
+        isOptimal: true,
+        description: 'Fresh salmon with vegetables, no pasta'
+      }
+    ]
+  },
+  {
+    id: 'macaronigrill',
+    name: 'Romano\'s Macaroni Grill',
+    category: 'Casual Dining',
+    meals: [
+      {
+        id: 'rmg-1',
+        name: 'Grilled Salmon',
+        carbs: 6,
+        protein: 38,
+        fat: 26,
+        calories: 400,
+        price: 18.99,
+        isOptimal: true,
+        description: 'Grilled salmon with vegetables'
+      },
+      {
+        id: 'rmg-2',
+        name: 'Pollo Caprese',
+        carbs: 7,
+        protein: 42,
+        fat: 22,
+        calories: 380,
+        price: 16.99,
+        isOptimal: true,
+        description: 'Grilled chicken, mozzarella, tomatoes, no pasta'
+      }
+    ]
+  },
+  {
+    id: 'waffehouse',
+    name: 'Waffle House',
+    category: 'Casual Dining',
+    meals: [
+      {
+        id: 'wh-1',
+        name: 'Eggs & Bacon',
+        carbs: 2,
+        protein: 28,
+        fat: 32,
+        calories: 400,
+        price: 7.99,
+        isOptimal: true,
+        description: 'Three eggs with bacon, no toast or hashbrowns'
+      },
+      {
+        id: 'wh-2',
+        name: 'Grilled Chicken Breast',
+        carbs: 3,
+        protein: 38,
+        fat: 14,
+        calories: 280,
+        price: 8.99,
+        isOptimal: true,
+        description: 'Plain grilled chicken with side salad'
+      }
+    ]
+  },
+  {
+    id: 'jamba',
+    name: 'Jamba Juice',
+    category: 'Cafe',
+    meals: [
+      {
+        id: 'jam-1',
+        name: 'Impossible Breakfast Sandwich (no bread)',
+        carbs: 8,
+        protein: 24,
+        fat: 18,
+        calories: 290,
+        price: 6.99,
+        isOptimal: true,
+        description: 'Plant-based patty, egg, cheese - no bread'
+      },
+      {
+        id: 'jam-2',
+        name: 'Greens & Ginger Bowl (no granola)',
+        carbs: 9,
+        protein: 8,
+        fat: 12,
+        calories: 170,
+        price: 8.99,
+        isOptimal: true,
+        description: 'Kale, mango, pineapple blend - skip granola'
+      }
+    ]
+  },
+  {
+    id: 'smoothieking',
+    name: 'Smoothie King',
+    category: 'Cafe',
+    meals: [
+      {
+        id: 'sk-1',
+        name: 'Keto Champ Berry',
+        carbs: 12,
+        protein: 32,
+        fat: 24,
+        calories: 370,
+        price: 7.99,
+        isOptimal: true,
+        description: 'Keto-friendly smoothie with MCT oil'
+      },
+      {
+        id: 'sk-2',
+        name: 'Keto Champ Coffee',
+        carbs: 10,
+        protein: 28,
+        fat: 26,
+        calories: 360,
+        price: 7.99,
+        isOptimal: true,
+        description: 'Coffee smoothie with keto ingredients'
+      }
+    ]
+  },
+  {
+    id: 'caribou',
+    name: 'Caribou Coffee',
+    category: 'Cafe',
+    meals: [
+      {
+        id: 'cc-1',
+        name: 'Protein Power Breakfast Bowl',
+        carbs: 8,
+        protein: 26,
+        fat: 22,
+        calories: 330,
+        price: 6.99,
+        isOptimal: true,
+        description: 'Eggs, cheese, bacon, no potatoes'
+      },
+      {
+        id: 'cc-2',
+        name: 'Turkey Sausage Egg Bites',
+        carbs: 6,
+        protein: 18,
+        fat: 16,
+        calories: 240,
+        price: 4.99,
+        isOptimal: true,
+        description: 'Egg bites with turkey sausage'
+      }
+    ]
+  },
+  {
+    id: 'peets',
+    name: 'Peet\'s Coffee',
+    category: 'Cafe',
+    meals: [
+      {
+        id: 'pc-1',
+        name: 'Bacon & Egg Bites',
+        carbs: 5,
+        protein: 16,
+        fat: 18,
+        calories: 250,
+        price: 4.99,
+        isOptimal: true,
+        description: 'Egg bites with bacon and cheese'
+      },
+      {
+        id: 'pc-2',
+        name: 'Protein Plate',
+        carbs: 7,
+        protein: 22,
+        fat: 20,
+        calories: 290,
+        price: 6.99,
+        isOptimal: true,
+        description: 'Hardboiled eggs, cheese, almonds'
+      }
+    ]
+  },
+  {
+    id: 'pieology',
+    name: 'Pieology',
+    category: 'Pizza',
+    meals: [
+      {
+        id: 'pieo-1',
+        name: 'Caesar Salad with Chicken',
+        carbs: 7,
+        protein: 32,
+        fat: 24,
+        calories: 360,
+        price: 9.99,
+        isOptimal: true,
+        description: 'Grilled chicken Caesar, no croutons'
+      },
+      {
+        id: 'pieo-2',
+        name: 'Buffalo Wings (8pc)',
+        carbs: 3,
+        protein: 44,
+        fat: 28,
+        calories: 420,
+        price: 10.99,
+        isOptimal: true,
+        description: 'Traditional wings with buffalo sauce'
+      }
+    ]
+  },
+  {
+    id: 'blaze',
+    name: 'Blaze Pizza',
+    category: 'Pizza',
+    meals: [
+      {
+        id: 'blz-1',
+        name: 'Grilled Chicken Salad',
+        carbs: 8,
+        protein: 34,
+        fat: 22,
+        calories: 350,
+        price: 8.99,
+        isOptimal: true,
+        description: 'Grilled chicken, greens, veggies'
+      },
+      {
+        id: 'blz-2',
+        name: 'Keto Crust Pizza (personal)',
+        carbs: 6,
+        protein: 28,
+        fat: 32,
+        calories: 420,
+        price: 11.99,
+        isOptimal: true,
+        description: 'Cauliflower crust with toppings'
+      }
+    ]
+  },
+  {
+    id: 'modsquad',
+    name: 'MOD Pizza',
+    category: 'Pizza',
+    meals: [
+      {
+        id: 'mod-1',
+        name: 'Salad - No Name',
+        carbs: 7,
+        protein: 30,
+        fat: 24,
+        calories: 350,
+        price: 9.99,
+        isOptimal: true,
+        description: 'Customizable salad with grilled chicken'
+      },
+      {
+        id: 'mod-2',
+        name: 'Cauliflower Crust Pizza',
+        carbs: 8,
+        protein: 26,
+        fat: 28,
+        calories: 380,
+        price: 10.99,
+        isOptimal: true,
+        description: 'Keto-friendly crust with toppings'
+      }
+    ]
+  },
+  {
+    id: 'jitb',
+    name: 'Jack in the Box',
+    category: 'Fast Food',
+    meals: [
+      {
+        id: 'jib-1',
+        name: 'Grilled Chicken Salad',
+        carbs: 8,
+        protein: 32,
+        fat: 22,
+        calories: 350,
+        price: 7.99,
+        isOptimal: true,
+        description: 'Grilled chicken on greens'
+      },
+      {
+        id: 'jib-2',
+        name: 'Bunless Burger',
+        carbs: 7,
+        protein: 26,
+        fat: 28,
+        calories: 370,
+        price: 6.99,
+        isOptimal: true,
+        description: 'Burger without bun, lettuce wrap'
+      }
+    ]
+  },
+  {
+    id: 'checkers',
+    name: 'Checkers',
+    category: 'Fast Food',
+    meals: [
+      {
+        id: 'chk-1',
+        name: 'Grilled Chicken Sandwich (no bun)',
+        carbs: 5,
+        protein: 32,
+        fat: 16,
+        calories: 280,
+        price: 6.99,
+        isOptimal: true,
+        description: 'Grilled chicken breast, no bun'
+      },
+      {
+        id: 'chk-2',
+        name: 'Big Buford (no bun)',
+        carbs: 8,
+        protein: 34,
+        fat: 38,
+        calories: 500,
+        price: 7.99,
+        isOptimal: true,
+        description: 'Double burger, cheese, bacon, no bun'
+      }
+    ]
+  },
+  {
+    id: 'rallys',
+    name: "Rally's",
+    category: 'Fast Food',
+    meals: [
+      {
+        id: 'ral-1',
+        name: 'Grilled Chicken (no bun)',
+        carbs: 4,
+        protein: 30,
+        fat: 14,
+        calories: 260,
+        price: 6.49,
+        isOptimal: true,
+        description: 'Seasoned grilled chicken'
+      },
+      {
+        id: 'ral-2',
+        name: 'Baconzilla (no bun)',
+        carbs: 7,
+        protein: 36,
+        fat: 42,
+        calories: 540,
+        price: 8.49,
+        isOptimal: true,
+        description: 'Bacon cheeseburger without bun'
+      }
+    ]
+  },
+  {
+    id: 'cookout',
+    name: 'Cook Out',
+    category: 'Fast Food',
+    meals: [
+      {
+        id: 'cok-1',
+        name: 'Grilled Chicken Breast',
+        carbs: 3,
+        protein: 38,
+        fat: 12,
+        calories: 260,
+        price: 5.99,
+        isOptimal: true,
+        description: 'Plain grilled chicken'
+      },
+      {
+        id: 'cok-2',
+        name: 'Char-Grilled Burger (no bun)',
+        carbs: 6,
+        protein: 24,
+        fat: 26,
+        calories: 350,
+        price: 4.99,
+        isOptimal: true,
+        description: 'Charbroiled burger, no bun'
+      }
+    ]
   }
 ];
