@@ -207,54 +207,77 @@ export default function RestaurantFinder() {
 
       {/* Meal List View (when meal type is selected) */}
       {selectedMealType !== 'All' ? (
-        <div className="space-y-3">
-          {getAllMealsByType.map((meal) => (
-            <div
-              key={`${meal.restaurantId}-${meal.id}`}
-              className={`p-5 md:p-4 rounded-lg border-2 transition-all ${
-                meal.isOptimal ? 'border-keto-secondary bg-keto-bg' : 'border-gray-300 bg-white'
-              } hover:shadow-lg`}
-            >
-              <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-3">
-                <div className="flex-1">
-                  <h3 className="font-bold text-lg md:text-base text-gray-900">{meal.name}</h3>
-                  <p className="text-sm text-keto-dark font-semibold mt-1">📍 {meal.restaurantName}</p>
-                  {meal.description && (
-                    <p className="text-sm text-gray-600 mt-2">{meal.description}</p>
-                  )}
-                </div>
-                <div className="flex flex-row md:flex-col gap-4 md:gap-2 md:text-right">
-                  <div className="flex-1 md:flex-none">
-                    <div className="text-2xl md:text-xl font-bold text-keto-secondary">
-                      {meal.carbs}g
+        <div className="space-y-4">
+          {getAllMealsByType.length === 0 ? (
+            <div className="text-center py-12 text-gray-500">
+              <p className="text-lg">No {selectedMealType.toLowerCase()} meals found</p>
+              <p className="text-sm mt-2">Try selecting a different category or search term</p>
+            </div>
+          ) : (
+            getAllMealsByType.map((meal) => (
+              <div
+                key={`${meal.restaurantId}-${meal.id}`}
+                className={`p-5 rounded-xl border-2 transition-all ${
+                  meal.isOptimal
+                    ? 'border-keto-secondary bg-gradient-to-r from-keto-bg to-white shadow-md'
+                    : 'border-gray-300 bg-white'
+                } hover:shadow-xl`}
+              >
+                <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4">
+                  {/* Left side - Meal info */}
+                  <div className="flex-1">
+                    <div className="flex items-start gap-2 mb-2">
+                      <h3 className="font-bold text-xl md:text-lg text-gray-900 flex-1">
+                        {meal.name}
+                      </h3>
+                      {meal.isOptimal && (
+                        <span className="px-3 py-1 bg-keto-secondary text-white text-xs font-bold rounded-full whitespace-nowrap">
+                          ⭐ OPTIMAL
+                        </span>
+                      )}
                     </div>
-                    <div className="text-xs text-gray-600 font-medium">carbs</div>
+                    <p className="text-base md:text-sm text-keto-dark font-bold mb-2">
+                      📍 {meal.restaurantName}
+                    </p>
+                    {meal.description && (
+                      <p className="text-sm text-gray-600 leading-relaxed">{meal.description}</p>
+                    )}
                   </div>
-                  <div className="flex-1 md:flex-none">
-                    <div className="text-lg md:text-base font-semibold text-gray-700">
-                      {meal.protein}g
+
+                  {/* Right side - Nutrition info */}
+                  <div className="flex flex-row lg:flex-row gap-6 lg:gap-4 justify-between lg:justify-end">
+                    <div className="text-center">
+                      <div className="text-3xl md:text-2xl font-extrabold text-keto-secondary">
+                        {meal.carbs}g
+                      </div>
+                      <div className="text-xs text-gray-600 font-semibold mt-1">NET CARBS</div>
                     </div>
-                    <div className="text-xs text-gray-600">protein</div>
-                  </div>
-                  <div className="flex-1 md:flex-none">
-                    <div className="text-lg md:text-base font-semibold text-gray-700">
-                      {meal.fat}g
+                    <div className="text-center">
+                      <div className="text-xl md:text-lg font-bold text-gray-800">
+                        {meal.protein}g
+                      </div>
+                      <div className="text-xs text-gray-600 mt-1">Protein</div>
                     </div>
-                    <div className="text-xs text-gray-600">fat</div>
-                  </div>
-                  <div className="flex-1 md:flex-none">
-                    <div className="text-lg md:text-base font-bold text-keto-dark">
-                      ${meal.price?.toFixed(2) || 'N/A'}
+                    <div className="text-center">
+                      <div className="text-xl md:text-lg font-bold text-gray-800">
+                        {meal.fat}g
+                      </div>
+                      <div className="text-xs text-gray-600 mt-1">Fat</div>
                     </div>
-                    <div className="text-xs text-gray-600">price</div>
+                    <div className="text-center">
+                      <div className="text-xl md:text-lg font-bold text-keto-dark">
+                        ${meal.price?.toFixed(2) || 'N/A'}
+                      </div>
+                      <div className="text-xs text-gray-600 mt-1">Price</div>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          ))}
+            ))
+          )}
         </div>
       ) : (
-        /* Restaurant Selection (when meal type is "All") */
+        /* Restaurant Grid (when meal type is "All") */
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {filteredRestaurants.map((restaurant) => (
             <button
