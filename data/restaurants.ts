@@ -15,7 +15,8 @@ export const restaurants: Restaurant[] = [
         calories: 600,
         price: 7.99,
         isOptimal: true,
-        description: 'No bun, no ketchup. Perfect keto option!'
+        description: 'No bun, no ketchup. Perfect keto option!',
+        mealType: 'anytime'
       },
       {
         id: 'mc-2',
@@ -26,7 +27,8 @@ export const restaurants: Restaurant[] = [
         calories: 390,
         price: 7.49,
         isOptimal: true,
-        description: 'Remove croutons, use ranch dressing'
+        description: 'Remove croutons, use ranch dressing',
+        mealType: 'lunch'
       },
       {
         id: 'mc-3',
@@ -37,7 +39,8 @@ export const restaurants: Restaurant[] = [
         calories: 250,
         price: 2.99,
         isOptimal: true,
-        description: 'Just the filling - great breakfast option'
+        description: 'Just the filling - great breakfast option',
+        mealType: 'breakfast'
       },
       {
         id: 'mc-4',
@@ -48,7 +51,8 @@ export const restaurants: Restaurant[] = [
         calories: 200,
         price: 4.29,
         isOptimal: true,
-        description: 'Egg, cheese, and Canadian bacon only'
+        description: 'Egg, cheese, and Canadian bacon only',
+        mealType: 'breakfast'
       }
     ]
   },
@@ -66,7 +70,8 @@ export const restaurants: Restaurant[] = [
         calories: 380,
         price: 8.99,
         isOptimal: true,
-        description: 'Grilled chicken, cheddar, lettuce, peppers, ranch'
+        description: 'Grilled chicken, cheddar, lettuce, peppers, ranch',
+        mealType: 'breakfast'
       },
       {
         id: 'wawa-2',
@@ -77,7 +82,8 @@ export const restaurants: Restaurant[] = [
         calories: 420,
         price: 6.99,
         isOptimal: true,
-        description: 'Scrambled eggs, bacon, cheese, no potatoes'
+        description: 'Scrambled eggs, bacon, cheese, no potatoes',
+        mealType: 'breakfast'
       },
       {
         id: 'wawa-3',
@@ -88,7 +94,8 @@ export const restaurants: Restaurant[] = [
         calories: 280,
         price: 7.49,
         isOptimal: true,
-        description: 'Turkey, provolone, lettuce, tomato in a bowl'
+        description: 'Turkey, provolone, lettuce, tomato in a bowl',
+        mealType: 'lunch'
       },
       {
         id: 'wawa-4',
@@ -99,7 +106,8 @@ export const restaurants: Restaurant[] = [
         calories: 370,
         price: 8.49,
         isOptimal: true,
-        description: 'Grilled chicken, romaine, parmesan, Caesar dressing'
+        description: 'Grilled chicken, romaine, parmesan, Caesar dressing',
+        mealType: 'lunch'
       }
     ]
   },
@@ -117,7 +125,8 @@ export const restaurants: Restaurant[] = [
         calories: 520,
         price: 5.99,
         isOptimal: true,
-        description: 'Plain rotisserie - remove skin if needed'
+        description: 'Plain rotisserie - remove skin if needed',
+        mealType: 'anytime'
       },
       {
         id: 'weg-2',
@@ -128,7 +137,8 @@ export const restaurants: Restaurant[] = [
         calories: 340,
         price: 9.99,
         isOptimal: true,
-        description: 'Skip the rice, extra veggies'
+        description: 'Skip the rice, extra veggies',
+        mealType: 'breakfast'
       },
       {
         id: 'weg-3',
@@ -139,7 +149,8 @@ export const restaurants: Restaurant[] = [
         calories: 450,
         price: 8.99,
         isOptimal: true,
-        description: 'Greens, grilled chicken, cheese, eggs, olives, oil & vinegar'
+        description: 'Greens, grilled chicken, cheese, eggs, olives, oil & vinegar',
+        mealType: 'breakfast'
       },
       {
         id: 'weg-4',
@@ -150,7 +161,8 @@ export const restaurants: Restaurant[] = [
         calories: 340,
         price: 7.99,
         isOptimal: true,
-        description: 'No breading, buffalo sauce on side'
+        description: 'No breading, buffalo sauce on side',
+        mealType: 'snack'
       }
     ]
   },
@@ -168,7 +180,8 @@ export const restaurants: Restaurant[] = [
         calories: 440,
         price: 11.99,
         isOptimal: true,
-        description: 'No croutons, extra chicken'
+        description: 'No croutons, extra chicken',
+        mealType: 'lunch'
       },
       {
         id: 'sea-2',
@@ -179,7 +192,8 @@ export const restaurants: Restaurant[] = [
         calories: 540,
         price: 12.99,
         isOptimal: true,
-        description: 'Traditional wings, buffalo sauce'
+        description: 'Traditional wings, buffalo sauce',
+        mealType: 'snack'
       },
       {
         id: 'sea-3',
@@ -190,7 +204,8 @@ export const restaurants: Restaurant[] = [
         calories: 410,
         price: 10.99,
         isOptimal: true,
-        description: 'Meats, cheese, olives, peppers, oil & vinegar'
+        description: 'Meats, cheese, olives, peppers, oil & vinegar',
+        mealType: 'lunch'
       },
       {
         id: 'sea-4',
@@ -201,7 +216,8 @@ export const restaurants: Restaurant[] = [
         calories: 520,
         price: 13.99,
         isOptimal: true,
-        description: 'Steak, cheese, peppers, onions in a bowl'
+        description: 'Steak, cheese, peppers, onions in a bowl',
+        mealType: 'dinner'
       }
     ]
   },
@@ -219,7 +235,8 @@ export const restaurants: Restaurant[] = [
         calories: 450,
         price: 11.50,
         isOptimal: true,
-        description: 'Carnitas, lettuce, cheese, sour cream, guacamole, salsa'
+        description: 'Carnitas, lettuce, cheese, sour cream, guacamole, salsa',
+        mealType: 'lunch'
       },
       {
         id: 'chip-2',
@@ -230,7 +247,8 @@ export const restaurants: Restaurant[] = [
         calories: 420,
         price: 10.95,
         isOptimal: true,
-        description: 'Chicken, fajita veggies, cheese, guac, salsa'
+        description: 'Chicken, fajita veggies, cheese, guac, salsa',
+        mealType: 'breakfast'
       },
       {
         id: 'chip-3',
@@ -241,7 +259,8 @@ export const restaurants: Restaurant[] = [
         calories: 460,
         price: 12.50,
         isOptimal: true,
-        description: 'Steak, romaine, cheese, sour cream, salsa, no tortilla strips'
+        description: 'Steak, romaine, cheese, sour cream, salsa, no tortilla strips',
+        mealType: 'dinner'
       },
       {
         id: 'chip-4',
@@ -252,7 +271,8 @@ export const restaurants: Restaurant[] = [
         calories: 410,
         price: 11.95,
         isOptimal: true,
-        description: 'Barbacoa beef, fajita veggies, cheese, guac, hot salsa'
+        description: 'Barbacoa beef, fajita veggies, cheese, guac, hot salsa',
+        mealType: 'breakfast'
       }
     ]
   },
@@ -270,7 +290,8 @@ export const restaurants: Restaurant[] = [
         calories: 350,
         price: 9.99,
         isOptimal: true,
-        description: 'No bread, double meat, cheese, veggies'
+        description: 'No bread, double meat, cheese, veggies',
+        mealType: 'breakfast'
       },
       {
         id: 'sub-2',
@@ -281,7 +302,8 @@ export const restaurants: Restaurant[] = [
         calories: 390,
         price: 9.49,
         isOptimal: true,
-        description: 'Grilled chicken, bacon, ranch, cheese, veggies'
+        description: 'Grilled chicken, bacon, ranch, cheese, veggies',
+        mealType: 'breakfast'
       },
       {
         id: 'sub-3',
@@ -292,7 +314,8 @@ export const restaurants: Restaurant[] = [
         calories: 340,
         price: 9.99,
         isOptimal: true,
-        description: 'Rotisserie chicken, double cheese, all veggies, ranch'
+        description: 'Rotisserie chicken, double cheese, all veggies, ranch',
+        mealType: 'breakfast'
       },
       {
         id: 'sub-4',
@@ -303,7 +326,8 @@ export const restaurants: Restaurant[] = [
         calories: 300,
         price: 8.99,
         isOptimal: true,
-        description: 'Turkey, cheese, avocado, veggies, oil & vinegar'
+        description: 'Turkey, cheese, avocado, veggies, oil & vinegar',
+        mealType: 'breakfast'
       }
     ]
   },
@@ -321,7 +345,8 @@ export const restaurants: Restaurant[] = [
         calories: 700,
         price: 11.99,
         isOptimal: true,
-        description: 'Lettuce-wrapped burger, all toppings, no bun'
+        description: 'Lettuce-wrapped burger, all toppings, no bun',
+        mealType: 'lunch'
       },
       {
         id: 'fg-2',
@@ -332,7 +357,8 @@ export const restaurants: Restaurant[] = [
         calories: 340,
         price: 8.49,
         isOptimal: true,
-        description: 'Single patty, cheese, veggies, no bun'
+        description: 'Single patty, cheese, veggies, no bun',
+        mealType: 'breakfast'
       },
       {
         id: 'fg-3',
@@ -343,7 +369,8 @@ export const restaurants: Restaurant[] = [
         calories: 380,
         price: 7.99,
         isOptimal: true,
-        description: 'Hot dog wrapped in bacon, cheese, no bun'
+        description: 'Hot dog wrapped in bacon, cheese, no bun',
+        mealType: 'anytime'
       },
       {
         id: 'fg-4',
@@ -354,7 +381,8 @@ export const restaurants: Restaurant[] = [
         calories: 420,
         price: 9.49,
         isOptimal: true,
-        description: 'Single patty, bacon, cheese, all toppings'
+        description: 'Single patty, bacon, cheese, all toppings',
+        mealType: 'anytime'
       }
     ]
   },
@@ -372,7 +400,8 @@ export const restaurants: Restaurant[] = [
         calories: 220,
         price: 7.99,
         isOptimal: true,
-        description: 'Perfect protein, minimal carbs'
+        description: 'Perfect protein, minimal carbs',
+        mealType: 'snack'
       },
       {
         id: 'cfa-2',
@@ -383,7 +412,8 @@ export const restaurants: Restaurant[] = [
         calories: 430,
         price: 10.49,
         isOptimal: true,
-        description: 'Grilled chicken, bacon, eggs, cheese, avocado lime ranch'
+        description: 'Grilled chicken, bacon, eggs, cheese, avocado lime ranch',
+        mealType: 'breakfast'
       },
       {
         id: 'cfa-3',
@@ -394,7 +424,8 @@ export const restaurants: Restaurant[] = [
         calories: 320,
         price: 8.99,
         isOptimal: true,
-        description: 'Grilled chicken, bacon, cheese, lettuce, tomato'
+        description: 'Grilled chicken, bacon, cheese, lettuce, tomato',
+        mealType: 'anytime'
       },
       {
         id: 'cfa-4',
@@ -405,7 +436,8 @@ export const restaurants: Restaurant[] = [
         calories: 410,
         price: 10.99,
         isOptimal: true,
-        description: 'Grilled chicken, corn salsa, peppers, cheese, no corn'
+        description: 'Grilled chicken, corn salsa, peppers, cheese, no corn',
+        mealType: 'lunch'
       }
     ]
   },
@@ -423,7 +455,8 @@ export const restaurants: Restaurant[] = [
         calories: 470,
         price: 9.49,
         isOptimal: true,
-        description: 'Beef patty, cheese, lettuce, tomato, ShackSauce'
+        description: 'Beef patty, cheese, lettuce, tomato, ShackSauce',
+        mealType: 'lunch'
       },
       {
         id: 'ss-2',
@@ -434,7 +467,8 @@ export const restaurants: Restaurant[] = [
         calories: 340,
         price: 9.99,
         isOptimal: false,
-        description: 'Crispy portobello, cheese, lettuce-wrapped'
+        description: 'Crispy portobello, cheese, lettuce-wrapped',
+        mealType: 'anytime'
       },
       {
         id: 'ss-3',
@@ -445,7 +479,8 @@ export const restaurants: Restaurant[] = [
         calories: 530,
         price: 10.99,
         isOptimal: true,
-        description: 'Bacon, cherry peppers, ShackSauce, lettuce-wrapped'
+        description: 'Bacon, cherry peppers, ShackSauce, lettuce-wrapped',
+        mealType: 'lunch'
       },
       {
         id: 'ss-4',
@@ -456,7 +491,8 @@ export const restaurants: Restaurant[] = [
         calories: 380,
         price: 9.99,
         isOptimal: true,
-        description: 'Spicy chicken breast, pickles, buttermilk herb mayo'
+        description: 'Spicy chicken breast, pickles, buttermilk herb mayo',
+        mealType: 'dinner'
       }
     ]
   },
@@ -474,7 +510,8 @@ export const restaurants: Restaurant[] = [
         calories: 520,
         price: 6.99,
         isOptimal: true,
-        description: 'Two patties, cheese, lettuce-wrapped, no spread'
+        description: 'Two patties, cheese, lettuce-wrapped, no spread',
+        mealType: 'anytime'
       },
       {
         id: 'ino-2',
@@ -485,7 +522,8 @@ export const restaurants: Restaurant[] = [
         calories: 720,
         price: 8.99,
         isOptimal: true,
-        description: 'Triple meat, triple cheese, lettuce wrap'
+        description: 'Triple meat, triple cheese, lettuce wrap',
+        mealType: 'lunch'
       },
       {
         id: 'ino-3',
@@ -496,7 +534,8 @@ export const restaurants: Restaurant[] = [
         calories: 960,
         price: 10.99,
         isOptimal: true,
-        description: 'Four patties, four cheese, ultimate protein bomb'
+        description: 'Four patties, four cheese, ultimate protein bomb',
+        mealType: 'anytime'
       },
       {
         id: 'ino-4',
@@ -507,7 +546,8 @@ export const restaurants: Restaurant[] = [
         calories: 310,
         price: 4.99,
         isOptimal: true,
-        description: 'Single patty, cheese, grilled onions, lettuce wrap'
+        description: 'Single patty, cheese, grilled onions, lettuce wrap',
+        mealType: 'lunch'
       }
     ]
   },
@@ -525,7 +565,8 @@ export const restaurants: Restaurant[] = [
         calories: 660,
         price: 9.49,
         isOptimal: true,
-        description: 'Two beef patties, bacon, cheese, mayo - ask for lettuce wrap'
+        description: 'Two beef patties, bacon, cheese, mayo - ask for lettuce wrap',
+        mealType: 'lunch'
       },
       {
         id: 'wen-2',
@@ -536,7 +577,8 @@ export const restaurants: Restaurant[] = [
         calories: 450,
         price: 9.99,
         isOptimal: true,
-        description: 'Grilled chicken, avocado, bacon, no tortilla strips'
+        description: 'Grilled chicken, avocado, bacon, no tortilla strips',
+        mealType: 'lunch'
       },
       {
         id: 'wen-3',
@@ -547,7 +589,8 @@ export const restaurants: Restaurant[] = [
         calories: 460,
         price: 9.99,
         isOptimal: true,
-        description: 'Remove apples and cranberries, extra pecans'
+        description: 'Remove apples and cranberries, extra pecans',
+        mealType: 'lunch'
       },
       {
         id: 'wen-4',
@@ -558,7 +601,8 @@ export const restaurants: Restaurant[] = [
         calories: 710,
         price: 10.49,
         isOptimal: true,
-        description: 'Two beef patties, cheese, lettuce, tomato, mayo'
+        description: 'Two beef patties, cheese, lettuce, tomato, mayo',
+        mealType: 'anytime'
       }
     ]
   },
@@ -576,7 +620,8 @@ export const restaurants: Restaurant[] = [
         calories: 470,
         price: 7.99,
         isOptimal: true,
-        description: 'Flame-grilled beef, cheese, veggies, no ketchup or bun'
+        description: 'Flame-grilled beef, cheese, veggies, no ketchup or bun',
+        mealType: 'breakfast'
       },
       {
         id: 'bk-2',
@@ -587,7 +632,8 @@ export const restaurants: Restaurant[] = [
         calories: 720,
         price: 9.99,
         isOptimal: true,
-        description: 'Two patties, bacon, cheese, special sauce'
+        description: 'Two patties, bacon, cheese, special sauce',
+        mealType: 'anytime'
       },
       {
         id: 'bk-3',
@@ -598,7 +644,8 @@ export const restaurants: Restaurant[] = [
         calories: 370,
         price: 8.49,
         isOptimal: true,
-        description: 'Grilled chicken, greens, veggies, ranch dressing'
+        description: 'Grilled chicken, greens, veggies, ranch dressing',
+        mealType: 'breakfast'
       },
       {
         id: 'bk-4',
@@ -609,7 +656,8 @@ export const restaurants: Restaurant[] = [
         calories: 820,
         price: 10.99,
         isOptimal: true,
-        description: 'Two flame-grilled patties, cheese, all veggies'
+        description: 'Two flame-grilled patties, cheese, all veggies',
+        mealType: 'breakfast'
       }
     ]
   },
@@ -627,7 +675,8 @@ export const restaurants: Restaurant[] = [
         calories: 240,
         price: 6.99,
         isOptimal: true,
-        description: 'Thin-sliced roast beef, ask for lettuce wrap'
+        description: 'Thin-sliced roast beef, ask for lettuce wrap',
+        mealType: 'lunch'
       },
       {
         id: 'arb-2',
@@ -638,7 +687,8 @@ export const restaurants: Restaurant[] = [
         calories: 410,
         price: 8.99,
         isOptimal: true,
-        description: 'Swap crispy for roast beef, bacon, cheese, ranch'
+        description: 'Swap crispy for roast beef, bacon, cheese, ranch',
+        mealType: 'lunch'
       },
       {
         id: 'arb-3',
@@ -649,7 +699,8 @@ export const restaurants: Restaurant[] = [
         calories: 310,
         price: 7.49,
         isOptimal: true,
-        description: 'Roast beef, cheddar sauce, red ranch, no bun'
+        description: 'Roast beef, cheddar sauce, red ranch, no bun',
+        mealType: 'anytime'
       },
       {
         id: 'arb-4',
@@ -660,7 +711,8 @@ export const restaurants: Restaurant[] = [
         calories: 360,
         price: 8.99,
         isOptimal: true,
-        description: 'Smoked brisket, cheese, pickles, no bread'
+        description: 'Smoked brisket, cheese, pickles, no bread',
+        mealType: 'anytime'
       }
     ]
   },
@@ -678,7 +730,8 @@ export const restaurants: Restaurant[] = [
         calories: 150,
         price: 6.99,
         isOptimal: true,
-        description: 'Grilled, not breaded - perfect keto option'
+        description: 'Grilled, not breaded - perfect keto option',
+        mealType: 'snack'
       },
       {
         id: 'pop-2',
@@ -689,7 +742,8 @@ export const restaurants: Restaurant[] = [
         calories: 520,
         price: 8.99,
         isOptimal: true,
-        description: 'Remove breading, keep the skin for fat'
+        description: 'Remove breading, keep the skin for fat',
+        mealType: 'anytime'
       },
       {
         id: 'pop-3',
@@ -700,7 +754,8 @@ export const restaurants: Restaurant[] = [
         calories: 200,
         price: 7.99,
         isOptimal: true,
-        description: 'No breading chicken tenders, perfect keto'
+        description: 'No breading chicken tenders, perfect keto',
+        mealType: 'snack'
       },
       {
         id: 'pop-4',
@@ -711,7 +766,8 @@ export const restaurants: Restaurant[] = [
         calories: 280,
         price: 6.49,
         isOptimal: true,
-        description: 'Fried chicken livers, nutrient-dense keto option'
+        description: 'Fried chicken livers, nutrient-dense keto option',
+        mealType: 'anytime'
       }
     ]
   },
@@ -729,7 +785,8 @@ export const restaurants: Restaurant[] = [
         calories: 220,
         price: 6.99,
         isOptimal: true,
-        description: 'Kentucky Grilled Chicken - no breading'
+        description: 'Kentucky Grilled Chicken - no breading',
+        mealType: 'dinner'
       },
       {
         id: 'kfc-2',
@@ -740,7 +797,8 @@ export const restaurants: Restaurant[] = [
         calories: 30,
         price: 2.99,
         isOptimal: true,
-        description: 'Low-carb veggie side'
+        description: 'Low-carb veggie side',
+        mealType: 'breakfast'
       },
       {
         id: 'kfc-3',
@@ -751,7 +809,8 @@ export const restaurants: Restaurant[] = [
         calories: 290,
         price: 6.49,
         isOptimal: true,
-        description: 'Kentucky Grilled dark meat combo'
+        description: 'Kentucky Grilled dark meat combo',
+        mealType: 'anytime'
       },
       {
         id: 'kfc-4',
@@ -762,7 +821,8 @@ export const restaurants: Restaurant[] = [
         calories: 510,
         price: 7.99,
         isOptimal: true,
-        description: 'Remove breading, enjoy the seasoned skin'
+        description: 'Remove breading, enjoy the seasoned skin',
+        mealType: 'anytime'
       }
     ]
   },
@@ -780,7 +840,8 @@ export const restaurants: Restaurant[] = [
         calories: 350,
         price: 7.99,
         isOptimal: true,
-        description: 'Chicken, lettuce, cheese, guac, sour cream, salsa'
+        description: 'Chicken, lettuce, cheese, guac, sour cream, salsa',
+        mealType: 'lunch'
       },
       {
         id: 'tb-2',
@@ -791,7 +852,8 @@ export const restaurants: Restaurant[] = [
         calories: 240,
         price: 5.99,
         isOptimal: true,
-        description: 'Just the filling in a bowl'
+        description: 'Just the filling in a bowl',
+        mealType: 'dinner'
       },
       {
         id: 'tb-3',
@@ -802,7 +864,8 @@ export const restaurants: Restaurant[] = [
         calories: 370,
         price: 8.49,
         isOptimal: true,
-        description: 'Grilled steak, lettuce, pico, sour cream, cheese'
+        description: 'Grilled steak, lettuce, pico, sour cream, cheese',
+        mealType: 'dinner'
       },
       {
         id: 'tb-4',
@@ -813,7 +876,8 @@ export const restaurants: Restaurant[] = [
         calories: 360,
         price: 7.99,
         isOptimal: true,
-        description: 'Grilled chicken, lettuce, avocado ranch, cheese, veggies'
+        description: 'Grilled chicken, lettuce, avocado ranch, cheese, veggies',
+        mealType: 'breakfast'
       }
     ]
   },
@@ -831,7 +895,8 @@ export const restaurants: Restaurant[] = [
         calories: 420,
         price: 11.49,
         isOptimal: true,
-        description: 'Steak, fajita veggies, guac, cheese, sour cream'
+        description: 'Steak, fajita veggies, guac, cheese, sour cream',
+        mealType: 'breakfast'
       },
       {
         id: 'qdo-2',
@@ -842,7 +907,8 @@ export const restaurants: Restaurant[] = [
         calories: 380,
         price: 10.99,
         isOptimal: true,
-        description: 'Grilled chicken, veggies, cheese, salsa, no carbs'
+        description: 'Grilled chicken, veggies, cheese, salsa, no carbs',
+        mealType: 'breakfast'
       },
       {
         id: 'qdo-3',
@@ -853,7 +919,8 @@ export const restaurants: Restaurant[] = [
         calories: 400,
         price: 11.49,
         isOptimal: true,
-        description: 'Adobo chicken, fajita veggies, queso, lettuce'
+        description: 'Adobo chicken, fajita veggies, queso, lettuce',
+        mealType: 'breakfast'
       },
       {
         id: 'qdo-4',
@@ -864,7 +931,8 @@ export const restaurants: Restaurant[] = [
         calories: 440,
         price: 13.99,
         isOptimal: true,
-        description: 'Steak and shrimp, fajita veggies, guac, cheese'
+        description: 'Steak and shrimp, fajita veggies, guac, cheese',
+        mealType: 'breakfast'
       }
     ]
   },
@@ -882,7 +950,8 @@ export const restaurants: Restaurant[] = [
         calories: 450,
         price: 11.99,
         isOptimal: true,
-        description: 'Steak, cheese, guac, sour cream, veggies'
+        description: 'Steak, cheese, guac, sour cream, veggies',
+        mealType: 'breakfast'
       },
       {
         id: 'moe-2',
@@ -893,7 +962,8 @@ export const restaurants: Restaurant[] = [
         calories: 390,
         price: 10.49,
         isOptimal: true,
-        description: 'Grilled chicken, romaine, Caesar, parmesan'
+        description: 'Grilled chicken, romaine, Caesar, parmesan',
+        mealType: 'lunch'
       },
       {
         id: 'moe-3',
@@ -904,7 +974,8 @@ export const restaurants: Restaurant[] = [
         calories: 410,
         price: 11.49,
         isOptimal: true,
-        description: 'Pulled pork, peppers, onions, cheese, guac, salsa'
+        description: 'Pulled pork, peppers, onions, cheese, guac, salsa',
+        mealType: 'lunch'
       },
       {
         id: 'moe-4',
@@ -915,7 +986,8 @@ export const restaurants: Restaurant[] = [
         calories: 460,
         price: 11.99,
         isOptimal: true,
-        description: 'Your choice protein, lettuce, cheese, sour cream, guac'
+        description: 'Your choice protein, lettuce, cheese, sour cream, guac',
+        mealType: 'lunch'
       }
     ]
   },
@@ -933,7 +1005,8 @@ export const restaurants: Restaurant[] = [
         calories: 480,
         price: 12.99,
         isOptimal: true,
-        description: 'Chicken, bacon, avocado, eggs, no bread'
+        description: 'Chicken, bacon, avocado, eggs, no bread',
+        mealType: 'breakfast'
       },
       {
         id: 'pan-2',
@@ -944,7 +1017,8 @@ export const restaurants: Restaurant[] = [
         calories: 420,
         price: 11.49,
         isOptimal: true,
-        description: 'Grilled chicken, romaine, parmesan, no croutons'
+        description: 'Grilled chicken, romaine, parmesan, no croutons',
+        mealType: 'lunch'
       },
       {
         id: 'pan-3',
@@ -955,7 +1029,8 @@ export const restaurants: Restaurant[] = [
         calories: 440,
         price: 12.49,
         isOptimal: true,
-        description: 'Grilled chicken, arugula, cucumbers, feta, olives, no quinoa'
+        description: 'Grilled chicken, arugula, cucumbers, feta, olives, no quinoa',
+        mealType: 'lunch'
       },
       {
         id: 'pan-4',
@@ -966,7 +1041,8 @@ export const restaurants: Restaurant[] = [
         calories: 430,
         price: 13.99,
         isOptimal: true,
-        description: 'Sirloin steak, arugula, tomatoes, onions, horseradish sauce'
+        description: 'Sirloin steak, arugula, tomatoes, onions, horseradish sauce',
+        mealType: 'dinner'
       }
     ]
   },
@@ -984,7 +1060,8 @@ export const restaurants: Restaurant[] = [
         calories: 420,
         price: 10.99,
         isOptimal: true,
-        description: 'Provolone, ham, prosciutto, salami, oil & vinegar, no bread'
+        description: 'Provolone, ham, prosciutto, salami, oil & vinegar, no bread',
+        mealType: 'lunch'
       },
       {
         id: 'jm-2',
@@ -995,7 +1072,8 @@ export const restaurants: Restaurant[] = [
         calories: 410,
         price: 11.99,
         isOptimal: true,
-        description: 'Steak, cheese, peppers, onions, no bread'
+        description: 'Steak, cheese, peppers, onions, no bread',
+        mealType: 'dinner'
       },
       {
         id: 'jm-3',
@@ -1006,7 +1084,8 @@ export const restaurants: Restaurant[] = [
         calories: 380,
         price: 10.49,
         isOptimal: true,
-        description: 'Turkey, ham, bacon, provolone, mayo, no bread'
+        description: 'Turkey, ham, bacon, provolone, mayo, no bread',
+        mealType: 'lunch'
       },
       {
         id: 'jm-4',
@@ -1017,7 +1096,8 @@ export const restaurants: Restaurant[] = [
         calories: 440,
         price: 11.49,
         isOptimal: true,
-        description: 'Steak, white American, jalapeños, chipotle mayo, no bread'
+        description: 'Steak, white American, jalapeños, chipotle mayo, no bread',
+        mealType: 'dinner'
       }
     ]
   },
@@ -1035,7 +1115,8 @@ export const restaurants: Restaurant[] = [
         calories: 500,
         price: 11.49,
         isOptimal: true,
-        description: 'All meats, cheese, lettuce wrap, no bread'
+        description: 'All meats, cheese, lettuce wrap, no bread',
+        mealType: 'lunch'
       },
       {
         id: 'jj-2',
@@ -1046,7 +1127,8 @@ export const restaurants: Restaurant[] = [
         calories: 280,
         price: 9.49,
         isOptimal: true,
-        description: 'Turkey, lettuce, tomato, mayo, lettuce-wrapped'
+        description: 'Turkey, lettuce, tomato, mayo, lettuce-wrapped',
+        mealType: 'lunch'
       },
       {
         id: 'jj-3',
@@ -1057,7 +1139,8 @@ export const restaurants: Restaurant[] = [
         calories: 390,
         price: 10.49,
         isOptimal: true,
-        description: 'Salami, capicola, provolone, lettuce, oil & vinegar'
+        description: 'Salami, capicola, provolone, lettuce, oil & vinegar',
+        mealType: 'lunch'
       },
       {
         id: 'jj-4',
@@ -1068,7 +1151,8 @@ export const restaurants: Restaurant[] = [
         calories: 340,
         price: 10.99,
         isOptimal: true,
-        description: 'Turkey, provolone, avocado, cucumber, lettuce wrap'
+        description: 'Turkey, provolone, avocado, cucumber, lettuce wrap',
+        mealType: 'lunch'
       }
     ]
   },
@@ -1086,7 +1170,8 @@ export const restaurants: Restaurant[] = [
         calories: 390,
         price: 10.99,
         isOptimal: true,
-        description: 'Smoked turkey, ham, cheese, veggies, ranch'
+        description: 'Smoked turkey, ham, cheese, veggies, ranch',
+        mealType: 'breakfast'
       },
       {
         id: 'fh-2',
@@ -1097,7 +1182,8 @@ export const restaurants: Restaurant[] = [
         calories: 420,
         price: 11.49,
         isOptimal: true,
-        description: 'Salami, pepperoni, ham, provolone, Italian dressing'
+        description: 'Salami, pepperoni, ham, provolone, Italian dressing',
+        mealType: 'lunch'
       },
       {
         id: 'fh-3',
@@ -1108,7 +1194,8 @@ export const restaurants: Restaurant[] = [
         calories: 410,
         price: 11.99,
         isOptimal: true,
-        description: 'Smoked turkey breast, melted Swiss, sautéed mushrooms'
+        description: 'Smoked turkey breast, melted Swiss, sautéed mushrooms',
+        mealType: 'lunch'
       },
       {
         id: 'fh-4',
@@ -1119,7 +1206,8 @@ export const restaurants: Restaurant[] = [
         calories: 480,
         price: 12.49,
         isOptimal: true,
-        description: 'USDA choice beef brisket, cheddar, mayo, no bread'
+        description: 'USDA choice beef brisket, cheddar, mayo, no bread',
+        mealType: 'lunch'
       }
     ]
   },
@@ -1137,7 +1225,8 @@ export const restaurants: Restaurant[] = [
         calories: 310,
         price: 5.95,
         isOptimal: true,
-        description: 'Perfect keto breakfast on the go'
+        description: 'Perfect keto breakfast on the go',
+        mealType: 'breakfast'
       },
       {
         id: 'sbux-2',
@@ -1148,7 +1237,8 @@ export const restaurants: Restaurant[] = [
         calories: 280,
         price: 7.45,
         isOptimal: true,
-        description: 'Hard-boiled eggs, cheese, no apple or grapes'
+        description: 'Hard-boiled eggs, cheese, no apple or grapes',
+        mealType: 'breakfast'
       },
       {
         id: 'sbux-3',
@@ -1159,7 +1249,8 @@ export const restaurants: Restaurant[] = [
         calories: 330,
         price: 6.75,
         isOptimal: true,
-        description: 'Impossible sausage, egg, cheddar, no muffin'
+        description: 'Impossible sausage, egg, cheddar, no muffin',
+        mealType: 'breakfast'
       },
       {
         id: 'sbux-4',
@@ -1170,7 +1261,8 @@ export const restaurants: Restaurant[] = [
         calories: 250,
         price: 5.95,
         isOptimal: true,
-        description: 'Sous vide egg whites, turkey bacon, Monterey Jack'
+        description: 'Sous vide egg whites, turkey bacon, Monterey Jack',
+        mealType: 'breakfast'
       }
     ]
   },
@@ -1188,7 +1280,8 @@ export const restaurants: Restaurant[] = [
         calories: 210,
         price: 5.99,
         isOptimal: true,
-        description: 'Egg whites, veggies, cheese, skip potatoes'
+        description: 'Egg whites, veggies, cheese, skip potatoes',
+        mealType: 'breakfast'
       },
       {
         id: 'dun-2',
@@ -1199,7 +1292,8 @@ export const restaurants: Restaurant[] = [
         calories: 320,
         price: 5.49,
         isOptimal: true,
-        description: 'Just the bacon, egg, and cheese filling'
+        description: 'Just the bacon, egg, and cheese filling',
+        mealType: 'breakfast'
       },
       {
         id: 'dun-3',
@@ -1210,7 +1304,8 @@ export const restaurants: Restaurant[] = [
         calories: 360,
         price: 5.99,
         isOptimal: true,
-        description: 'Sausage patty, egg, American cheese, no croissant'
+        description: 'Sausage patty, egg, American cheese, no croissant',
+        mealType: 'breakfast'
       },
       {
         id: 'dun-4',
@@ -1221,7 +1316,8 @@ export const restaurants: Restaurant[] = [
         calories: 330,
         price: 6.49,
         isOptimal: true,
-        description: 'Turkey sausage, egg whites, cheese filling only'
+        description: 'Turkey sausage, egg whites, cheese filling only',
+        mealType: 'breakfast'
       }
     ]
   },
@@ -1239,7 +1335,8 @@ export const restaurants: Restaurant[] = [
         calories: 430,
         price: 19.99,
         isOptimal: true,
-        description: 'Grilled salmon with herb butter, sub broccoli for pasta'
+        description: 'Grilled salmon with herb butter, sub broccoli for pasta',
+        mealType: 'dinner'
       },
       {
         id: 'og-2',
@@ -1250,7 +1347,8 @@ export const restaurants: Restaurant[] = [
         calories: 410,
         price: 17.99,
         isOptimal: true,
-        description: 'Grilled chicken, tomatoes, mozzarella, no pasta'
+        description: 'Grilled chicken, tomatoes, mozzarella, no pasta',
+        mealType: 'anytime'
       },
       {
         id: 'og-3',
@@ -1261,7 +1359,8 @@ export const restaurants: Restaurant[] = [
         calories: 520,
         price: 21.99,
         isOptimal: true,
-        description: '9oz sirloin, grilled veggies, no potatoes'
+        description: '9oz sirloin, grilled veggies, no potatoes',
+        mealType: 'breakfast'
       },
       {
         id: 'og-4',
@@ -1272,7 +1371,8 @@ export const restaurants: Restaurant[] = [
         calories: 410,
         price: 19.99,
         isOptimal: true,
-        description: 'Sautéed shrimp in garlic butter, sub broccoli for pasta'
+        description: 'Sautéed shrimp in garlic butter, sub broccoli for pasta',
+        mealType: 'dinner'
       }
     ]
   },
@@ -1290,7 +1390,8 @@ export const restaurants: Restaurant[] = [
         calories: 130,
         price: 29.99,
         isOptimal: true,
-        description: 'Steamed lobster with butter, no sides'
+        description: 'Steamed lobster with butter, no sides',
+        mealType: 'dinner'
       },
       {
         id: 'rl-2',
@@ -1301,7 +1402,8 @@ export const restaurants: Restaurant[] = [
         calories: 300,
         price: 18.99,
         isOptimal: true,
-        description: 'Grilled shrimp with garlic butter, sub veggies'
+        description: 'Grilled shrimp with garlic butter, sub veggies',
+        mealType: 'breakfast'
       },
       {
         id: 'rl-3',
@@ -1312,7 +1414,8 @@ export const restaurants: Restaurant[] = [
         calories: 520,
         price: 32.99,
         isOptimal: true,
-        description: 'Seafood trio, no rice or potatoes'
+        description: 'Seafood trio, no rice or potatoes',
+        mealType: 'dinner'
       },
       {
         id: 'rl-4',
@@ -1323,7 +1426,8 @@ export const restaurants: Restaurant[] = [
         calories: 410,
         price: 18.99,
         isOptimal: true,
-        description: 'Wood-grilled salmon, broccoli, garden salad'
+        description: 'Wood-grilled salmon, broccoli, garden salad',
+        mealType: 'dinner'
       }
     ]
   },
@@ -1341,7 +1445,8 @@ export const restaurants: Restaurant[] = [
         calories: 370,
         price: 16.99,
         isOptimal: true,
-        description: 'Grilled sirloin, sub veggies for potato'
+        description: 'Grilled sirloin, sub veggies for potato',
+        mealType: 'breakfast'
       },
       {
         id: 'out-2',
@@ -1352,7 +1457,8 @@ export const restaurants: Restaurant[] = [
         calories: 410,
         price: 24.99,
         isOptimal: true,
-        description: 'Tender filet with butter, no sides with carbs'
+        description: 'Tender filet with butter, no sides with carbs',
+        mealType: 'snack'
       },
       {
         id: 'out-3',
@@ -1363,7 +1469,8 @@ export const restaurants: Restaurant[] = [
         calories: 360,
         price: 15.99,
         isOptimal: true,
-        description: 'Seasoned grilled chicken, veggie sides only'
+        description: 'Seasoned grilled chicken, veggie sides only',
+        mealType: 'breakfast'
       },
       {
         id: 'out-4',
@@ -1374,7 +1481,8 @@ export const restaurants: Restaurant[] = [
         calories: 520,
         price: 19.99,
         isOptimal: true,
-        description: 'Slow-cooked ribs with dry rub, no BBQ sauce, veggie sides'
+        description: 'Slow-cooked ribs with dry rub, no BBQ sauce, veggie sides',
+        mealType: 'breakfast'
       }
     ]
   },
@@ -1392,7 +1500,8 @@ export const restaurants: Restaurant[] = [
         calories: 360,
         price: 14.99,
         isOptimal: true,
-        description: 'Grilled steak, sub green beans for potato'
+        description: 'Grilled steak, sub green beans for potato',
+        mealType: 'dinner'
       },
       {
         id: 'tr-2',
@@ -1403,7 +1512,8 @@ export const restaurants: Restaurant[] = [
         calories: 360,
         price: 15.99,
         isOptimal: true,
-        description: 'Grilled chicken breast, veggie sides'
+        description: 'Grilled chicken breast, veggie sides',
+        mealType: 'breakfast'
       },
       {
         id: 'tr-3',
@@ -1414,7 +1524,8 @@ export const restaurants: Restaurant[] = [
         calories: 380,
         price: 18.99,
         isOptimal: true,
-        description: 'Perfectly grilled salmon, green beans and salad'
+        description: 'Perfectly grilled salmon, green beans and salad',
+        mealType: 'dinner'
       },
       {
         id: 'tr-4',
@@ -1425,7 +1536,8 @@ export const restaurants: Restaurant[] = [
         calories: 440,
         price: 22.99,
         isOptimal: true,
-        description: 'Tender filet medallions with mushrooms, veggie sides'
+        description: 'Tender filet medallions with mushrooms, veggie sides',
+        mealType: 'breakfast'
       }
     ]
   },
@@ -1443,7 +1555,8 @@ export const restaurants: Restaurant[] = [
         calories: 620,
         price: 14.99,
         isOptimal: true,
-        description: 'Traditional wings, buffalo or dry rub seasonings'
+        description: 'Traditional wings, buffalo or dry rub seasonings',
+        mealType: 'snack'
       },
       {
         id: 'bww-2',
@@ -1454,7 +1567,8 @@ export const restaurants: Restaurant[] = [
         calories: 230,
         price: 11.99,
         isOptimal: true,
-        description: 'Grilled chicken tenders, no breading'
+        description: 'Grilled chicken tenders, no breading',
+        mealType: 'snack'
       },
       {
         id: 'bww-3',
@@ -1465,7 +1579,8 @@ export const restaurants: Restaurant[] = [
         calories: 400,
         price: 12.99,
         isOptimal: true,
-        description: 'Grilled chicken, greens, veggies, ranch'
+        description: 'Grilled chicken, greens, veggies, ranch',
+        mealType: 'breakfast'
       },
       {
         id: 'bww-4',
@@ -1476,7 +1591,8 @@ export const restaurants: Restaurant[] = [
         calories: 640,
         price: 14.99,
         isOptimal: true,
-        description: 'Traditional wings with garlic parm seasoning'
+        description: 'Traditional wings with garlic parm seasoning',
+        mealType: 'snack'
       }
     ]
   },
@@ -1494,7 +1610,8 @@ export const restaurants: Restaurant[] = [
         calories: 370,
         price: 15.99,
         isOptimal: true,
-        description: 'Grilled chicken with veggies, no rice'
+        description: 'Grilled chicken with veggies, no rice',
+        mealType: 'breakfast'
       },
       {
         id: 'app-2',
@@ -1505,7 +1622,8 @@ export const restaurants: Restaurant[] = [
         calories: 500,
         price: 19.99,
         isOptimal: true,
-        description: '8oz sirloin with grilled shrimp, veggie sides'
+        description: '8oz sirloin with grilled shrimp, veggie sides',
+        mealType: 'breakfast'
       },
       {
         id: 'app-3',
@@ -1516,7 +1634,8 @@ export const restaurants: Restaurant[] = [
         calories: 310,
         price: 14.99,
         isOptimal: true,
-        description: 'Simply grilled chicken with broccoli and house salad'
+        description: 'Simply grilled chicken with broccoli and house salad',
+        mealType: 'dinner'
       },
       {
         id: 'app-4',
@@ -1527,7 +1646,8 @@ export const restaurants: Restaurant[] = [
         calories: 440,
         price: 17.99,
         isOptimal: true,
-        description: 'Blackened salmon with garlic butter, veggie sides'
+        description: 'Blackened salmon with garlic butter, veggie sides',
+        mealType: 'breakfast'
       }
     ]
   },
@@ -1545,7 +1665,8 @@ export const restaurants: Restaurant[] = [
         calories: 410,
         price: 18.99,
         isOptimal: true,
-        description: 'Grilled salmon, broccoli side, no rice'
+        description: 'Grilled salmon, broccoli side, no rice',
+        mealType: 'dinner'
       },
       {
         id: 'tgif-2',
@@ -1556,7 +1677,8 @@ export const restaurants: Restaurant[] = [
         calories: 480,
         price: 14.99,
         isOptimal: true,
-        description: 'Chicken, bacon, avocado, eggs, cheese, no croutons'
+        description: 'Chicken, bacon, avocado, eggs, cheese, no croutons',
+        mealType: 'breakfast'
       },
       {
         id: 'tgif-3',
@@ -1567,7 +1689,8 @@ export const restaurants: Restaurant[] = [
         calories: 490,
         price: 19.99,
         isOptimal: true,
-        description: 'Grilled chicken and shrimp with veggies, no rice'
+        description: 'Grilled chicken and shrimp with veggies, no rice',
+        mealType: 'breakfast'
       },
       {
         id: 'tgif-4',
@@ -1578,7 +1701,8 @@ export const restaurants: Restaurant[] = [
         calories: 450,
         price: 20.99,
         isOptimal: true,
-        description: 'Grilled salmon with broccoli, skip the sweet glaze'
+        description: 'Grilled salmon with broccoli, skip the sweet glaze',
+        mealType: 'dinner'
       }
     ]
   },
@@ -1596,7 +1720,8 @@ export const restaurants: Restaurant[] = [
         calories: 450,
         price: 17.99,
         isOptimal: true,
-        description: 'Chile-grilled salmon, sub veggies for rice'
+        description: 'Chile-grilled salmon, sub veggies for rice',
+        mealType: 'breakfast'
       },
       {
         id: 'chi-2',
@@ -1607,7 +1732,8 @@ export const restaurants: Restaurant[] = [
         calories: 470,
         price: 13.99,
         isOptimal: true,
-        description: 'Grilled chicken, cheese, avocado, no tortilla strips'
+        description: 'Grilled chicken, cheese, avocado, no tortilla strips',
+        mealType: 'lunch'
       },
       {
         id: 'chi-3',
@@ -1618,7 +1744,8 @@ export const restaurants: Restaurant[] = [
         calories: 390,
         price: 16.99,
         isOptimal: true,
-        description: 'USDA Choice sirloin, broccoli and side salad'
+        description: 'USDA Choice sirloin, broccoli and side salad',
+        mealType: 'dinner'
       },
       {
         id: 'chi-4',
@@ -1629,7 +1756,8 @@ export const restaurants: Restaurant[] = [
         calories: 390,
         price: 15.99,
         isOptimal: true,
-        description: 'Marinated chicken breast, steamed broccoli, no rice'
+        description: 'Marinated chicken breast, steamed broccoli, no rice',
+        mealType: 'dinner'
       }
     ]
   },
@@ -1647,7 +1775,8 @@ export const restaurants: Restaurant[] = [
         calories: 420,
         price: 10.99,
         isOptimal: true,
-        description: 'Beef patty, lettuce, tomato, onion, pickle, wrapped'
+        description: 'Beef patty, lettuce, tomato, onion, pickle, wrapped',
+        mealType: 'lunch'
       },
       {
         id: 'rr-2',
@@ -1658,7 +1787,8 @@ export const restaurants: Restaurant[] = [
         calories: 570,
         price: 13.99,
         isOptimal: true,
-        description: 'Lettuce-wrapped burger with bacon and guac'
+        description: 'Lettuce-wrapped burger with bacon and guac',
+        mealType: 'anytime'
       },
       {
         id: 'rr-3',
@@ -1669,7 +1799,8 @@ export const restaurants: Restaurant[] = [
         calories: 400,
         price: 12.99,
         isOptimal: true,
-        description: 'Grilled chicken, mixed greens, veggies, ranch dressing'
+        description: 'Grilled chicken, mixed greens, veggies, ranch dressing',
+        mealType: 'breakfast'
       },
       {
         id: 'rr-4',
@@ -1680,7 +1811,8 @@ export const restaurants: Restaurant[] = [
         calories: 550,
         price: 14.49,
         isOptimal: true,
-        description: 'Bacon, cheddar, lettuce wrap, skip BBQ sauce and onion straws'
+        description: 'Bacon, cheddar, lettuce wrap, skip BBQ sauce and onion straws',
+        mealType: 'lunch'
       }
     ]
   },
@@ -1698,7 +1830,8 @@ export const restaurants: Restaurant[] = [
         calories: 380,
         price: 23.99,
         isOptimal: true,
-        description: 'Center-cut filet, seasoned perfectly, veggie sides'
+        description: 'Center-cut filet, seasoned perfectly, veggie sides',
+        mealType: 'breakfast'
       },
       {
         id: 'lh-2',
@@ -1709,7 +1842,8 @@ export const restaurants: Restaurant[] = [
         calories: 340,
         price: 15.99,
         isOptimal: true,
-        description: 'Bold-flavored sirloin, no potato sides'
+        description: 'Bold-flavored sirloin, no potato sides',
+        mealType: 'dinner'
       },
       {
         id: 'lh-3',
@@ -1720,7 +1854,8 @@ export const restaurants: Restaurant[] = [
         calories: 290,
         price: 16.99,
         isOptimal: true,
-        description: 'Seasoned grilled shrimp, broccoli side'
+        description: 'Seasoned grilled shrimp, broccoli side',
+        mealType: 'dinner'
       },
       {
         id: 'lh-4',
@@ -1731,7 +1866,8 @@ export const restaurants: Restaurant[] = [
         calories: 420,
         price: 19.99,
         isOptimal: true,
-        description: 'Fresh Atlantic salmon, veggie sides, no rice'
+        description: 'Fresh Atlantic salmon, veggie sides, no rice',
+        mealType: 'breakfast'
       }
     ]
   },
@@ -1749,7 +1885,8 @@ export const restaurants: Restaurant[] = [
         calories: 430,
         price: 21.99,
         isOptimal: true,
-        description: 'Grilled salmon with Asian vegetables, no rice or noodles'
+        description: 'Grilled salmon with Asian vegetables, no rice or noodles',
+        mealType: 'dinner'
       },
       {
         id: 'pfc-2',
@@ -1760,7 +1897,8 @@ export const restaurants: Restaurant[] = [
         calories: 450,
         price: 18.99,
         isOptimal: true,
-        description: 'Wok-seared beef with scallions, skip rice'
+        description: 'Wok-seared beef with scallions, skip rice',
+        mealType: 'anytime'
       },
       {
         id: 'pfc-3',
@@ -1771,7 +1909,8 @@ export const restaurants: Restaurant[] = [
         calories: 90,
         price: 12.99,
         isOptimal: true,
-        description: 'Steamed vegetables, request no sauce'
+        description: 'Steamed vegetables, request no sauce',
+        mealType: 'anytime'
       },
       {
         id: 'pfc-4',
@@ -1782,7 +1921,8 @@ export const restaurants: Restaurant[] = [
         calories: 410,
         price: 17.99,
         isOptimal: true,
-        description: 'Wok-seared chicken with ginger and broccoli, no rice'
+        description: 'Wok-seared chicken with ginger and broccoli, no rice',
+        mealType: 'anytime'
       }
     ]
   },
@@ -1800,7 +1940,8 @@ export const restaurants: Restaurant[] = [
         calories: 420,
         price: 14.99,
         isOptimal: true,
-        description: 'Two grilled pork chops, sub green beans and salad'
+        description: 'Two grilled pork chops, sub green beans and salad',
+        mealType: 'dinner'
       },
       {
         id: 'cb-2',
@@ -1811,7 +1952,8 @@ export const restaurants: Restaurant[] = [
         calories: 480,
         price: 12.99,
         isOptimal: true,
-        description: 'Request without breading, veggie sides only'
+        description: 'Request without breading, veggie sides only',
+        mealType: 'breakfast'
       },
       {
         id: 'cb-3',
@@ -1822,7 +1964,8 @@ export const restaurants: Restaurant[] = [
         calories: 380,
         price: 13.99,
         isOptimal: true,
-        description: 'Grilled chicken tenders, green beans and salad'
+        description: 'Grilled chicken tenders, green beans and salad',
+        mealType: 'snack'
       },
       {
         id: 'cb-4',
@@ -1833,7 +1976,8 @@ export const restaurants: Restaurant[] = [
         calories: 520,
         price: 11.99,
         isOptimal: true,
-        description: 'Eggs, sausage, bacon - no biscuits or hash browns'
+        description: 'Eggs, sausage, bacon - no biscuits or hash browns',
+        mealType: 'breakfast'
       }
     ]
   },
@@ -1851,7 +1995,8 @@ export const restaurants: Restaurant[] = [
         calories: 460,
         price: 10.99,
         isOptimal: true,
-        description: 'Three eggs, bacon strips, no toast or hash browns'
+        description: 'Three eggs, bacon strips, no toast or hash browns',
+        mealType: 'breakfast'
       },
       {
         id: 'be-2',
@@ -1862,7 +2007,8 @@ export const restaurants: Restaurant[] = [
         calories: 350,
         price: 13.99,
         isOptimal: true,
-        description: 'Grilled chicken with green beans and side salad'
+        description: 'Grilled chicken with green beans and side salad',
+        mealType: 'dinner'
       },
       {
         id: 'be-3',
@@ -1873,7 +2019,8 @@ export const restaurants: Restaurant[] = [
         calories: 460,
         price: 16.99,
         isOptimal: true,
-        description: 'USDA Choice sirloin, broccoli and house salad'
+        description: 'USDA Choice sirloin, broccoli and house salad',
+        mealType: 'dinner'
       },
       {
         id: 'be-4',
@@ -1884,7 +2031,8 @@ export const restaurants: Restaurant[] = [
         calories: 500,
         price: 9.99,
         isOptimal: true,
-        description: 'Sausage links, scrambled eggs, no bread or potatoes'
+        description: 'Sausage links, scrambled eggs, no bread or potatoes',
+        mealType: 'breakfast'
       }
     ]
   },
@@ -1902,7 +2050,8 @@ export const restaurants: Restaurant[] = [
         calories: 540,
         price: 11.99,
         isOptimal: true,
-        description: 'Eggs, cheese, bacon, peppers, onions - no toast or hash browns'
+        description: 'Eggs, cheese, bacon, peppers, onions - no toast or hash browns',
+        mealType: 'breakfast'
       },
       {
         id: 'den-2',
@@ -1913,7 +2062,8 @@ export const restaurants: Restaurant[] = [
         calories: 410,
         price: 13.99,
         isOptimal: true,
-        description: 'Grilled chicken with veggies, request no potatoes'
+        description: 'Grilled chicken with veggies, request no potatoes',
+        mealType: 'breakfast'
       },
       {
         id: 'den-3',
@@ -1924,7 +2074,8 @@ export const restaurants: Restaurant[] = [
         calories: 520,
         price: 18.99,
         isOptimal: true,
-        description: 'Grilled steak with broccoli and salad, no potato'
+        description: 'Grilled steak with broccoli and salad, no potato',
+        mealType: 'dinner'
       },
       {
         id: 'den-4',
@@ -1935,7 +2086,8 @@ export const restaurants: Restaurant[] = [
         calories: 580,
         price: 12.99,
         isOptimal: true,
-        description: 'Ham, cheese, bacon, sausage - no bread or hash browns'
+        description: 'Ham, cheese, bacon, sausage - no bread or hash browns',
+        mealType: 'breakfast'
       }
     ]
   },
@@ -1953,7 +2105,8 @@ export const restaurants: Restaurant[] = [
         calories: 390,
         price: 11.49,
         isOptimal: true,
-        description: 'Egg white omelette with veggies and cheese, no toast or hash browns'
+        description: 'Egg white omelette with veggies and cheese, no toast or hash browns',
+        mealType: 'breakfast'
       },
       {
         id: 'ihop-2',
@@ -1964,7 +2117,8 @@ export const restaurants: Restaurant[] = [
         calories: 320,
         price: 12.99,
         isOptimal: true,
-        description: 'Plain grilled chicken with steamed broccoli'
+        description: 'Plain grilled chicken with steamed broccoli',
+        mealType: 'dinner'
       },
       {
         id: 'ihop-3',
@@ -1975,7 +2129,8 @@ export const restaurants: Restaurant[] = [
         calories: 530,
         price: 10.99,
         isOptimal: true,
-        description: 'Eggs, cheese, bacon, veggies - no pancakes or hash browns'
+        description: 'Eggs, cheese, bacon, veggies - no pancakes or hash browns',
+        mealType: 'breakfast'
       },
       {
         id: 'ihop-4',
@@ -1986,7 +2141,8 @@ export const restaurants: Restaurant[] = [
         calories: 440,
         price: 15.99,
         isOptimal: true,
-        description: 'Grilled steak tips with vegetables, no potatoes'
+        description: 'Grilled steak tips with vegetables, no potatoes',
+        mealType: 'dinner'
       }
     ]
   },
@@ -2004,7 +2160,8 @@ export const restaurants: Restaurant[] = [
         calories: 400,
         price: 17.99,
         isOptimal: true,
-        description: 'Grilled salmon with steamed broccoli'
+        description: 'Grilled salmon with steamed broccoli',
+        mealType: 'dinner'
       },
       {
         id: 'ruby-2',
@@ -2015,7 +2172,8 @@ export const restaurants: Restaurant[] = [
         calories: 300,
         price: 14.99,
         isOptimal: true,
-        description: 'Salad bar with proteins, cheese, eggs, low-carb veggies'
+        description: 'Salad bar with proteins, cheese, eggs, low-carb veggies',
+        mealType: 'breakfast'
       },
       {
         id: 'ruby-3',
@@ -2026,7 +2184,8 @@ export const restaurants: Restaurant[] = [
         calories: 370,
         price: 15.99,
         isOptimal: true,
-        description: 'Grilled sirloin with broccoli and salad bar'
+        description: 'Grilled sirloin with broccoli and salad bar',
+        mealType: 'dinner'
       },
       {
         id: 'ruby-4',
@@ -2037,7 +2196,8 @@ export const restaurants: Restaurant[] = [
         calories: 370,
         price: 14.99,
         isOptimal: true,
-        description: 'Simply grilled chicken breast with steamed broccoli'
+        description: 'Simply grilled chicken breast with steamed broccoli',
+        mealType: 'dinner'
       }
     ]
   },
@@ -2055,7 +2215,8 @@ export const restaurants: Restaurant[] = [
         calories: 480,
         price: 11.99,
         isOptimal: true,
-        description: 'Traditional wings with buffalo sauce'
+        description: 'Traditional wings with buffalo sauce',
+        mealType: 'snack'
       },
       {
         id: 'ph-2',
@@ -2066,7 +2227,8 @@ export const restaurants: Restaurant[] = [
         calories: 390,
         price: 9.99,
         isOptimal: true,
-        description: 'Grilled chicken, romaine, parmesan, no croutons'
+        description: 'Grilled chicken, romaine, parmesan, no croutons',
+        mealType: 'lunch'
       },
       {
         id: 'ph-3',
@@ -2077,7 +2239,8 @@ export const restaurants: Restaurant[] = [
         calories: 420,
         price: 10.99,
         isOptimal: true,
-        description: 'Traditional wings with garlic parmesan seasoning'
+        description: 'Traditional wings with garlic parmesan seasoning',
+        mealType: 'snack'
       },
       {
         id: 'ph-4',
@@ -2088,7 +2251,8 @@ export const restaurants: Restaurant[] = [
         calories: 350,
         price: 9.49,
         isOptimal: true,
-        description: 'Mixed greens, chicken, cheese, ranch dressing'
+        description: 'Mixed greens, chicken, cheese, ranch dressing',
+        mealType: 'lunch'
       }
     ]
   },
@@ -2106,7 +2270,8 @@ export const restaurants: Restaurant[] = [
         calories: 420,
         price: 10.99,
         isOptimal: true,
-        description: 'Plain or buffalo wings, no breading'
+        description: 'Plain or buffalo wings, no breading',
+        mealType: 'snack'
       },
       {
         id: 'dom-2',
@@ -2117,7 +2282,8 @@ export const restaurants: Restaurant[] = [
         calories: 220,
         price: 7.99,
         isOptimal: true,
-        description: 'Mixed greens, veggies, Italian dressing'
+        description: 'Mixed greens, veggies, Italian dressing',
+        mealType: 'breakfast'
       },
       {
         id: 'dom-3',
@@ -2128,7 +2294,8 @@ export const restaurants: Restaurant[] = [
         calories: 520,
         price: 12.99,
         isOptimal: true,
-        description: 'Bone-in wings with hot buffalo sauce'
+        description: 'Bone-in wings with hot buffalo sauce',
+        mealType: 'snack'
       },
       {
         id: 'dom-4',
@@ -2139,7 +2306,8 @@ export const restaurants: Restaurant[] = [
         calories: 380,
         price: 9.99,
         isOptimal: true,
-        description: 'Grilled chicken, romaine, parmesan, Caesar dressing'
+        description: 'Grilled chicken, romaine, parmesan, Caesar dressing',
+        mealType: 'lunch'
       }
     ]
   },
@@ -2157,7 +2325,8 @@ export const restaurants: Restaurant[] = [
         calories: 260,
         price: 9.99,
         isOptimal: true,
-        description: 'Grilled chicken bites, no breading'
+        description: 'Grilled chicken bites, no breading',
+        mealType: 'snack'
       },
       {
         id: 'pj-2',
@@ -2168,7 +2337,8 @@ export const restaurants: Restaurant[] = [
         calories: 410,
         price: 10.99,
         isOptimal: true,
-        description: 'Chicken, bacon, cheese, ranch - no crust'
+        description: 'Chicken, bacon, cheese, ranch - no crust',
+        mealType: 'lunch'
       },
       {
         id: 'pj-3',
@@ -2179,7 +2349,8 @@ export const restaurants: Restaurant[] = [
         calories: 460,
         price: 11.99,
         isOptimal: true,
-        description: 'Traditional bone-in wings with buffalo sauce'
+        description: 'Traditional bone-in wings with buffalo sauce',
+        mealType: 'snack'
       },
       {
         id: 'pj-4',
@@ -2190,7 +2361,8 @@ export const restaurants: Restaurant[] = [
         calories: 360,
         price: 9.49,
         isOptimal: true,
-        description: 'Mixed greens, grilled chicken, veggies, Italian dressing'
+        description: 'Mixed greens, grilled chicken, veggies, Italian dressing',
+        mealType: 'breakfast'
       }
     ]
   },
@@ -2208,7 +2380,8 @@ export const restaurants: Restaurant[] = [
         calories: 430,
         price: 9.99,
         isOptimal: true,
-        description: 'Grilled chicken, bacon, artichokes, cheese'
+        description: 'Grilled chicken, bacon, artichokes, cheese',
+        mealType: 'lunch'
       },
       {
         id: 'pm-2',
@@ -2219,7 +2392,8 @@ export const restaurants: Restaurant[] = [
         calories: 370,
         price: 8.99,
         isOptimal: true,
-        description: 'Ham, turkey, bacon, cheese, veggies'
+        description: 'Ham, turkey, bacon, cheese, veggies',
+        mealType: 'breakfast'
       },
       {
         id: 'pm-3',
@@ -2230,7 +2404,8 @@ export const restaurants: Restaurant[] = [
         calories: 410,
         price: 9.49,
         isOptimal: true,
-        description: 'Salami, pepperoni, cheese, Italian dressing'
+        description: 'Salami, pepperoni, cheese, Italian dressing',
+        mealType: 'lunch'
       },
       {
         id: 'pm-4',
@@ -2241,7 +2416,8 @@ export const restaurants: Restaurant[] = [
         calories: 370,
         price: 9.99,
         isOptimal: true,
-        description: 'Grilled chicken, romaine, parmesan, Caesar dressing'
+        description: 'Grilled chicken, romaine, parmesan, Caesar dressing',
+        mealType: 'lunch'
       }
     ]
   },
@@ -2259,7 +2435,8 @@ export const restaurants: Restaurant[] = [
         calories: 540,
         price: 26.99,
         isOptimal: true,
-        description: 'Slow-roasted prime rib with steamed broccoli'
+        description: 'Slow-roasted prime rib with steamed broccoli',
+        mealType: 'dinner'
       },
       {
         id: 'bjs-2',
@@ -2270,7 +2447,8 @@ export const restaurants: Restaurant[] = [
         calories: 380,
         price: 16.99,
         isOptimal: true,
-        description: 'Seasoned grilled chicken with fresh veggies'
+        description: 'Seasoned grilled chicken with fresh veggies',
+        mealType: 'breakfast'
       },
       {
         id: 'bjs-3',
@@ -2281,7 +2459,8 @@ export const restaurants: Restaurant[] = [
         calories: 440,
         price: 21.99,
         isOptimal: true,
-        description: 'Grilled salmon with asparagus and side salad'
+        description: 'Grilled salmon with asparagus and side salad',
+        mealType: 'dinner'
       },
       {
         id: 'bjs-4',
@@ -2292,7 +2471,8 @@ export const restaurants: Restaurant[] = [
         calories: 420,
         price: 15.99,
         isOptimal: true,
-        description: 'Grilled chicken, kale, Brussels sprouts, bacon'
+        description: 'Grilled chicken, kale, Brussels sprouts, bacon',
+        mealType: 'lunch'
       }
     ]
   },
@@ -2310,7 +2490,8 @@ export const restaurants: Restaurant[] = [
         calories: 490,
         price: 24.99,
         isOptimal: true,
-        description: 'Grilled beef medallions with asparagus'
+        description: 'Grilled beef medallions with asparagus',
+        mealType: 'dinner'
       },
       {
         id: 'ccf-2',
@@ -2321,7 +2502,8 @@ export const restaurants: Restaurant[] = [
         calories: 440,
         price: 18.99,
         isOptimal: true,
-        description: 'Chicken, bacon, eggs, cheese, avocado, no croutons'
+        description: 'Chicken, bacon, eggs, cheese, avocado, no croutons',
+        mealType: 'breakfast'
       },
       {
         id: 'ccf-3',
@@ -2332,7 +2514,8 @@ export const restaurants: Restaurant[] = [
         calories: 500,
         price: 26.99,
         isOptimal: true,
-        description: 'Grilled salmon with asparagus and broccoli'
+        description: 'Grilled salmon with asparagus and broccoli',
+        mealType: 'dinner'
       },
       {
         id: 'ccf-4',
@@ -2343,7 +2526,8 @@ export const restaurants: Restaurant[] = [
         calories: 410,
         price: 16.99,
         isOptimal: true,
-        description: 'Turkey burger with lettuce wrap, veggies'
+        description: 'Turkey burger with lettuce wrap, veggies',
+        mealType: 'breakfast'
       }
     ]
   },
@@ -2361,7 +2545,8 @@ export const restaurants: Restaurant[] = [
         calories: 560,
         price: 8.99,
         isOptimal: true,
-        description: 'Lettuce-wrapped burger with all toppings'
+        description: 'Lettuce-wrapped burger with all toppings',
+        mealType: 'anytime'
       },
       {
         id: 'cj-2',
@@ -2372,7 +2557,8 @@ export const restaurants: Restaurant[] = [
         calories: 350,
         price: 8.49,
         isOptimal: true,
-        description: 'Grilled chicken on greens with ranch'
+        description: 'Grilled chicken on greens with ranch',
+        mealType: 'lunch'
       },
       {
         id: 'cj-3',
@@ -2383,7 +2569,8 @@ export const restaurants: Restaurant[] = [
         calories: 490,
         price: 7.99,
         isOptimal: true,
-        description: 'Charbroiled burger lettuce-wrapped with all toppings'
+        description: 'Charbroiled burger lettuce-wrapped with all toppings',
+        mealType: 'anytime'
       },
       {
         id: 'cj-4',
@@ -2394,7 +2581,8 @@ export const restaurants: Restaurant[] = [
         calories: 640,
         price: 10.49,
         isOptimal: true,
-        description: 'Two patties, bacon, cheese - no bun, skip BBQ sauce'
+        description: 'Two patties, bacon, cheese - no bun, skip BBQ sauce',
+        mealType: 'anytime'
       }
     ]
   },
@@ -2412,7 +2600,8 @@ export const restaurants: Restaurant[] = [
         calories: 560,
         price: 8.99,
         isOptimal: true,
-        description: 'Lettuce-wrapped 1/3 lb burger'
+        description: 'Lettuce-wrapped 1/3 lb burger',
+        mealType: 'anytime'
       },
       {
         id: 'hd-2',
@@ -2423,7 +2612,8 @@ export const restaurants: Restaurant[] = [
         calories: 420,
         price: 8.99,
         isOptimal: true,
-        description: 'Grilled chicken, bacon, cheese on greens'
+        description: 'Grilled chicken, bacon, cheese on greens',
+        mealType: 'lunch'
       },
       {
         id: 'hd-3',
@@ -2434,7 +2624,8 @@ export const restaurants: Restaurant[] = [
         calories: 660,
         price: 9.99,
         isOptimal: true,
-        description: 'Lettuce wrap, 1/2 lb patty, bacon, cheese'
+        description: 'Lettuce wrap, 1/2 lb patty, bacon, cheese',
+        mealType: 'lunch'
       },
       {
         id: 'hd-4',
@@ -2445,7 +2636,8 @@ export const restaurants: Restaurant[] = [
         calories: 730,
         price: 10.99,
         isOptimal: true,
-        description: 'Two 1/3 lb patties, four bacon strips, three cheese slices, no bun'
+        description: 'Two 1/3 lb patties, four bacon strips, three cheese slices, no bun',
+        mealType: 'anytime'
       }
     ]
   },
@@ -2463,7 +2655,8 @@ export const restaurants: Restaurant[] = [
         calories: 370,
         price: 6.99,
         isOptimal: true,
-        description: 'Quarter pound burger without bun, lettuce wrap'
+        description: 'Quarter pound burger without bun, lettuce wrap',
+        mealType: 'lunch'
       },
       {
         id: 'son-2',
@@ -2474,7 +2667,8 @@ export const restaurants: Restaurant[] = [
         calories: 280,
         price: 7.49,
         isOptimal: true,
-        description: 'Grilled chicken breast, lettuce, tomato'
+        description: 'Grilled chicken breast, lettuce, tomato',
+        mealType: 'dinner'
       },
       {
         id: 'son-3',
@@ -2485,7 +2679,8 @@ export const restaurants: Restaurant[] = [
         calories: 590,
         price: 8.99,
         isOptimal: true,
-        description: 'Two patties, double cheese, lettuce wrap'
+        description: 'Two patties, double cheese, lettuce wrap',
+        mealType: 'lunch'
       },
       {
         id: 'son-4',
@@ -2496,7 +2691,8 @@ export const restaurants: Restaurant[] = [
         calories: 370,
         price: 7.99,
         isOptimal: true,
-        description: 'Mixed greens, bacon, ranch - skip crispy chicken, use grilled'
+        description: 'Mixed greens, bacon, ranch - skip crispy chicken, use grilled',
+        mealType: 'lunch'
       }
     ]
   },
@@ -2514,7 +2710,8 @@ export const restaurants: Restaurant[] = [
         calories: 420,
         price: 7.99,
         isOptimal: true,
-        description: 'Single patty burger, no bun, lettuce wrap'
+        description: 'Single patty burger, no bun, lettuce wrap',
+        mealType: 'lunch'
       },
       {
         id: 'what-2',
@@ -2525,7 +2722,8 @@ export const restaurants: Restaurant[] = [
         calories: 380,
         price: 8.99,
         isOptimal: true,
-        description: 'Grilled chicken, mixed greens, cheese, ranch'
+        description: 'Grilled chicken, mixed greens, cheese, ranch',
+        mealType: 'lunch'
       },
       {
         id: 'what-3',
@@ -2536,7 +2734,8 @@ export const restaurants: Restaurant[] = [
         calories: 680,
         price: 10.49,
         isOptimal: true,
-        description: 'Two patties, cheese, veggies - no bun'
+        description: 'Two patties, cheese, veggies - no bun',
+        mealType: 'breakfast'
       },
       {
         id: 'what-4',
@@ -2547,7 +2746,8 @@ export const restaurants: Restaurant[] = [
         calories: 330,
         price: 8.49,
         isOptimal: true,
-        description: 'Grilled chicken breast, no bun, lettuce and tomato'
+        description: 'Grilled chicken breast, no bun, lettuce and tomato',
+        mealType: 'dinner'
       }
     ]
   },
@@ -2565,7 +2765,8 @@ export const restaurants: Restaurant[] = [
         calories: 390,
         price: 7.49,
         isOptimal: true,
-        description: 'Fresh beef patty, cheese, no bun'
+        description: 'Fresh beef patty, cheese, no bun',
+        mealType: 'anytime'
       },
       {
         id: 'cul-2',
@@ -2576,7 +2777,8 @@ export const restaurants: Restaurant[] = [
         calories: 280,
         price: 7.99,
         isOptimal: true,
-        description: 'Grilled chicken breast without bun'
+        description: 'Grilled chicken breast without bun',
+        mealType: 'dinner'
       },
       {
         id: 'cul-3',
@@ -2587,7 +2789,8 @@ export const restaurants: Restaurant[] = [
         calories: 560,
         price: 9.49,
         isOptimal: true,
-        description: 'Single patty, bacon, cheese, no bun'
+        description: 'Single patty, bacon, cheese, no bun',
+        mealType: 'anytime'
       },
       {
         id: 'cul-4',
@@ -2598,7 +2801,8 @@ export const restaurants: Restaurant[] = [
         calories: 360,
         price: 8.99,
         isOptimal: true,
-        description: 'Fresh greens, chicken, cheese, ranch dressing'
+        description: 'Fresh greens, chicken, cheese, ranch dressing',
+        mealType: 'lunch'
       }
     ]
   },
@@ -2615,7 +2819,8 @@ export const restaurants: Restaurant[] = [
         calories: 300,
         price: 9.99,
         isOptimal: true,
-        description: 'Grilled chicken with teriyaki, skip rice and noodles'
+        description: 'Grilled chicken with teriyaki, skip rice and noodles',
+        mealType: 'anytime'
       },
       {
         id: 'panda-2',
@@ -2626,7 +2831,8 @@ export const restaurants: Restaurant[] = [
         calories: 240,
         price: 9.49,
         isOptimal: true,
-        description: 'Chicken and green beans, no rice'
+        description: 'Chicken and green beans, no rice',
+        mealType: 'dinner'
       },
       {
         id: 'panda-3',
@@ -2637,7 +2843,8 @@ export const restaurants: Restaurant[] = [
         calories: 220,
         price: 9.49,
         isOptimal: true,
-        description: 'Chicken and mushrooms, no rice or noodles'
+        description: 'Chicken and mushrooms, no rice or noodles',
+        mealType: 'anytime'
       },
       {
         id: 'panda-4',
@@ -2648,7 +2855,8 @@ export const restaurants: Restaurant[] = [
         calories: 300,
         price: 9.99,
         isOptimal: true,
-        description: 'Spicy chicken in black pepper sauce, skip rice'
+        description: 'Spicy chicken in black pepper sauce, skip rice',
+        mealType: 'anytime'
       }
     ]
   },
@@ -2665,7 +2873,8 @@ export const restaurants: Restaurant[] = [
         calories: 430,
         price: 28.99,
         isOptimal: true,
-        description: 'Grilled steak with vegetables, no rice or noodles'
+        description: 'Grilled steak with vegetables, no rice or noodles',
+        mealType: 'dinner'
       },
       {
         id: 'ben-2',
@@ -2676,7 +2885,8 @@ export const restaurants: Restaurant[] = [
         calories: 360,
         price: 24.99,
         isOptimal: true,
-        description: 'Grilled chicken breast with veggies, skip rice'
+        description: 'Grilled chicken breast with veggies, skip rice',
+        mealType: 'breakfast'
       },
       {
         id: 'ben-3',
@@ -2687,7 +2897,8 @@ export const restaurants: Restaurant[] = [
         calories: 260,
         price: 26.99,
         isOptimal: true,
-        description: 'Grilled shrimp with vegetables, no rice'
+        description: 'Grilled shrimp with vegetables, no rice',
+        mealType: 'dinner'
       },
       {
         id: 'ben-4',
@@ -2698,7 +2909,8 @@ export const restaurants: Restaurant[] = [
         calories: 380,
         price: 27.99,
         isOptimal: true,
-        description: 'Grilled salmon with veggies, skip rice'
+        description: 'Grilled salmon with veggies, skip rice',
+        mealType: 'breakfast'
       }
     ]
   },
@@ -2716,7 +2928,8 @@ export const restaurants: Restaurant[] = [
         calories: 140,
         price: 2.99,
         isOptimal: true,
-        description: 'Lower carb pasta alternative, pan-fried in butter'
+        description: 'Lower carb pasta alternative, pan-fried in butter',
+        mealType: 'anytime'
       },
       {
         id: 'tj-2',
@@ -2727,7 +2940,8 @@ export const restaurants: Restaurant[] = [
         calories: 540,
         price: 6.99,
         isOptimal: true,
-        description: 'Ready-to-eat organic chicken'
+        description: 'Ready-to-eat organic chicken',
+        mealType: 'anytime'
       }
     ]
   },
@@ -2744,7 +2958,8 @@ export const restaurants: Restaurant[] = [
         calories: 330,
         price: 10.99,
         isOptimal: true,
-        description: 'Grilled chicken with roasted vegetables'
+        description: 'Grilled chicken with roasted vegetables',
+        mealType: 'breakfast'
       },
       {
         id: 'wf-2',
@@ -2755,7 +2970,8 @@ export const restaurants: Restaurant[] = [
         calories: 420,
         price: 11.99,
         isOptimal: true,
-        description: 'Mixed greens, grilled protein, cheese, eggs, avocado'
+        description: 'Mixed greens, grilled protein, cheese, eggs, avocado',
+        mealType: 'breakfast'
       },
       {
         id: 'wf-3',
@@ -2766,7 +2982,8 @@ export const restaurants: Restaurant[] = [
         calories: 290,
         price: 5.99,
         isOptimal: true,
-        description: 'Quarter rotisserie chicken'
+        description: 'Quarter rotisserie chicken',
+        mealType: 'anytime'
       },
       {
         id: 'wf-4',
@@ -2777,7 +2994,8 @@ export const restaurants: Restaurant[] = [
         calories: 310,
         price: 12.99,
         isOptimal: true,
-        description: 'Fresh ahi tuna, avocado, edamame, no rice'
+        description: 'Fresh ahi tuna, avocado, edamame, no rice',
+        mealType: 'dinner'
       }
     ]
   },
@@ -2794,7 +3012,8 @@ export const restaurants: Restaurant[] = [
         calories: 1100,
         price: 5.99,
         isOptimal: true,
-        description: 'Fresh roasted whole chicken'
+        description: 'Fresh roasted whole chicken',
+        mealType: 'anytime'
       },
       {
         id: 'krog-2',
@@ -2805,7 +3024,8 @@ export const restaurants: Restaurant[] = [
         calories: 390,
         price: 7.99,
         isOptimal: true,
-        description: 'Pre-made salad, remove croutons'
+        description: 'Pre-made salad, remove croutons',
+        mealType: 'lunch'
       },
       {
         id: 'krog-3',
@@ -2816,7 +3036,8 @@ export const restaurants: Restaurant[] = [
         calories: 420,
         price: 9.99,
         isOptimal: true,
-        description: 'Fresh deli buffalo wings'
+        description: 'Fresh deli buffalo wings',
+        mealType: 'snack'
       },
       {
         id: 'krog-4',
@@ -2827,7 +3048,8 @@ export const restaurants: Restaurant[] = [
         calories: 350,
         price: 8.99,
         isOptimal: true,
-        description: 'Custom keto bowl from salad bar'
+        description: 'Custom keto bowl from salad bar',
+        mealType: 'lunch'
       }
     ]
   },
@@ -2844,7 +3066,8 @@ export const restaurants: Restaurant[] = [
         calories: 400,
         price: 8.99,
         isOptimal: true,
-        description: 'All meats and cheese in a bowl'
+        description: 'All meats and cheese in a bowl',
+        mealType: 'lunch'
       },
       {
         id: 'pub-2',
@@ -2855,7 +3078,8 @@ export const restaurants: Restaurant[] = [
         calories: 520,
         price: 5.49,
         isOptimal: true,
-        description: 'Fresh roasted chicken'
+        description: 'Fresh roasted chicken',
+        mealType: 'anytime'
       },
       {
         id: 'pub-3',
@@ -2866,7 +3090,8 @@ export const restaurants: Restaurant[] = [
         calories: 360,
         price: 7.99,
         isOptimal: true,
-        description: 'Chicken tenders in a bowl, no bread'
+        description: 'Chicken tenders in a bowl, no bread',
+        mealType: 'snack'
       },
       {
         id: 'pub-4',
@@ -2877,7 +3102,8 @@ export const restaurants: Restaurant[] = [
         calories: 480,
         price: 10.99,
         isOptimal: true,
-        description: 'Hot or mild wings from deli'
+        description: 'Hot or mild wings from deli',
+        mealType: 'snack'
       }
     ]
   },
@@ -2894,7 +3120,8 @@ export const restaurants: Restaurant[] = [
         calories: 280,
         price: 8.99,
         isOptimal: true,
-        description: 'Quarter chicken with green beans'
+        description: 'Quarter chicken with green beans',
+        mealType: 'snack'
       },
       {
         id: 'bm-2',
@@ -2905,7 +3132,8 @@ export const restaurants: Restaurant[] = [
         calories: 550,
         price: 11.99,
         isOptimal: true,
-        description: 'Half chicken with steamed vegetables'
+        description: 'Half chicken with steamed vegetables',
+        mealType: 'anytime'
       },
       {
         id: 'bm-3',
@@ -2916,7 +3144,8 @@ export const restaurants: Restaurant[] = [
         calories: 380,
         price: 9.99,
         isOptimal: true,
-        description: 'Homestyle meatloaf with veggies'
+        description: 'Homestyle meatloaf with veggies',
+        mealType: 'breakfast'
       },
       {
         id: 'bm-4',
@@ -2927,7 +3156,8 @@ export const restaurants: Restaurant[] = [
         calories: 250,
         price: 8.49,
         isOptimal: true,
-        description: 'Quarter turkey with steamed veggies'
+        description: 'Quarter turkey with steamed veggies',
+        mealType: 'breakfast'
       }
     ]
   },
@@ -2944,7 +3174,8 @@ export const restaurants: Restaurant[] = [
         calories: 470,
         price: 9.99,
         isOptimal: true,
-        description: 'Grilled chicken, avocado, cheese, cilantro dressing'
+        description: 'Grilled chicken, avocado, cheese, cilantro dressing',
+        mealType: 'lunch'
       },
       {
         id: 'epl-2',
@@ -2955,7 +3186,8 @@ export const restaurants: Restaurant[] = [
         calories: 340,
         price: 7.99,
         isOptimal: true,
-        description: 'Fire-grilled chicken breast, no sides'
+        description: 'Fire-grilled chicken breast, no sides',
+        mealType: 'dinner'
       },
       {
         id: 'epl-3',
@@ -2966,7 +3198,8 @@ export const restaurants: Restaurant[] = [
         calories: 350,
         price: 6.99,
         isOptimal: true,
-        description: 'Fire-grilled dark meat'
+        description: 'Fire-grilled dark meat',
+        mealType: 'anytime'
       },
       {
         id: 'epl-4',
@@ -2977,7 +3210,8 @@ export const restaurants: Restaurant[] = [
         calories: 410,
         price: 9.49,
         isOptimal: true,
-        description: 'Chicken, cheese, sour cream, avocado'
+        description: 'Chicken, cheese, sour cream, avocado',
+        mealType: 'lunch'
       }
     ]
   },
@@ -2995,7 +3229,8 @@ export const restaurants: Restaurant[] = [
         calories: 480,
         price: 38.99,
         isOptimal: true,
-        description: 'Premium filet with butter, asparagus side'
+        description: 'Premium filet with butter, asparagus side',
+        mealType: 'dinner'
       },
       {
         id: 'df-2',
@@ -3006,7 +3241,8 @@ export const restaurants: Restaurant[] = [
         calories: 440,
         price: 29.99,
         isOptimal: true,
-        description: 'Fresh salmon with seasonal vegetables'
+        description: 'Fresh salmon with seasonal vegetables',
+        mealType: 'dinner'
       }
     ]
   },
@@ -3024,7 +3260,8 @@ export const restaurants: Restaurant[] = [
         calories: 460,
         price: 49.99,
         isOptimal: true,
-        description: 'USDA Prime filet, sizzling in butter'
+        description: 'USDA Prime filet, sizzling in butter',
+        mealType: 'dinner'
       },
       {
         id: 'rc-2',
@@ -3035,7 +3272,8 @@ export const restaurants: Restaurant[] = [
         calories: 380,
         price: 21.99,
         isOptimal: true,
-        description: 'New Orleans-style BBQ shrimp'
+        description: 'New Orleans-style BBQ shrimp',
+        mealType: 'dinner'
       }
     ]
   },
@@ -3053,7 +3291,8 @@ export const restaurants: Restaurant[] = [
         calories: 400,
         price: 54.99,
         isOptimal: true,
-        description: 'Prime aged beef, no sides with carbs'
+        description: 'Prime aged beef, no sides with carbs',
+        mealType: 'dinner'
       },
       {
         id: 'mort-2',
@@ -3064,7 +3303,8 @@ export const restaurants: Restaurant[] = [
         calories: 420,
         price: 26.99,
         isOptimal: true,
-        description: 'Jumbo shrimp with garlic butter'
+        description: 'Jumbo shrimp with garlic butter',
+        mealType: 'dinner'
       }
     ]
   },
@@ -3082,7 +3322,8 @@ export const restaurants: Restaurant[] = [
         calories: 420,
         price: 47.99,
         isOptimal: true,
-        description: 'Prime filet with herb butter'
+        description: 'Prime filet with herb butter',
+        mealType: 'dinner'
       },
       {
         id: 'flem-2',
@@ -3093,7 +3334,8 @@ export const restaurants: Restaurant[] = [
         calories: 360,
         price: 44.99,
         isOptimal: true,
-        description: 'Pan-seared with vegetables'
+        description: 'Pan-seared with vegetables',
+        mealType: 'anytime'
       }
     ]
   },
@@ -3110,7 +3352,8 @@ export const restaurants: Restaurant[] = [
         calories: 320,
         price: 10.99,
         isOptimal: true,
-        description: 'Wok-fired beef with scallions, skip rice'
+        description: 'Wok-fired beef with scallions, skip rice',
+        mealType: 'dinner'
       },
       {
         id: 'pw-2',
@@ -3121,7 +3364,8 @@ export const restaurants: Restaurant[] = [
         calories: 290,
         price: 9.99,
         isOptimal: true,
-        description: 'Marinated chicken with mixed veggies'
+        description: 'Marinated chicken with mixed veggies',
+        mealType: 'breakfast'
       },
       {
         id: 'pw-3',
@@ -3132,7 +3376,8 @@ export const restaurants: Restaurant[] = [
         calories: 290,
         price: 10.49,
         isOptimal: true,
-        description: 'Spicy chicken with peanuts, no rice'
+        description: 'Spicy chicken with peanuts, no rice',
+        mealType: 'anytime'
       },
       {
         id: 'pw-4',
@@ -3143,7 +3388,8 @@ export const restaurants: Restaurant[] = [
         calories: 270,
         price: 11.99,
         isOptimal: true,
-        description: 'Shrimp with light glaze, skip rice'
+        description: 'Shrimp with light glaze, skip rice',
+        mealType: 'dinner'
       }
     ]
   },
@@ -3160,7 +3406,8 @@ export const restaurants: Restaurant[] = [
         calories: 300,
         price: 9.99,
         isOptimal: true,
-        description: 'Grilled chicken, skip rice and noodles'
+        description: 'Grilled chicken, skip rice and noodles',
+        mealType: 'anytime'
       },
       {
         id: 'pe-2',
@@ -3171,7 +3418,8 @@ export const restaurants: Restaurant[] = [
         calories: 200,
         price: 9.49,
         isOptimal: true,
-        description: 'Beef and broccoli in savory sauce'
+        description: 'Beef and broccoli in savory sauce',
+        mealType: 'anytime'
       },
       {
         id: 'pe-3',
@@ -3182,7 +3430,8 @@ export const restaurants: Restaurant[] = [
         calories: 220,
         price: 9.49,
         isOptimal: true,
-        description: 'Chicken and mushrooms, no rice'
+        description: 'Chicken and mushrooms, no rice',
+        mealType: 'anytime'
       },
       {
         id: 'pe-4',
@@ -3193,7 +3442,8 @@ export const restaurants: Restaurant[] = [
         calories: 300,
         price: 9.99,
         isOptimal: true,
-        description: 'Spicy chicken, skip rice and noodles'
+        description: 'Spicy chicken, skip rice and noodles',
+        mealType: 'anytime'
       }
     ]
   },
@@ -3210,7 +3460,8 @@ export const restaurants: Restaurant[] = [
         calories: 330,
         price: 9.99,
         isOptimal: true,
-        description: 'Spiralized zucchini with grilled chicken'
+        description: 'Spiralized zucchini with grilled chicken',
+        mealType: 'anytime'
       },
       {
         id: 'nc-2',
@@ -3221,7 +3472,8 @@ export const restaurants: Restaurant[] = [
         calories: 370,
         price: 8.99,
         isOptimal: true,
-        description: 'Grilled chicken Caesar salad'
+        description: 'Grilled chicken Caesar salad',
+        mealType: 'lunch'
       },
       {
         id: 'nc-3',
@@ -3232,7 +3484,8 @@ export const restaurants: Restaurant[] = [
         calories: 340,
         price: 10.99,
         isOptimal: true,
-        description: 'Zoodles with shrimp in rosa sauce'
+        description: 'Zoodles with shrimp in rosa sauce',
+        mealType: 'dinner'
       },
       {
         id: 'nc-4',
@@ -3243,7 +3496,8 @@ export const restaurants: Restaurant[] = [
         calories: 280,
         price: 7.99,
         isOptimal: true,
-        description: 'Plain grilled chicken with side salad'
+        description: 'Plain grilled chicken with side salad',
+        mealType: 'dinner'
       }
     ]
   },
@@ -3260,7 +3514,8 @@ export const restaurants: Restaurant[] = [
         calories: 420,
         price: 10.99,
         isOptimal: true,
-        description: 'All meats, cheese, veggies in a bowl'
+        description: 'All meats, cheese, veggies in a bowl',
+        mealType: 'breakfast'
       },
       {
         id: 'jer-2',
@@ -3271,7 +3526,8 @@ export const restaurants: Restaurant[] = [
         calories: 310,
         price: 9.99,
         isOptimal: true,
-        description: 'Turkey, cheese, lettuce, tomato'
+        description: 'Turkey, cheese, lettuce, tomato',
+        mealType: 'lunch'
       },
       {
         id: 'jer-3',
@@ -3282,7 +3538,8 @@ export const restaurants: Restaurant[] = [
         calories: 360,
         price: 10.49,
         isOptimal: true,
-        description: 'Roast beef, provolone, veggies in bowl'
+        description: 'Roast beef, provolone, veggies in bowl',
+        mealType: 'breakfast'
       },
       {
         id: 'jer-4',
@@ -3293,7 +3550,8 @@ export const restaurants: Restaurant[] = [
         calories: 340,
         price: 10.99,
         isOptimal: true,
-        description: 'Turkey, ham, bacon, provolone'
+        description: 'Turkey, ham, bacon, provolone',
+        mealType: 'lunch'
       }
     ]
   },
@@ -3310,7 +3568,8 @@ export const restaurants: Restaurant[] = [
         calories: 390,
         price: 8.99,
         isOptimal: true,
-        description: 'Chicken, bacon, eggs, cheese, ranch'
+        description: 'Chicken, bacon, eggs, cheese, ranch',
+        mealType: 'breakfast'
       },
       {
         id: 'pot-2',
@@ -3321,7 +3580,8 @@ export const restaurants: Restaurant[] = [
         calories: 360,
         price: 9.49,
         isOptimal: true,
-        description: 'Grilled chicken with veggies'
+        description: 'Grilled chicken with veggies',
+        mealType: 'breakfast'
       },
       {
         id: 'pot-3',
@@ -3332,7 +3592,8 @@ export const restaurants: Restaurant[] = [
         calories: 370,
         price: 9.49,
         isOptimal: true,
-        description: 'Chicken, feta, olives, cucumbers, greens'
+        description: 'Chicken, feta, olives, cucumbers, greens',
+        mealType: 'lunch'
       },
       {
         id: 'pot-4',
@@ -3343,7 +3604,8 @@ export const restaurants: Restaurant[] = [
         calories: 310,
         price: 8.49,
         isOptimal: true,
-        description: 'Turkey, cheese, eggs, veggies'
+        description: 'Turkey, cheese, eggs, veggies',
+        mealType: 'breakfast'
       }
     ]
   },
@@ -3360,7 +3622,8 @@ export const restaurants: Restaurant[] = [
         calories: 420,
         price: 10.99,
         isOptimal: true,
-        description: 'All meats, cheese, veggies in a bowl'
+        description: 'All meats, cheese, veggies in a bowl',
+        mealType: 'breakfast'
       },
       {
         id: 'jer-2',
@@ -3371,7 +3634,8 @@ export const restaurants: Restaurant[] = [
         calories: 310,
         price: 9.99,
         isOptimal: true,
-        description: 'Turkey, cheese, lettuce, tomato'
+        description: 'Turkey, cheese, lettuce, tomato',
+        mealType: 'lunch'
       },
       {
         id: 'jer-3',
@@ -3382,7 +3646,8 @@ export const restaurants: Restaurant[] = [
         calories: 360,
         price: 10.49,
         isOptimal: true,
-        description: 'Roast beef, provolone, veggies in bowl'
+        description: 'Roast beef, provolone, veggies in bowl',
+        mealType: 'breakfast'
       },
       {
         id: 'jer-4',
@@ -3393,7 +3658,8 @@ export const restaurants: Restaurant[] = [
         calories: 340,
         price: 10.99,
         isOptimal: true,
-        description: 'Turkey, ham, bacon, provolone'
+        description: 'Turkey, ham, bacon, provolone',
+        mealType: 'lunch'
       }
     ]
   },
@@ -3411,7 +3677,8 @@ export const restaurants: Restaurant[] = [
         calories: 320,
         price: 8.99,
         isOptimal: true,
-        description: 'Grilled chicken with side salad'
+        description: 'Grilled chicken with side salad',
+        mealType: 'dinner'
       },
       {
         id: 'port-2',
@@ -3422,7 +3689,8 @@ export const restaurants: Restaurant[] = [
         calories: 320,
         price: 9.49,
         isOptimal: true,
-        description: 'Seasoned beef in a bowl with peppers'
+        description: 'Seasoned beef in a bowl with peppers',
+        mealType: 'lunch'
       }
     ]
   },
@@ -3440,7 +3708,8 @@ export const restaurants: Restaurant[] = [
         calories: 380,
         price: 9.49,
         isOptimal: true,
-        description: 'Grilled chicken, romaine, parmesan, no croutons'
+        description: 'Grilled chicken, romaine, parmesan, no croutons',
+        mealType: 'anytime'
       },
       {
         id: 'zax-2',
@@ -3451,7 +3720,8 @@ export const restaurants: Restaurant[] = [
         calories: 470,
         price: 11.99,
         isOptimal: true,
-        description: 'Buffalo or BBQ wings'
+        description: 'Buffalo or BBQ wings',
+        mealType: 'snack'
       }
     ]
   },
@@ -3468,7 +3738,8 @@ export const restaurants: Restaurant[] = [
         calories: 500,
         price: 12.99,
         isOptimal: true,
-        description: 'Traditional wings, various flavors'
+        description: 'Traditional wings, various flavors',
+        mealType: 'snack'
       },
       {
         id: 'ws-2',
@@ -3479,7 +3750,8 @@ export const restaurants: Restaurant[] = [
         calories: 320,
         price: 10.99,
         isOptimal: true,
-        description: 'Grilled chicken bites with sauce'
+        description: 'Grilled chicken bites with sauce',
+        mealType: 'snack'
       },
       {
         id: 'ws-3',
@@ -3490,7 +3762,8 @@ export const restaurants: Restaurant[] = [
         calories: 300,
         price: 9.99,
         isOptimal: true,
-        description: 'Traditional wings, dry rubs available'
+        description: 'Traditional wings, dry rubs available',
+        mealType: 'snack'
       },
       {
         id: 'ws-4',
@@ -3501,7 +3774,8 @@ export const restaurants: Restaurant[] = [
         calories: 280,
         price: 10.49,
         isOptimal: true,
-        description: 'Grilled chicken bites, sauce on side'
+        description: 'Grilled chicken bites, sauce on side',
+        mealType: 'snack'
       }
     ]
   },
@@ -3518,7 +3792,8 @@ export const restaurants: Restaurant[] = [
         calories: 350,
         price: 8.99,
         isOptimal: true,
-        description: 'Chicken salad on lettuce bed'
+        description: 'Chicken salad on lettuce bed',
+        mealType: 'lunch'
       },
       {
         id: 'csc-2',
@@ -3529,7 +3804,8 @@ export const restaurants: Restaurant[] = [
         calories: 370,
         price: 9.49,
         isOptimal: true,
-        description: 'Spicy buffalo chicken salad'
+        description: 'Spicy buffalo chicken salad',
+        mealType: 'lunch'
       },
       {
         id: 'csc-3',
@@ -3540,7 +3816,8 @@ export const restaurants: Restaurant[] = [
         calories: 330,
         price: 9.99,
         isOptimal: true,
-        description: 'Three chicken salad varieties on lettuce'
+        description: 'Three chicken salad varieties on lettuce',
+        mealType: 'lunch'
       },
       {
         id: 'csc-4',
@@ -3551,7 +3828,8 @@ export const restaurants: Restaurant[] = [
         calories: 390,
         price: 9.99,
         isOptimal: true,
-        description: 'Chicken salad with grapes and pecans on greens'
+        description: 'Chicken salad with grapes and pecans on greens',
+        mealType: 'lunch'
       }
     ]
   },
@@ -3569,7 +3847,8 @@ export const restaurants: Restaurant[] = [
         calories: 430,
         price: 10.99,
         isOptimal: true,
-        description: 'Grilled chicken, bacon, eggs, cheese'
+        description: 'Grilled chicken, bacon, eggs, cheese',
+        mealType: 'breakfast'
       },
       {
         id: 'jd-2',
@@ -3580,7 +3859,8 @@ export const restaurants: Restaurant[] = [
         calories: 440,
         price: 10.49,
         isOptimal: true,
-        description: 'Chicken, nuts, cheese, mixed greens'
+        description: 'Chicken, nuts, cheese, mixed greens',
+        mealType: 'lunch'
       }
     ]
   },
@@ -3598,7 +3878,8 @@ export const restaurants: Restaurant[] = [
         calories: 390,
         price: 9.99,
         isOptimal: true,
-        description: 'Grilled chicken, romaine, parmesan'
+        description: 'Grilled chicken, romaine, parmesan',
+        mealType: 'lunch'
       },
       {
         id: 'mc-2',
@@ -3609,7 +3890,8 @@ export const restaurants: Restaurant[] = [
         calories: 360,
         price: 9.49,
         isOptimal: true,
-        description: 'Turkey, ham, cheese, eggs on greens'
+        description: 'Turkey, ham, cheese, eggs on greens',
+        mealType: 'breakfast'
       }
     ]
   },
@@ -3626,7 +3908,8 @@ export const restaurants: Restaurant[] = [
         calories: 410,
         price: 10.99,
         isOptimal: true,
-        description: 'Grilled chicken, nuts, cheese, greens'
+        description: 'Grilled chicken, nuts, cheese, greens',
+        mealType: 'lunch'
       },
       {
         id: 'cb-2',
@@ -3637,7 +3920,8 @@ export const restaurants: Restaurant[] = [
         calories: 370,
         price: 11.49,
         isOptimal: true,
-        description: 'Grilled chicken with tomato basil, no pasta'
+        description: 'Grilled chicken with tomato basil, no pasta',
+        mealType: 'anytime'
       },
       {
         id: 'cb-3',
@@ -3648,7 +3932,8 @@ export const restaurants: Restaurant[] = [
         calories: 190,
         price: 7.99,
         isOptimal: true,
-        description: 'Chicken vegetable soup, no noodles'
+        description: 'Chicken vegetable soup, no noodles',
+        mealType: 'anytime'
       },
       {
         id: 'cb-4',
@@ -3659,7 +3944,8 @@ export const restaurants: Restaurant[] = [
         calories: 420,
         price: 12.99,
         isOptimal: true,
-        description: 'Grilled salmon, greens, veggies, vinaigrette'
+        description: 'Grilled salmon, greens, veggies, vinaigrette',
+        mealType: 'breakfast'
       }
     ]
   },
@@ -3676,7 +3962,8 @@ export const restaurants: Restaurant[] = [
         calories: 400,
         price: 10.99,
         isOptimal: true,
-        description: 'Chicken, greens, veggies, no rice or pita'
+        description: 'Chicken, greens, veggies, no rice or pita',
+        mealType: 'breakfast'
       },
       {
         id: 'cava-2',
@@ -3687,7 +3974,8 @@ export const restaurants: Restaurant[] = [
         calories: 410,
         price: 11.99,
         isOptimal: true,
-        description: 'Steak, greens, hummus, veggies'
+        description: 'Steak, greens, hummus, veggies',
+        mealType: 'breakfast'
       },
       {
         id: 'cava-3',
@@ -3698,7 +3986,8 @@ export const restaurants: Restaurant[] = [
         calories: 390,
         price: 11.99,
         isOptimal: true,
-        description: 'Lamb meatballs, greens, harissa, no rice'
+        description: 'Lamb meatballs, greens, harissa, no rice',
+        mealType: 'lunch'
       },
       {
         id: 'cava-4',
@@ -3709,7 +3998,8 @@ export const restaurants: Restaurant[] = [
         calories: 380,
         price: 9.99,
         isOptimal: false,
-        description: 'Limited falafel, greens, veggies, tahini'
+        description: 'Limited falafel, greens, veggies, tahini',
+        mealType: 'breakfast'
       }
     ]
   },
@@ -3727,7 +4017,8 @@ export const restaurants: Restaurant[] = [
         calories: 340,
         price: 11.99,
         isOptimal: true,
-        description: 'Chicken kabobs with vegetables'
+        description: 'Chicken kabobs with vegetables',
+        mealType: 'anytime'
       },
       {
         id: 'zk-2',
@@ -3738,7 +4029,8 @@ export const restaurants: Restaurant[] = [
         calories: 400,
         price: 13.99,
         isOptimal: true,
-        description: 'Grilled salmon, mixed greens, feta'
+        description: 'Grilled salmon, mixed greens, feta',
+        mealType: 'dinner'
       }
     ]
   },
@@ -3755,7 +4047,8 @@ export const restaurants: Restaurant[] = [
         calories: 340,
         price: 14.99,
         isOptimal: true,
-        description: 'Herb-marinated chicken with veggies'
+        description: 'Herb-marinated chicken with veggies',
+        mealType: 'breakfast'
       },
       {
         id: 'ld-2',
@@ -3766,7 +4059,8 @@ export const restaurants: Restaurant[] = [
         calories: 340,
         price: 13.99,
         isOptimal: true,
-        description: 'Blackened fish, cabbage slaw in a bowl'
+        description: 'Blackened fish, cabbage slaw in a bowl',
+        mealType: 'lunch'
       },
       {
         id: 'ld-3',
@@ -3777,7 +4071,8 @@ export const restaurants: Restaurant[] = [
         calories: 430,
         price: 18.99,
         isOptimal: true,
-        description: 'Grilled sirloin with seasonal veggies'
+        description: 'Grilled sirloin with seasonal veggies',
+        mealType: 'breakfast'
       },
       {
         id: 'ld-4',
@@ -3788,7 +4083,8 @@ export const restaurants: Restaurant[] = [
         calories: 330,
         price: 15.99,
         isOptimal: true,
-        description: 'Seared tuna, avocado, greens, no rice'
+        description: 'Seared tuna, avocado, greens, no rice',
+        mealType: 'dinner'
       }
     ]
   },
@@ -3805,7 +4101,8 @@ export const restaurants: Restaurant[] = [
         calories: 410,
         price: 18.99,
         isOptimal: true,
-        description: 'Fresh salmon with asparagus'
+        description: 'Fresh salmon with asparagus',
+        mealType: 'dinner'
       },
       {
         id: 'cpk-2',
@@ -3816,7 +4113,8 @@ export const restaurants: Restaurant[] = [
         calories: 370,
         price: 13.99,
         isOptimal: true,
-        description: 'Grilled chicken, greens, goat cheese'
+        description: 'Grilled chicken, greens, goat cheese',
+        mealType: 'lunch'
       },
       {
         id: 'cpk-3',
@@ -3827,7 +4125,8 @@ export const restaurants: Restaurant[] = [
         calories: 320,
         price: 15.99,
         isOptimal: true,
-        description: 'Herb-grilled chicken with broccoli'
+        description: 'Herb-grilled chicken with broccoli',
+        mealType: 'dinner'
       },
       {
         id: 'cpk-4',
@@ -3838,7 +4137,8 @@ export const restaurants: Restaurant[] = [
         calories: 390,
         price: 19.99,
         isOptimal: true,
-        description: 'Miso-glazed salmon, edamame, no rice'
+        description: 'Miso-glazed salmon, edamame, no rice',
+        mealType: 'dinner'
       }
     ]
   },
@@ -3855,7 +4155,8 @@ export const restaurants: Restaurant[] = [
         calories: 360,
         price: 16.99,
         isOptimal: true,
-        description: 'Seasoned chicken with steamed broccoli'
+        description: 'Seasoned chicken with steamed broccoli',
+        mealType: 'dinner'
       },
       {
         id: 'yh-2',
@@ -3866,7 +4167,8 @@ export const restaurants: Restaurant[] = [
         calories: 280,
         price: 14.99,
         isOptimal: true,
-        description: 'Fresh ahi tuna with avocado'
+        description: 'Fresh ahi tuna with avocado',
+        mealType: 'dinner'
       },
       {
         id: 'yh-3',
@@ -3877,7 +4179,8 @@ export const restaurants: Restaurant[] = [
         calories: 410,
         price: 19.99,
         isOptimal: true,
-        description: 'Fresh grilled salmon with asparagus'
+        description: 'Fresh grilled salmon with asparagus',
+        mealType: 'dinner'
       },
       {
         id: 'yh-4',
@@ -3888,7 +4191,8 @@ export const restaurants: Restaurant[] = [
         calories: 410,
         price: 14.99,
         isOptimal: true,
-        description: 'Grilled chicken, romaine, parmesan, no croutons'
+        description: 'Grilled chicken, romaine, parmesan, no croutons',
+        mealType: 'lunch'
       }
     ]
   },
@@ -3905,7 +4209,8 @@ export const restaurants: Restaurant[] = [
         calories: 430,
         price: 21.99,
         isOptimal: true,
-        description: 'Fresh Atlantic salmon with asparagus'
+        description: 'Fresh Atlantic salmon with asparagus',
+        mealType: 'dinner'
       },
       {
         id: 'bf-2',
@@ -3916,7 +4221,8 @@ export const restaurants: Restaurant[] = [
         calories: 390,
         price: 18.99,
         isOptimal: true,
-        description: 'Grilled chicken with goat cheese and vegetables'
+        description: 'Grilled chicken with goat cheese and vegetables',
+        mealType: 'anytime'
       },
       {
         id: 'bf-3',
@@ -3927,7 +4233,8 @@ export const restaurants: Restaurant[] = [
         calories: 340,
         price: 20.99,
         isOptimal: true,
-        description: 'Grilled mahi with asparagus'
+        description: 'Grilled mahi with asparagus',
+        mealType: 'dinner'
       },
       {
         id: 'bf-4',
@@ -3938,7 +4245,8 @@ export const restaurants: Restaurant[] = [
         calories: 320,
         price: 23.99,
         isOptimal: true,
-        description: 'Seared rare ahi with vegetables'
+        description: 'Seared rare ahi with vegetables',
+        mealType: 'dinner'
       }
     ]
   },
@@ -3956,7 +4264,8 @@ export const restaurants: Restaurant[] = [
         calories: 440,
         price: 17.99,
         isOptimal: true,
-        description: 'Grilled chicken, goat cheese, sundried tomatoes'
+        description: 'Grilled chicken, goat cheese, sundried tomatoes',
+        mealType: 'anytime'
       },
       {
         id: 'car-2',
@@ -3967,7 +4276,8 @@ export const restaurants: Restaurant[] = [
         calories: 380,
         price: 19.99,
         isOptimal: true,
-        description: 'Fresh salmon with vegetables, no pasta'
+        description: 'Fresh salmon with vegetables, no pasta',
+        mealType: 'dinner'
       }
     ]
   },
@@ -3985,7 +4295,8 @@ export const restaurants: Restaurant[] = [
         calories: 400,
         price: 18.99,
         isOptimal: true,
-        description: 'Grilled salmon with vegetables'
+        description: 'Grilled salmon with vegetables',
+        mealType: 'dinner'
       },
       {
         id: 'rmg-2',
@@ -3996,7 +4307,8 @@ export const restaurants: Restaurant[] = [
         calories: 380,
         price: 16.99,
         isOptimal: true,
-        description: 'Grilled chicken, mozzarella, tomatoes, no pasta'
+        description: 'Grilled chicken, mozzarella, tomatoes, no pasta',
+        mealType: 'anytime'
       }
     ]
   },
@@ -4013,7 +4325,8 @@ export const restaurants: Restaurant[] = [
         calories: 400,
         price: 7.99,
         isOptimal: true,
-        description: 'Three eggs with bacon, no toast or hashbrowns'
+        description: 'Three eggs with bacon, no toast or hashbrowns',
+        mealType: 'breakfast'
       },
       {
         id: 'wh-2',
@@ -4024,7 +4337,8 @@ export const restaurants: Restaurant[] = [
         calories: 280,
         price: 8.99,
         isOptimal: true,
-        description: 'Plain grilled chicken with side salad'
+        description: 'Plain grilled chicken with side salad',
+        mealType: 'dinner'
       },
       {
         id: 'wh-3',
@@ -4035,7 +4349,8 @@ export const restaurants: Restaurant[] = [
         calories: 390,
         price: 8.49,
         isOptimal: true,
-        description: 'Three-egg omelette with ham and cheese'
+        description: 'Three-egg omelette with ham and cheese',
+        mealType: 'breakfast'
       },
       {
         id: 'wh-4',
@@ -4046,7 +4361,8 @@ export const restaurants: Restaurant[] = [
         calories: 620,
         price: 13.99,
         isOptimal: true,
-        description: 'T-bone steak with eggs, no hashbrowns'
+        description: 'T-bone steak with eggs, no hashbrowns',
+        mealType: 'breakfast'
       }
     ]
   },
@@ -4063,7 +4379,8 @@ export const restaurants: Restaurant[] = [
         calories: 290,
         price: 6.99,
         isOptimal: true,
-        description: 'Plant-based patty, egg, cheese - no bread'
+        description: 'Plant-based patty, egg, cheese - no bread',
+        mealType: 'breakfast'
       },
       {
         id: 'jam-2',
@@ -4074,7 +4391,8 @@ export const restaurants: Restaurant[] = [
         calories: 170,
         price: 8.99,
         isOptimal: true,
-        description: 'Kale, mango, pineapple blend - skip granola'
+        description: 'Kale, mango, pineapple blend - skip granola',
+        mealType: 'lunch'
       },
       {
         id: 'jam-3',
@@ -4085,7 +4403,8 @@ export const restaurants: Restaurant[] = [
         calories: 160,
         price: 8.49,
         isOptimal: true,
-        description: 'Berry blend with protein, skip granola'
+        description: 'Berry blend with protein, skip granola',
+        mealType: 'lunch'
       },
       {
         id: 'jam-4',
@@ -4096,7 +4415,8 @@ export const restaurants: Restaurant[] = [
         calories: 170,
         price: 8.99,
         isOptimal: false,
-        description: 'Açaí blend, skip granola topping'
+        description: 'Açaí blend, skip granola topping',
+        mealType: 'lunch'
       }
     ]
   },
@@ -4113,7 +4433,8 @@ export const restaurants: Restaurant[] = [
         calories: 370,
         price: 7.99,
         isOptimal: true,
-        description: 'Keto-friendly smoothie with MCT oil'
+        description: 'Keto-friendly smoothie with MCT oil',
+        mealType: 'anytime'
       },
       {
         id: 'sk-2',
@@ -4124,7 +4445,8 @@ export const restaurants: Restaurant[] = [
         calories: 360,
         price: 7.99,
         isOptimal: true,
-        description: 'Coffee smoothie with keto ingredients'
+        description: 'Coffee smoothie with keto ingredients',
+        mealType: 'anytime'
       },
       {
         id: 'sk-3',
@@ -4135,7 +4457,8 @@ export const restaurants: Restaurant[] = [
         calories: 230,
         price: 7.99,
         isOptimal: true,
-        description: 'Protein smoothie with minimal carbs'
+        description: 'Protein smoothie with minimal carbs',
+        mealType: 'anytime'
       },
       {
         id: 'sk-4',
@@ -4146,7 +4469,8 @@ export const restaurants: Restaurant[] = [
         calories: 240,
         price: 7.99,
         isOptimal: true,
-        description: 'Chocolate protein smoothie'
+        description: 'Chocolate protein smoothie',
+        mealType: 'anytime'
       }
     ]
   },
@@ -4163,7 +4487,8 @@ export const restaurants: Restaurant[] = [
         calories: 330,
         price: 6.99,
         isOptimal: true,
-        description: 'Eggs, cheese, bacon, no potatoes'
+        description: 'Eggs, cheese, bacon, no potatoes',
+        mealType: 'breakfast'
       },
       {
         id: 'cc-2',
@@ -4174,7 +4499,8 @@ export const restaurants: Restaurant[] = [
         calories: 240,
         price: 4.99,
         isOptimal: true,
-        description: 'Egg bites with turkey sausage'
+        description: 'Egg bites with turkey sausage',
+        mealType: 'breakfast'
       },
       {
         id: 'cc-3',
@@ -4185,7 +4511,8 @@ export const restaurants: Restaurant[] = [
         calories: 340,
         price: 5.99,
         isOptimal: true,
-        description: 'Sausage, egg, cheese - no bread'
+        description: 'Sausage, egg, cheese - no bread',
+        mealType: 'breakfast'
       },
       {
         id: 'cc-4',
@@ -4196,7 +4523,8 @@ export const restaurants: Restaurant[] = [
         calories: 210,
         price: 4.49,
         isOptimal: true,
-        description: 'Egg bites with spinach and feta'
+        description: 'Egg bites with spinach and feta',
+        mealType: 'breakfast'
       }
     ]
   },
@@ -4214,7 +4542,8 @@ export const restaurants: Restaurant[] = [
         calories: 250,
         price: 4.99,
         isOptimal: true,
-        description: 'Egg bites with bacon and cheese'
+        description: 'Egg bites with bacon and cheese',
+        mealType: 'breakfast'
       },
       {
         id: 'pc-2',
@@ -4225,7 +4554,8 @@ export const restaurants: Restaurant[] = [
         calories: 290,
         price: 6.99,
         isOptimal: true,
-        description: 'Hardboiled eggs, cheese, almonds'
+        description: 'Hardboiled eggs, cheese, almonds',
+        mealType: 'breakfast'
       }
     ]
   },
@@ -4242,7 +4572,8 @@ export const restaurants: Restaurant[] = [
         calories: 360,
         price: 9.99,
         isOptimal: true,
-        description: 'Grilled chicken Caesar, no croutons'
+        description: 'Grilled chicken Caesar, no croutons',
+        mealType: 'lunch'
       },
       {
         id: 'pieo-2',
@@ -4253,7 +4584,8 @@ export const restaurants: Restaurant[] = [
         calories: 420,
         price: 10.99,
         isOptimal: true,
-        description: 'Traditional wings with buffalo sauce'
+        description: 'Traditional wings with buffalo sauce',
+        mealType: 'snack'
       },
       {
         id: 'pieo-3',
@@ -4264,7 +4596,8 @@ export const restaurants: Restaurant[] = [
         calories: 310,
         price: 9.49,
         isOptimal: true,
-        description: 'Grilled chicken, greens, Italian dressing'
+        description: 'Grilled chicken, greens, Italian dressing',
+        mealType: 'lunch'
       },
       {
         id: 'pieo-4',
@@ -4275,7 +4608,8 @@ export const restaurants: Restaurant[] = [
         calories: 310,
         price: 9.99,
         isOptimal: true,
-        description: 'Wings with choice of sauce'
+        description: 'Wings with choice of sauce',
+        mealType: 'snack'
       }
     ]
   },
@@ -4292,7 +4626,8 @@ export const restaurants: Restaurant[] = [
         calories: 350,
         price: 8.99,
         isOptimal: true,
-        description: 'Grilled chicken, greens, veggies'
+        description: 'Grilled chicken, greens, veggies',
+        mealType: 'breakfast'
       },
       {
         id: 'blz-2',
@@ -4303,7 +4638,8 @@ export const restaurants: Restaurant[] = [
         calories: 420,
         price: 11.99,
         isOptimal: true,
-        description: 'Cauliflower crust with toppings'
+        description: 'Cauliflower crust with toppings',
+        mealType: 'anytime'
       },
       {
         id: 'blz-3',
@@ -4314,7 +4650,8 @@ export const restaurants: Restaurant[] = [
         calories: 360,
         price: 9.49,
         isOptimal: true,
-        description: 'Grilled chicken Caesar, no croutons'
+        description: 'Grilled chicken Caesar, no croutons',
+        mealType: 'lunch'
       },
       {
         id: 'blz-4',
@@ -4325,7 +4662,8 @@ export const restaurants: Restaurant[] = [
         calories: 340,
         price: 9.99,
         isOptimal: true,
-        description: 'Spicy buffalo wings'
+        description: 'Spicy buffalo wings',
+        mealType: 'snack'
       }
     ]
   },
@@ -4342,7 +4680,8 @@ export const restaurants: Restaurant[] = [
         calories: 350,
         price: 9.99,
         isOptimal: true,
-        description: 'Customizable salad with grilled chicken'
+        description: 'Customizable salad with grilled chicken',
+        mealType: 'lunch'
       },
       {
         id: 'mod-2',
@@ -4353,7 +4692,8 @@ export const restaurants: Restaurant[] = [
         calories: 380,
         price: 10.99,
         isOptimal: true,
-        description: 'Keto-friendly crust with toppings'
+        description: 'Keto-friendly crust with toppings',
+        mealType: 'anytime'
       },
       {
         id: 'mod-3',
@@ -4364,7 +4704,8 @@ export const restaurants: Restaurant[] = [
         calories: 220,
         price: 8.99,
         isOptimal: true,
-        description: 'Classic Caesar, add chicken for $2'
+        description: 'Classic Caesar, add chicken for $2',
+        mealType: 'lunch'
       },
       {
         id: 'mod-1',
@@ -4375,7 +4716,8 @@ export const restaurants: Restaurant[] = [
         calories: 350,
         price: 9.99,
         isOptimal: true,
-        description: 'Customizable salad with grilled chicken'
+        description: 'Customizable salad with grilled chicken',
+        mealType: 'lunch'
       },
       {
         id: 'mod-2',
@@ -4386,7 +4728,8 @@ export const restaurants: Restaurant[] = [
         calories: 380,
         price: 10.99,
         isOptimal: true,
-        description: 'Keto-friendly crust with toppings'
+        description: 'Keto-friendly crust with toppings',
+        mealType: 'anytime'
       },
       {
         id: 'mod-4',
@@ -4397,7 +4740,8 @@ export const restaurants: Restaurant[] = [
         calories: 350,
         price: 9.99,
         isOptimal: true,
-        description: 'Mixed greens, grilled chicken, veggies'
+        description: 'Mixed greens, grilled chicken, veggies',
+        mealType: 'breakfast'
       }
     ]
   },
@@ -4414,7 +4758,8 @@ export const restaurants: Restaurant[] = [
         calories: 350,
         price: 7.99,
         isOptimal: true,
-        description: 'Grilled chicken on greens'
+        description: 'Grilled chicken on greens',
+        mealType: 'lunch'
       },
       {
         id: 'jib-2',
@@ -4425,7 +4770,8 @@ export const restaurants: Restaurant[] = [
         calories: 370,
         price: 6.99,
         isOptimal: true,
-        description: 'Burger without bun, lettuce wrap'
+        description: 'Burger without bun, lettuce wrap',
+        mealType: 'lunch'
       },
       {
         id: 'jib-3',
@@ -4436,7 +4782,8 @@ export const restaurants: Restaurant[] = [
         calories: 260,
         price: 4.99,
         isOptimal: true,
-        description: 'Egg, ham, cheese - no bun'
+        description: 'Egg, ham, cheese - no bun',
+        mealType: 'breakfast'
       },
       {
         id: 'jib-4',
@@ -4447,7 +4794,8 @@ export const restaurants: Restaurant[] = [
         calories: 330,
         price: 7.49,
         isOptimal: true,
-        description: 'Grilled chicken, bacon, cheese, no bread'
+        description: 'Grilled chicken, bacon, cheese, no bread',
+        mealType: 'anytime'
       }
     ]
   },
@@ -4464,7 +4812,8 @@ export const restaurants: Restaurant[] = [
         calories: 280,
         price: 6.99,
         isOptimal: true,
-        description: 'Grilled chicken breast, no bun'
+        description: 'Grilled chicken breast, no bun',
+        mealType: 'dinner'
       },
       {
         id: 'chk-2',
@@ -4475,7 +4824,8 @@ export const restaurants: Restaurant[] = [
         calories: 500,
         price: 7.99,
         isOptimal: true,
-        description: 'Double burger, cheese, bacon, no bun'
+        description: 'Double burger, cheese, bacon, no bun',
+        mealType: 'anytime'
       },
       {
         id: 'chk-3',
@@ -4486,7 +4836,8 @@ export const restaurants: Restaurant[] = [
         calories: 240,
         price: 5.99,
         isOptimal: true,
-        description: 'Grilled chicken bites'
+        description: 'Grilled chicken bites',
+        mealType: 'anytime'
       },
       {
         id: 'chk-4',
@@ -4497,7 +4848,8 @@ export const restaurants: Restaurant[] = [
         calories: 390,
         price: 6.49,
         isOptimal: true,
-        description: 'Bacon, cheese, ranch - skip the fries'
+        description: 'Bacon, cheese, ranch - skip the fries',
+        mealType: 'snack'
       }
     ]
   },
@@ -4515,7 +4867,8 @@ export const restaurants: Restaurant[] = [
         calories: 260,
         price: 6.49,
         isOptimal: true,
-        description: 'Seasoned grilled chicken'
+        description: 'Seasoned grilled chicken',
+        mealType: 'anytime'
       },
       {
         id: 'ral-2',
@@ -4526,7 +4879,8 @@ export const restaurants: Restaurant[] = [
         calories: 540,
         price: 8.49,
         isOptimal: true,
-        description: 'Bacon cheeseburger without bun'
+        description: 'Bacon cheeseburger without bun',
+        mealType: 'anytime'
       }
     ]
   },
@@ -4543,7 +4897,8 @@ export const restaurants: Restaurant[] = [
         calories: 260,
         price: 5.99,
         isOptimal: true,
-        description: 'Plain grilled chicken'
+        description: 'Plain grilled chicken',
+        mealType: 'dinner'
       },
       {
         id: 'cok-2',
@@ -4554,7 +4909,8 @@ export const restaurants: Restaurant[] = [
         calories: 350,
         price: 4.99,
         isOptimal: true,
-        description: 'Charbroiled burger, no bun'
+        description: 'Charbroiled burger, no bun',
+        mealType: 'anytime'
       },
       {
         id: 'cok-3',
@@ -4565,7 +4921,8 @@ export const restaurants: Restaurant[] = [
         calories: 310,
         price: 4.49,
         isOptimal: true,
-        description: 'Bacon, lettuce, tomato in a bowl'
+        description: 'Bacon, lettuce, tomato in a bowl',
+        mealType: 'lunch'
       },
       {
         id: 'cok-4',
@@ -4576,7 +4933,8 @@ export const restaurants: Restaurant[] = [
         calories: 300,
         price: 4.99,
         isOptimal: true,
-        description: 'Half cheese quesadilla, keto-friendly portion'
+        description: 'Half cheese quesadilla, keto-friendly portion',
+        mealType: 'anytime'
       }
     ]
   }
