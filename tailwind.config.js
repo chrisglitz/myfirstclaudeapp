@@ -9,9 +9,11 @@ module.exports = {
     extend: {
       colors: {
         keto: {
-          primary: '#10b981',
-          secondary: '#059669',
-          dark: '#047857',
+          primary: '#059669',     // Darker, higher contrast green
+          secondary: '#047857',   // Even darker for better visibility
+          dark: '#065f46',        // Much darker for text
+          light: '#10b981',       // Lighter accent
+          bg: '#f0fdf4',          // Light green background
         },
       },
     },

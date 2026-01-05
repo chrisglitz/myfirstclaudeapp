@@ -231,6 +231,28 @@ export const restaurants: Restaurant[] = [
         price: 10.95,
         isOptimal: true,
         description: 'Chicken, fajita veggies, cheese, guac, salsa'
+      },
+      {
+        id: 'chip-3',
+        name: 'Steak Salad Bowl',
+        carbs: 8,
+        protein: 38,
+        fat: 30,
+        calories: 460,
+        price: 12.50,
+        isOptimal: true,
+        description: 'Steak, romaine, cheese, sour cream, salsa, no tortilla strips'
+      },
+      {
+        id: 'chip-4',
+        name: 'Barbacoa Bowl (no rice/beans)',
+        carbs: 6,
+        protein: 35,
+        fat: 26,
+        calories: 410,
+        price: 11.95,
+        isOptimal: true,
+        description: 'Barbacoa beef, fajita veggies, cheese, guac, hot salsa'
       }
     ]
   },
@@ -260,6 +282,28 @@ export const restaurants: Restaurant[] = [
         price: 9.49,
         isOptimal: true,
         description: 'Grilled chicken, bacon, ranch, cheese, veggies'
+      },
+      {
+        id: 'sub-3',
+        name: 'Rotisserie Chicken Protein Bowl',
+        carbs: 7,
+        protein: 32,
+        fat: 20,
+        calories: 340,
+        price: 9.99,
+        isOptimal: true,
+        description: 'Rotisserie chicken, double cheese, all veggies, ranch'
+      },
+      {
+        id: 'sub-4',
+        name: 'Turkey Breast Protein Bowl',
+        carbs: 5,
+        protein: 28,
+        fat: 18,
+        calories: 300,
+        price: 8.99,
+        isOptimal: true,
+        description: 'Turkey, cheese, avocado, veggies, oil & vinegar'
       }
     ]
   },
@@ -289,6 +333,28 @@ export const restaurants: Restaurant[] = [
         price: 8.49,
         isOptimal: true,
         description: 'Single patty, cheese, veggies, no bun'
+      },
+      {
+        id: 'fg-3',
+        name: 'Bacon Dog (no bun)',
+        carbs: 4,
+        protein: 18,
+        fat: 32,
+        calories: 380,
+        price: 7.99,
+        isOptimal: true,
+        description: 'Hot dog wrapped in bacon, cheese, no bun'
+      },
+      {
+        id: 'fg-4',
+        name: 'Little Bacon Burger (no bun)',
+        carbs: 6,
+        protein: 26,
+        fat: 34,
+        calories: 420,
+        price: 9.49,
+        isOptimal: true,
+        description: 'Single patty, bacon, cheese, all toppings'
       }
     ]
   },
@@ -329,6 +395,17 @@ export const restaurants: Restaurant[] = [
         price: 8.99,
         isOptimal: true,
         description: 'Grilled chicken, bacon, cheese, lettuce, tomato'
+      },
+      {
+        id: 'cfa-4',
+        name: 'Spicy Southwest Salad',
+        carbs: 8,
+        protein: 36,
+        fat: 26,
+        calories: 410,
+        price: 10.99,
+        isOptimal: true,
+        description: 'Grilled chicken, corn salsa, peppers, cheese, no corn'
       }
     ]
   },
@@ -358,6 +435,28 @@ export const restaurants: Restaurant[] = [
         price: 9.99,
         isOptimal: false,
         description: 'Crispy portobello, cheese, lettuce-wrapped'
+      },
+      {
+        id: 'ss-3',
+        name: 'Smoke Shack Burger (lettuce wrap)',
+        carbs: 9,
+        protein: 28,
+        fat: 40,
+        calories: 530,
+        price: 10.99,
+        isOptimal: true,
+        description: 'Bacon, cherry peppers, ShackSauce, lettuce-wrapped'
+      },
+      {
+        id: 'ss-4',
+        name: 'Hot Chicken (no bun)',
+        carbs: 7,
+        protein: 32,
+        fat: 24,
+        calories: 380,
+        price: 9.99,
+        isOptimal: true,
+        description: 'Spicy chicken breast, pickles, buttermilk herb mayo'
       }
     ]
   },
@@ -387,6 +486,28 @@ export const restaurants: Restaurant[] = [
         price: 8.99,
         isOptimal: true,
         description: 'Triple meat, triple cheese, lettuce wrap'
+      },
+      {
+        id: 'ino-3',
+        name: '4x4 Protein Style',
+        carbs: 10,
+        protein: 64,
+        fat: 72,
+        calories: 960,
+        price: 10.99,
+        isOptimal: true,
+        description: 'Four patties, four cheese, ultimate protein bomb'
+      },
+      {
+        id: 'ino-4',
+        name: 'Cheeseburger Protein Style',
+        carbs: 7,
+        protein: 18,
+        fat: 22,
+        calories: 310,
+        price: 4.99,
+        isOptimal: true,
+        description: 'Single patty, cheese, grilled onions, lettuce wrap'
       }
     ]
   },
@@ -427,6 +548,17 @@ export const restaurants: Restaurant[] = [
         price: 9.99,
         isOptimal: true,
         description: 'Remove apples and cranberries, extra pecans'
+      },
+      {
+        id: 'wen-4',
+        name: 'Dave\'s Double (no bun)',
+        carbs: 8,
+        protein: 56,
+        fat: 50,
+        calories: 710,
+        price: 10.49,
+        isOptimal: true,
+        description: 'Two beef patties, cheese, lettuce, tomato, mayo'
       }
     ]
   },
@@ -456,6 +588,28 @@ export const restaurants: Restaurant[] = [
         price: 9.99,
         isOptimal: true,
         description: 'Two patties, bacon, cheese, special sauce'
+      },
+      {
+        id: 'bk-3',
+        name: 'Garden Side Salad with Grilled Chicken',
+        carbs: 8,
+        protein: 34,
+        fat: 22,
+        calories: 370,
+        price: 8.49,
+        isOptimal: true,
+        description: 'Grilled chicken, greens, veggies, ranch dressing'
+      },
+      {
+        id: 'bk-4',
+        name: 'Double Whopper (no bun)',
+        carbs: 10,
+        protein: 52,
+        fat: 62,
+        calories: 820,
+        price: 10.99,
+        isOptimal: true,
+        description: 'Two flame-grilled patties, cheese, all veggies'
       }
     ]
   },
@@ -485,6 +639,28 @@ export const restaurants: Restaurant[] = [
         price: 8.99,
         isOptimal: true,
         description: 'Swap crispy for roast beef, bacon, cheese, ranch'
+      },
+      {
+        id: 'arb-3',
+        name: 'Beef n Cheddar (no bun)',
+        carbs: 6,
+        protein: 26,
+        fat: 20,
+        calories: 310,
+        price: 7.49,
+        isOptimal: true,
+        description: 'Roast beef, cheddar sauce, red ranch, no bun'
+      },
+      {
+        id: 'arb-4',
+        name: 'Smokehouse Brisket (no bun)',
+        carbs: 7,
+        protein: 30,
+        fat: 24,
+        calories: 360,
+        price: 8.99,
+        isOptimal: true,
+        description: 'Smoked brisket, cheese, pickles, no bread'
       }
     ]
   },
@@ -514,6 +690,28 @@ export const restaurants: Restaurant[] = [
         price: 8.99,
         isOptimal: true,
         description: 'Remove breading, keep the skin for fat'
+      },
+      {
+        id: 'pop-3',
+        name: 'Naked Tenders (5pc)',
+        carbs: 3,
+        protein: 32,
+        fat: 8,
+        calories: 200,
+        price: 7.99,
+        isOptimal: true,
+        description: 'No breading chicken tenders, perfect keto'
+      },
+      {
+        id: 'pop-4',
+        name: 'Chicken Livers',
+        carbs: 4,
+        protein: 24,
+        fat: 18,
+        calories: 280,
+        price: 6.49,
+        isOptimal: true,
+        description: 'Fried chicken livers, nutrient-dense keto option'
       }
     ]
   },
@@ -543,6 +741,28 @@ export const restaurants: Restaurant[] = [
         price: 2.99,
         isOptimal: true,
         description: 'Low-carb veggie side'
+      },
+      {
+        id: 'kfc-3',
+        name: 'Grilled Chicken Thigh & Drumstick',
+        carbs: 0,
+        protein: 34,
+        fat: 16,
+        calories: 290,
+        price: 6.49,
+        isOptimal: true,
+        description: 'Kentucky Grilled dark meat combo'
+      },
+      {
+        id: 'kfc-4',
+        name: 'Original Recipe Chicken (skin, no breading)',
+        carbs: 6,
+        protein: 40,
+        fat: 38,
+        calories: 510,
+        price: 7.99,
+        isOptimal: true,
+        description: 'Remove breading, enjoy the seasoned skin'
       }
     ]
   },
@@ -572,6 +792,28 @@ export const restaurants: Restaurant[] = [
         price: 5.99,
         isOptimal: true,
         description: 'Just the filling in a bowl'
+      },
+      {
+        id: 'tb-3',
+        name: 'Carne Asada Bowl (no rice/beans/tortilla)',
+        carbs: 8,
+        protein: 28,
+        fat: 24,
+        calories: 370,
+        price: 8.49,
+        isOptimal: true,
+        description: 'Grilled steak, lettuce, pico, sour cream, cheese'
+      },
+      {
+        id: 'tb-4',
+        name: 'Chicken Power Bowl (no rice/beans)',
+        carbs: 9,
+        protein: 30,
+        fat: 22,
+        calories: 360,
+        price: 7.99,
+        isOptimal: true,
+        description: 'Grilled chicken, lettuce, avocado ranch, cheese, veggies'
       }
     ]
   },
@@ -601,6 +843,28 @@ export const restaurants: Restaurant[] = [
         price: 10.99,
         isOptimal: true,
         description: 'Grilled chicken, veggies, cheese, salsa, no carbs'
+      },
+      {
+        id: 'qdo-3',
+        name: 'Grilled Adobo Chicken Bowl (no rice/beans)',
+        carbs: 9,
+        protein: 42,
+        fat: 22,
+        calories: 400,
+        price: 11.49,
+        isOptimal: true,
+        description: 'Adobo chicken, fajita veggies, queso, lettuce'
+      },
+      {
+        id: 'qdo-4',
+        name: 'Surf & Turf Bowl (no rice/beans)',
+        carbs: 8,
+        protein: 38,
+        fat: 28,
+        calories: 440,
+        price: 13.99,
+        isOptimal: true,
+        description: 'Steak and shrimp, fajita veggies, guac, cheese'
       }
     ]
   },
@@ -630,6 +894,28 @@ export const restaurants: Restaurant[] = [
         price: 10.49,
         isOptimal: true,
         description: 'Grilled chicken, romaine, Caesar, parmesan'
+      },
+      {
+        id: 'moe-3',
+        name: 'Fajita Bowl - Carnitas (no rice/beans)',
+        carbs: 8,
+        protein: 34,
+        fat: 26,
+        calories: 410,
+        price: 11.49,
+        isOptimal: true,
+        description: 'Pulled pork, peppers, onions, cheese, guac, salsa'
+      },
+      {
+        id: 'moe-4',
+        name: 'Taco Salad (no shell, no beans/rice)',
+        carbs: 9,
+        protein: 36,
+        fat: 30,
+        calories: 460,
+        price: 11.99,
+        isOptimal: true,
+        description: 'Your choice protein, lettuce, cheese, sour cream, guac'
       }
     ]
   },
@@ -659,6 +945,28 @@ export const restaurants: Restaurant[] = [
         price: 11.49,
         isOptimal: true,
         description: 'Grilled chicken, romaine, parmesan, no croutons'
+      },
+      {
+        id: 'pan-3',
+        name: 'Mediterranean Bowl with Chicken (no grains)',
+        carbs: 9,
+        protein: 38,
+        fat: 26,
+        calories: 440,
+        price: 12.49,
+        isOptimal: true,
+        description: 'Grilled chicken, arugula, cucumbers, feta, olives, no quinoa'
+      },
+      {
+        id: 'pan-4',
+        name: 'Steak & Arugula Sandwich (no bread)',
+        carbs: 7,
+        protein: 34,
+        fat: 30,
+        calories: 430,
+        price: 13.99,
+        isOptimal: true,
+        description: 'Sirloin steak, arugula, tomatoes, onions, horseradish sauce'
       }
     ]
   },
@@ -688,6 +996,28 @@ export const restaurants: Restaurant[] = [
         price: 11.99,
         isOptimal: true,
         description: 'Steak, cheese, peppers, onions, no bread'
+      },
+      {
+        id: 'jm-3',
+        name: '#9 Club Supreme (sub in a tub)',
+        carbs: 6,
+        protein: 30,
+        fat: 26,
+        calories: 380,
+        price: 10.49,
+        isOptimal: true,
+        description: 'Turkey, ham, bacon, provolone, mayo, no bread'
+      },
+      {
+        id: 'jm-4',
+        name: '#43 Chipotle Cheese Steak (sub in a tub)',
+        carbs: 9,
+        protein: 34,
+        fat: 30,
+        calories: 440,
+        price: 11.49,
+        isOptimal: true,
+        description: 'Steak, white American, jalapeños, chipotle mayo, no bread'
       }
     ]
   },
@@ -717,6 +1047,28 @@ export const restaurants: Restaurant[] = [
         price: 9.49,
         isOptimal: true,
         description: 'Turkey, lettuce, tomato, mayo, lettuce-wrapped'
+      },
+      {
+        id: 'jj-3',
+        name: 'Unwich - Vito',
+        carbs: 7,
+        protein: 26,
+        fat: 28,
+        calories: 390,
+        price: 10.49,
+        isOptimal: true,
+        description: 'Salami, capicola, provolone, lettuce, oil & vinegar'
+      },
+      {
+        id: 'jj-4',
+        name: 'Unwich - Beach Club',
+        carbs: 6,
+        protein: 28,
+        fat: 22,
+        calories: 340,
+        price: 10.99,
+        isOptimal: true,
+        description: 'Turkey, provolone, avocado, cucumber, lettuce wrap'
       }
     ]
   },
@@ -746,6 +1098,28 @@ export const restaurants: Restaurant[] = [
         price: 11.49,
         isOptimal: true,
         description: 'Salami, pepperoni, ham, provolone, Italian dressing'
+      },
+      {
+        id: 'fh-3',
+        name: 'Engineer Salad',
+        carbs: 8,
+        protein: 32,
+        fat: 28,
+        calories: 410,
+        price: 11.99,
+        isOptimal: true,
+        description: 'Smoked turkey breast, melted Swiss, sautéed mushrooms'
+      },
+      {
+        id: 'fh-4',
+        name: 'Smokehouse Beef & Cheddar Brisket Salad',
+        carbs: 9,
+        protein: 36,
+        fat: 34,
+        calories: 480,
+        price: 12.49,
+        isOptimal: true,
+        description: 'USDA choice beef brisket, cheddar, mayo, no bread'
       }
     ]
   },
@@ -775,6 +1149,28 @@ export const restaurants: Restaurant[] = [
         price: 7.45,
         isOptimal: true,
         description: 'Hard-boiled eggs, cheese, no apple or grapes'
+      },
+      {
+        id: 'sbux-3',
+        name: 'Impossible Breakfast Sandwich (no bread)',
+        carbs: 8,
+        protein: 24,
+        fat: 22,
+        calories: 330,
+        price: 6.75,
+        isOptimal: true,
+        description: 'Impossible sausage, egg, cheddar, no muffin'
+      },
+      {
+        id: 'sbux-4',
+        name: 'Turkey Bacon & Egg White Bites (2pc)',
+        carbs: 6,
+        protein: 18,
+        fat: 16,
+        calories: 250,
+        price: 5.95,
+        isOptimal: true,
+        description: 'Sous vide egg whites, turkey bacon, Monterey Jack'
       }
     ]
   },
@@ -804,6 +1200,28 @@ export const restaurants: Restaurant[] = [
         price: 5.49,
         isOptimal: true,
         description: 'Just the bacon, egg, and cheese filling'
+      },
+      {
+        id: 'dun-3',
+        name: 'Sausage Egg & Cheese (no bread)',
+        carbs: 5,
+        protein: 24,
+        fat: 28,
+        calories: 360,
+        price: 5.99,
+        isOptimal: true,
+        description: 'Sausage patty, egg, American cheese, no croissant'
+      },
+      {
+        id: 'dun-4',
+        name: 'Turkey Sausage Flatbread (no flatbread)',
+        carbs: 6,
+        protein: 26,
+        fat: 22,
+        calories: 330,
+        price: 6.49,
+        isOptimal: true,
+        description: 'Turkey sausage, egg whites, cheese filling only'
       }
     ]
   },
@@ -833,6 +1251,28 @@ export const restaurants: Restaurant[] = [
         price: 17.99,
         isOptimal: true,
         description: 'Grilled chicken, tomatoes, mozzarella, no pasta'
+      },
+      {
+        id: 'og-3',
+        name: 'Tuscan Sirloin (9oz)',
+        carbs: 6,
+        protein: 52,
+        fat: 34,
+        calories: 520,
+        price: 21.99,
+        isOptimal: true,
+        description: '9oz sirloin, grilled veggies, no potatoes'
+      },
+      {
+        id: 'og-4',
+        name: 'Shrimp Scampi (no pasta)',
+        carbs: 7,
+        protein: 38,
+        fat: 26,
+        calories: 410,
+        price: 19.99,
+        isOptimal: true,
+        description: 'Sautéed shrimp in garlic butter, sub broccoli for pasta'
       }
     ]
   },
@@ -873,6 +1313,17 @@ export const restaurants: Restaurant[] = [
         price: 32.99,
         isOptimal: true,
         description: 'Seafood trio, no rice or potatoes'
+      },
+      {
+        id: 'rl-4',
+        name: 'Grilled Atlantic Salmon (7oz)',
+        carbs: 5,
+        protein: 40,
+        fat: 26,
+        calories: 410,
+        price: 18.99,
+        isOptimal: true,
+        description: 'Wood-grilled salmon, broccoli, garden salad'
       }
     ]
   },
@@ -913,6 +1364,17 @@ export const restaurants: Restaurant[] = [
         price: 15.99,
         isOptimal: true,
         description: 'Seasoned grilled chicken, veggie sides only'
+      },
+      {
+        id: 'out-4',
+        name: 'Baby Back Ribs (half rack, dry rub)',
+        carbs: 8,
+        protein: 42,
+        fat: 36,
+        calories: 520,
+        price: 19.99,
+        isOptimal: true,
+        description: 'Slow-cooked ribs with dry rub, no BBQ sauce, veggie sides'
       }
     ]
   },
@@ -953,6 +1415,17 @@ export const restaurants: Restaurant[] = [
         price: 18.99,
         isOptimal: true,
         description: 'Perfectly grilled salmon, green beans and salad'
+      },
+      {
+        id: 'tr-4',
+        name: 'Filet Medallions (6oz)',
+        carbs: 2,
+        protein: 44,
+        fat: 30,
+        calories: 440,
+        price: 22.99,
+        isOptimal: true,
+        description: 'Tender filet medallions with mushrooms, veggie sides'
       }
     ]
   },
@@ -993,6 +1466,17 @@ export const restaurants: Restaurant[] = [
         price: 12.99,
         isOptimal: true,
         description: 'Grilled chicken, greens, veggies, ranch'
+      },
+      {
+        id: 'bww-4',
+        name: 'Traditional Wings (10pc) - Garlic Parmesan',
+        carbs: 6,
+        protein: 50,
+        fat: 44,
+        calories: 640,
+        price: 14.99,
+        isOptimal: true,
+        description: 'Traditional wings with garlic parm seasoning'
       }
     ]
   },
@@ -1022,6 +1506,28 @@ export const restaurants: Restaurant[] = [
         price: 19.99,
         isOptimal: true,
         description: '8oz sirloin with grilled shrimp, veggie sides'
+      },
+      {
+        id: 'app-3',
+        name: 'Grilled Chicken Breast',
+        carbs: 3,
+        protein: 46,
+        fat: 14,
+        calories: 310,
+        price: 14.99,
+        isOptimal: true,
+        description: 'Simply grilled chicken with broccoli and house salad'
+      },
+      {
+        id: 'app-4',
+        name: 'Blackened Cajun Salmon',
+        carbs: 7,
+        protein: 42,
+        fat: 28,
+        calories: 440,
+        price: 17.99,
+        isOptimal: true,
+        description: 'Blackened salmon with garlic butter, veggie sides'
       }
     ]
   },
@@ -1051,6 +1557,28 @@ export const restaurants: Restaurant[] = [
         price: 14.99,
         isOptimal: true,
         description: 'Chicken, bacon, avocado, eggs, cheese, no croutons'
+      },
+      {
+        id: 'tgif-3',
+        name: 'Sizzling Chicken & Shrimp (no rice)',
+        carbs: 8,
+        protein: 50,
+        fat: 30,
+        calories: 490,
+        price: 19.99,
+        isOptimal: true,
+        description: 'Grilled chicken and shrimp with veggies, no rice'
+      },
+      {
+        id: 'tgif-4',
+        name: 'Dragon-Glazed Salmon (no glaze)',
+        carbs: 6,
+        protein: 44,
+        fat: 28,
+        calories: 450,
+        price: 20.99,
+        isOptimal: true,
+        description: 'Grilled salmon with broccoli, skip the sweet glaze'
       }
     ]
   },
@@ -1080,6 +1608,28 @@ export const restaurants: Restaurant[] = [
         price: 13.99,
         isOptimal: true,
         description: 'Grilled chicken, cheese, avocado, no tortilla strips'
+      },
+      {
+        id: 'chi-3',
+        name: 'Classic Sirloin (6oz)',
+        carbs: 3,
+        protein: 42,
+        fat: 24,
+        calories: 390,
+        price: 16.99,
+        isOptimal: true,
+        description: 'USDA Choice sirloin, broccoli and side salad'
+      },
+      {
+        id: 'chi-4',
+        name: 'Grilled Chicken with Garlic & Lime',
+        carbs: 5,
+        protein: 50,
+        fat: 20,
+        calories: 390,
+        price: 15.99,
+        isOptimal: true,
+        description: 'Marinated chicken breast, steamed broccoli, no rice'
       }
     ]
   },
@@ -1109,6 +1659,28 @@ export const restaurants: Restaurant[] = [
         price: 13.99,
         isOptimal: true,
         description: 'Lettuce-wrapped burger with bacon and guac'
+      },
+      {
+        id: 'rr-3',
+        name: 'Simply Grilled Chicken Salad',
+        carbs: 7,
+        protein: 40,
+        fat: 24,
+        calories: 400,
+        price: 12.99,
+        isOptimal: true,
+        description: 'Grilled chicken, mixed greens, veggies, ranch dressing'
+      },
+      {
+        id: 'rr-4',
+        name: 'Whiskey River BBQ Burger (lettuce wrap, no BBQ)',
+        carbs: 8,
+        protein: 38,
+        fat: 40,
+        calories: 550,
+        price: 14.49,
+        isOptimal: true,
+        description: 'Bacon, cheddar, lettuce wrap, skip BBQ sauce and onion straws'
       }
     ]
   },
@@ -1149,6 +1721,17 @@ export const restaurants: Restaurant[] = [
         price: 16.99,
         isOptimal: true,
         description: 'Seasoned grilled shrimp, broccoli side'
+      },
+      {
+        id: 'lh-4',
+        name: 'Grilled Salmon (7oz)',
+        carbs: 4,
+        protein: 42,
+        fat: 28,
+        calories: 420,
+        price: 19.99,
+        isOptimal: true,
+        description: 'Fresh Atlantic salmon, veggie sides, no rice'
       }
     ]
   },
@@ -1189,6 +1772,17 @@ export const restaurants: Restaurant[] = [
         price: 12.99,
         isOptimal: true,
         description: 'Steamed vegetables, request no sauce'
+      },
+      {
+        id: 'pfc-4',
+        name: 'Ginger Chicken with Broccoli (no rice)',
+        carbs: 9,
+        protein: 44,
+        fat: 22,
+        calories: 410,
+        price: 17.99,
+        isOptimal: true,
+        description: 'Wok-seared chicken with ginger and broccoli, no rice'
       }
     ]
   },
@@ -1218,6 +1812,28 @@ export const restaurants: Restaurant[] = [
         price: 12.99,
         isOptimal: true,
         description: 'Request without breading, veggie sides only'
+      },
+      {
+        id: 'cb-3',
+        name: 'Grilled Chicken Tenderloins',
+        carbs: 4,
+        protein: 48,
+        fat: 20,
+        calories: 380,
+        price: 13.99,
+        isOptimal: true,
+        description: 'Grilled chicken tenders, green beans and salad'
+      },
+      {
+        id: 'cb-4',
+        name: 'Farmhouse Breakfast (eggs & sausage)',
+        carbs: 3,
+        protein: 36,
+        fat: 42,
+        calories: 520,
+        price: 11.99,
+        isOptimal: true,
+        description: 'Eggs, sausage, bacon - no biscuits or hash browns'
       }
     ]
   },
@@ -1247,6 +1863,28 @@ export const restaurants: Restaurant[] = [
         price: 13.99,
         isOptimal: true,
         description: 'Grilled chicken with green beans and side salad'
+      },
+      {
+        id: 'be-3',
+        name: 'Sirloin Steak (8oz)',
+        carbs: 2,
+        protein: 48,
+        fat: 30,
+        calories: 460,
+        price: 16.99,
+        isOptimal: true,
+        description: 'USDA Choice sirloin, broccoli and house salad'
+      },
+      {
+        id: 'be-4',
+        name: 'Sausage & Egg Breakfast',
+        carbs: 3,
+        protein: 34,
+        fat: 40,
+        calories: 500,
+        price: 9.99,
+        isOptimal: true,
+        description: 'Sausage links, scrambled eggs, no bread or potatoes'
       }
     ]
   },
@@ -1276,6 +1914,28 @@ export const restaurants: Restaurant[] = [
         price: 13.99,
         isOptimal: true,
         description: 'Grilled chicken with veggies, request no potatoes'
+      },
+      {
+        id: 'den-3',
+        name: 'T-Bone Steak (10oz)',
+        carbs: 2,
+        protein: 52,
+        fat: 36,
+        calories: 520,
+        price: 18.99,
+        isOptimal: true,
+        description: 'Grilled steak with broccoli and salad, no potato'
+      },
+      {
+        id: 'den-4',
+        name: 'Ultimate Omelette',
+        carbs: 6,
+        protein: 40,
+        fat: 44,
+        calories: 580,
+        price: 12.99,
+        isOptimal: true,
+        description: 'Ham, cheese, bacon, sausage - no bread or hash browns'
       }
     ]
   },
@@ -1305,6 +1965,28 @@ export const restaurants: Restaurant[] = [
         price: 12.99,
         isOptimal: true,
         description: 'Plain grilled chicken with steamed broccoli'
+      },
+      {
+        id: 'ihop-3',
+        name: 'Build Your Own Omelette (3-egg)',
+        carbs: 6,
+        protein: 36,
+        fat: 40,
+        calories: 530,
+        price: 10.99,
+        isOptimal: true,
+        description: 'Eggs, cheese, bacon, veggies - no pancakes or hash browns'
+      },
+      {
+        id: 'ihop-4',
+        name: 'Sirloin Steak Tips',
+        carbs: 4,
+        protein: 46,
+        fat: 28,
+        calories: 440,
+        price: 15.99,
+        isOptimal: true,
+        description: 'Grilled steak tips with vegetables, no potatoes'
       }
     ]
   },
@@ -1334,6 +2016,28 @@ export const restaurants: Restaurant[] = [
         price: 14.99,
         isOptimal: true,
         description: 'Salad bar with proteins, cheese, eggs, low-carb veggies'
+      },
+      {
+        id: 'ruby-3',
+        name: 'Petite Sirloin (6oz)',
+        carbs: 2,
+        protein: 40,
+        fat: 22,
+        calories: 370,
+        price: 15.99,
+        isOptimal: true,
+        description: 'Grilled sirloin with broccoli and salad bar'
+      },
+      {
+        id: 'ruby-4',
+        name: 'Grilled Chicken with Broccoli',
+        carbs: 5,
+        protein: 48,
+        fat: 18,
+        calories: 370,
+        price: 14.99,
+        isOptimal: true,
+        description: 'Simply grilled chicken breast with steamed broccoli'
       }
     ]
   },
@@ -1363,6 +2067,28 @@ export const restaurants: Restaurant[] = [
         price: 9.99,
         isOptimal: true,
         description: 'Grilled chicken, romaine, parmesan, no croutons'
+      },
+      {
+        id: 'ph-3',
+        name: 'Bone-In Wings (6pc) - Garlic Parmesan',
+        carbs: 5,
+        protein: 36,
+        fat: 30,
+        calories: 420,
+        price: 10.99,
+        isOptimal: true,
+        description: 'Traditional wings with garlic parmesan seasoning'
+      },
+      {
+        id: 'ph-4',
+        name: 'Garden Salad with Grilled Chicken',
+        carbs: 8,
+        protein: 30,
+        fat: 22,
+        calories: 350,
+        price: 9.49,
+        isOptimal: true,
+        description: 'Mixed greens, chicken, cheese, ranch dressing'
       }
     ]
   },
@@ -1392,6 +2118,28 @@ export const restaurants: Restaurant[] = [
         price: 7.99,
         isOptimal: true,
         description: 'Mixed greens, veggies, Italian dressing'
+      },
+      {
+        id: 'dom-3',
+        name: 'Hot Buffalo Wings (10pc)',
+        carbs: 3,
+        protein: 54,
+        fat: 34,
+        calories: 520,
+        price: 12.99,
+        isOptimal: true,
+        description: 'Bone-in wings with hot buffalo sauce'
+      },
+      {
+        id: 'dom-4',
+        name: 'Chicken Caesar Salad',
+        carbs: 7,
+        protein: 36,
+        fat: 24,
+        calories: 380,
+        price: 9.99,
+        isOptimal: true,
+        description: 'Grilled chicken, romaine, parmesan, Caesar dressing'
       }
     ]
   },
@@ -1421,6 +2169,28 @@ export const restaurants: Restaurant[] = [
         price: 10.99,
         isOptimal: true,
         description: 'Chicken, bacon, cheese, ranch - no crust'
+      },
+      {
+        id: 'pj-3',
+        name: 'Buffalo Wings (8pc)',
+        carbs: 4,
+        protein: 46,
+        fat: 30,
+        calories: 460,
+        price: 11.99,
+        isOptimal: true,
+        description: 'Traditional bone-in wings with buffalo sauce'
+      },
+      {
+        id: 'pj-4',
+        name: 'Garden Fresh Salad with Grilled Chicken',
+        carbs: 7,
+        protein: 34,
+        fat: 22,
+        calories: 360,
+        price: 9.49,
+        isOptimal: true,
+        description: 'Mixed greens, grilled chicken, veggies, Italian dressing'
       }
     ]
   },
@@ -1450,6 +2220,28 @@ export const restaurants: Restaurant[] = [
         price: 8.99,
         isOptimal: true,
         description: 'Ham, turkey, bacon, cheese, veggies'
+      },
+      {
+        id: 'pm-3',
+        name: 'Italian Salad',
+        carbs: 7,
+        protein: 30,
+        fat: 30,
+        calories: 410,
+        price: 9.49,
+        isOptimal: true,
+        description: 'Salami, pepperoni, cheese, Italian dressing'
+      },
+      {
+        id: 'pm-4',
+        name: 'Caesar Salad with Chicken',
+        carbs: 8,
+        protein: 32,
+        fat: 24,
+        calories: 370,
+        price: 9.99,
+        isOptimal: true,
+        description: 'Grilled chicken, romaine, parmesan, Caesar dressing'
       }
     ]
   },
@@ -1479,6 +2271,28 @@ export const restaurants: Restaurant[] = [
         price: 16.99,
         isOptimal: true,
         description: 'Seasoned grilled chicken with fresh veggies'
+      },
+      {
+        id: 'bjs-3',
+        name: 'Atlantic Salmon',
+        carbs: 5,
+        protein: 44,
+        fat: 28,
+        calories: 440,
+        price: 21.99,
+        isOptimal: true,
+        description: 'Grilled salmon with asparagus and side salad'
+      },
+      {
+        id: 'bjs-4',
+        name: 'Enlightened Kale & Roasted Brussels Sprouts Salad',
+        carbs: 9,
+        protein: 36,
+        fat: 26,
+        calories: 420,
+        price: 15.99,
+        isOptimal: true,
+        description: 'Grilled chicken, kale, Brussels sprouts, bacon'
       }
     ]
   },
@@ -1508,6 +2322,28 @@ export const restaurants: Restaurant[] = [
         price: 18.99,
         isOptimal: true,
         description: 'Chicken, bacon, eggs, cheese, avocado, no croutons'
+      },
+      {
+        id: 'ccf-3',
+        name: 'Fresh Grilled Salmon',
+        carbs: 6,
+        protein: 48,
+        fat: 32,
+        calories: 500,
+        price: 26.99,
+        isOptimal: true,
+        description: 'Grilled salmon with asparagus and broccoli'
+      },
+      {
+        id: 'ccf-4',
+        name: 'SkinnyLicious Grilled Turkey Burger (no bun)',
+        carbs: 8,
+        protein: 42,
+        fat: 24,
+        calories: 410,
+        price: 16.99,
+        isOptimal: true,
+        description: 'Turkey burger with lettuce wrap, veggies'
       }
     ]
   },
@@ -1537,6 +2373,28 @@ export const restaurants: Restaurant[] = [
         price: 8.49,
         isOptimal: true,
         description: 'Grilled chicken on greens with ranch'
+      },
+      {
+        id: 'cj-3',
+        name: 'Lettuce-Wrapped Famous Star',
+        carbs: 9,
+        protein: 30,
+        fat: 36,
+        calories: 490,
+        price: 7.99,
+        isOptimal: true,
+        description: 'Charbroiled burger lettuce-wrapped with all toppings'
+      },
+      {
+        id: 'cj-4',
+        name: 'Bunless Double Western Bacon Cheeseburger',
+        carbs: 10,
+        protein: 42,
+        fat: 48,
+        calories: 640,
+        price: 10.49,
+        isOptimal: true,
+        description: 'Two patties, bacon, cheese - no bun, skip BBQ sauce'
       }
     ]
   },
@@ -1566,6 +2424,28 @@ export const restaurants: Restaurant[] = [
         price: 8.99,
         isOptimal: true,
         description: 'Grilled chicken, bacon, cheese on greens'
+      },
+      {
+        id: 'hd-3',
+        name: 'Low Carb Bacon Cheese Thickburger',
+        carbs: 9,
+        protein: 40,
+        fat: 50,
+        calories: 660,
+        price: 9.99,
+        isOptimal: true,
+        description: 'Lettuce wrap, 1/2 lb patty, bacon, cheese'
+      },
+      {
+        id: 'hd-4',
+        name: 'Bunless Monster Thickburger',
+        carbs: 10,
+        protein: 46,
+        fat: 56,
+        calories: 730,
+        price: 10.99,
+        isOptimal: true,
+        description: 'Two 1/3 lb patties, four bacon strips, three cheese slices, no bun'
       }
     ]
   },
@@ -1595,6 +2475,28 @@ export const restaurants: Restaurant[] = [
         price: 7.49,
         isOptimal: true,
         description: 'Grilled chicken breast, lettuce, tomato'
+      },
+      {
+        id: 'son-3',
+        name: 'SuperSONIC Double Cheeseburger (no bun)',
+        carbs: 8,
+        protein: 40,
+        fat: 44,
+        calories: 590,
+        price: 8.99,
+        isOptimal: true,
+        description: 'Two patties, double cheese, lettuce wrap'
+      },
+      {
+        id: 'son-4',
+        name: 'Crispy Bacon Ranch Salad (no crispy)',
+        carbs: 7,
+        protein: 28,
+        fat: 26,
+        calories: 370,
+        price: 7.99,
+        isOptimal: true,
+        description: 'Mixed greens, bacon, ranch - skip crispy chicken, use grilled'
       }
     ]
   },
@@ -1624,6 +2526,28 @@ export const restaurants: Restaurant[] = [
         price: 8.99,
         isOptimal: true,
         description: 'Grilled chicken, mixed greens, cheese, ranch'
+      },
+      {
+        id: 'what-3',
+        name: 'Double Meat Whataburger (no bun)',
+        carbs: 9,
+        protein: 46,
+        fat: 52,
+        calories: 680,
+        price: 10.49,
+        isOptimal: true,
+        description: 'Two patties, cheese, veggies - no bun'
+      },
+      {
+        id: 'what-4',
+        name: 'Whatachick\'n Sandwich (no bun)',
+        carbs: 6,
+        protein: 36,
+        fat: 18,
+        calories: 330,
+        price: 8.49,
+        isOptimal: true,
+        description: 'Grilled chicken breast, no bun, lettuce and tomato'
       }
     ]
   },
@@ -1653,6 +2577,28 @@ export const restaurants: Restaurant[] = [
         price: 7.99,
         isOptimal: true,
         description: 'Grilled chicken breast without bun'
+      },
+      {
+        id: 'cul-3',
+        name: 'Bacon Deluxe ButterBurger (no bun)',
+        carbs: 7,
+        protein: 38,
+        fat: 42,
+        calories: 560,
+        price: 9.49,
+        isOptimal: true,
+        description: 'Single patty, bacon, cheese, no bun'
+      },
+      {
+        id: 'cul-4',
+        name: 'Garden Fresco Salad with Grilled Chicken',
+        carbs: 8,
+        protein: 32,
+        fat: 22,
+        calories: 360,
+        price: 8.99,
+        isOptimal: true,
+        description: 'Fresh greens, chicken, cheese, ranch dressing'
       }
     ]
   },
@@ -1660,8 +2606,7 @@ export const restaurants: Restaurant[] = [
     id: 'panagrill',
     name: 'Panda Express',
     category: 'Asian',
-    meals: [
-      {
+    meals: [{
         id: 'panda-1',
         name: 'Grilled Teriyaki Chicken (no rice)',
         carbs: 9,
@@ -1682,6 +2627,28 @@ export const restaurants: Restaurant[] = [
         price: 9.49,
         isOptimal: true,
         description: 'Chicken and green beans, no rice'
+      },
+      {
+        id: 'panda-3',
+        name: 'Mushroom Chicken (no rice)',
+        carbs: 7,
+        protein: 24,
+        fat: 10,
+        calories: 220,
+        price: 9.49,
+        isOptimal: true,
+        description: 'Chicken and mushrooms, no rice or noodles'
+      },
+      {
+        id: 'panda-4',
+        name: 'Black Pepper Chicken (no rice)',
+        carbs: 9,
+        protein: 32,
+        fat: 16,
+        calories: 300,
+        price: 9.99,
+        isOptimal: true,
+        description: 'Spicy chicken in black pepper sauce, skip rice'
       }
     ]
   },
@@ -1689,8 +2656,7 @@ export const restaurants: Restaurant[] = [
     id: 'benihana',
     name: 'Benihana',
     category: 'Asian',
-    meals: [
-      {
+    meals: [{
         id: 'ben-1',
         name: 'Hibachi Steak (no rice)',
         carbs: 5,
@@ -1711,6 +2677,28 @@ export const restaurants: Restaurant[] = [
         price: 24.99,
         isOptimal: true,
         description: 'Grilled chicken breast with veggies, skip rice'
+      },
+      {
+        id: 'ben-3',
+        name: 'Hibachi Shrimp (no rice)',
+        carbs: 3,
+        protein: 32,
+        fat: 14,
+        calories: 260,
+        price: 26.99,
+        isOptimal: true,
+        description: 'Grilled shrimp with vegetables, no rice'
+      },
+      {
+        id: 'ben-4',
+        name: 'Hibachi Salmon (no rice)',
+        carbs: 4,
+        protein: 38,
+        fat: 24,
+        calories: 380,
+        price: 27.99,
+        isOptimal: true,
+        description: 'Grilled salmon with veggies, skip rice'
       }
     ]
   },
@@ -1747,8 +2735,7 @@ export const restaurants: Restaurant[] = [
     id: 'wholefoods',
     name: 'Whole Foods',
     category: 'Grocery',
-    meals: [
-      {
+    meals: [{
         id: 'wf-1',
         name: 'Hot Bar - Grilled Chicken & Veggies',
         carbs: 8,
@@ -1769,6 +2756,28 @@ export const restaurants: Restaurant[] = [
         price: 11.99,
         isOptimal: true,
         description: 'Mixed greens, grilled protein, cheese, eggs, avocado'
+      },
+      {
+        id: 'wf-3',
+        name: 'Rotisserie Chicken (quarter)',
+        carbs: 0,
+        protein: 35,
+        fat: 16,
+        calories: 290,
+        price: 5.99,
+        isOptimal: true,
+        description: 'Quarter rotisserie chicken'
+      },
+      {
+        id: 'wf-4',
+        name: 'Poke Bowl (no rice)',
+        carbs: 7,
+        protein: 30,
+        fat: 18,
+        calories: 310,
+        price: 12.99,
+        isOptimal: true,
+        description: 'Fresh ahi tuna, avocado, edamame, no rice'
       }
     ]
   },
@@ -1776,8 +2785,7 @@ export const restaurants: Restaurant[] = [
     id: 'kroger',
     name: 'Kroger',
     category: 'Grocery',
-    meals: [
-      {
+    meals: [{
         id: 'krog-1',
         name: 'Rotisserie Chicken (whole)',
         carbs: 0,
@@ -1798,6 +2806,28 @@ export const restaurants: Restaurant[] = [
         price: 7.99,
         isOptimal: true,
         description: 'Pre-made salad, remove croutons'
+      },
+      {
+        id: 'krog-3',
+        name: 'Buffalo Wings (8pc)',
+        carbs: 2,
+        protein: 44,
+        fat: 28,
+        calories: 420,
+        price: 9.99,
+        isOptimal: true,
+        description: 'Fresh deli buffalo wings'
+      },
+      {
+        id: 'krog-4',
+        name: 'Prepared Salad Bar Bowl',
+        carbs: 8,
+        protein: 26,
+        fat: 24,
+        calories: 350,
+        price: 8.99,
+        isOptimal: true,
+        description: 'Custom keto bowl from salad bar'
       }
     ]
   },
@@ -1805,8 +2835,7 @@ export const restaurants: Restaurant[] = [
     id: 'publix',
     name: 'Publix',
     category: 'Grocery',
-    meals: [
-      {
+    meals: [{
         id: 'pub-1',
         name: 'Pub Sub - Ultimate (no bread)',
         carbs: 6,
@@ -1827,6 +2856,28 @@ export const restaurants: Restaurant[] = [
         price: 5.49,
         isOptimal: true,
         description: 'Fresh roasted chicken'
+      },
+      {
+        id: 'pub-3',
+        name: 'Chicken Tender Sub (no bread)',
+        carbs: 5,
+        protein: 36,
+        fat: 22,
+        calories: 360,
+        price: 7.99,
+        isOptimal: true,
+        description: 'Chicken tenders in a bowl, no bread'
+      },
+      {
+        id: 'pub-4',
+        name: 'Deli Wings (10pc)',
+        carbs: 3,
+        protein: 50,
+        fat: 32,
+        calories: 480,
+        price: 10.99,
+        isOptimal: true,
+        description: 'Hot or mild wings from deli'
       }
     ]
   },
@@ -1834,8 +2885,7 @@ export const restaurants: Restaurant[] = [
     id: 'bostonmarket',
     name: 'Boston Market',
     category: 'Casual Dining',
-    meals: [
-      {
+    meals: [{
         id: 'bm-1',
         name: 'Rotisserie Chicken (quarter, white)',
         carbs: 2,
@@ -1856,6 +2906,28 @@ export const restaurants: Restaurant[] = [
         price: 11.99,
         isOptimal: true,
         description: 'Half chicken with steamed vegetables'
+      },
+      {
+        id: 'bm-3',
+        name: 'Meatloaf with Green Beans',
+        carbs: 8,
+        protein: 32,
+        fat: 24,
+        calories: 380,
+        price: 9.99,
+        isOptimal: true,
+        description: 'Homestyle meatloaf with veggies'
+      },
+      {
+        id: 'bm-4',
+        name: 'Rotisserie Turkey (quarter)',
+        carbs: 2,
+        protein: 38,
+        fat: 10,
+        calories: 250,
+        price: 8.49,
+        isOptimal: true,
+        description: 'Quarter turkey with steamed veggies'
       }
     ]
   },
@@ -1863,8 +2935,7 @@ export const restaurants: Restaurant[] = [
     id: 'elpollo',
     name: 'El Pollo Loco',
     category: 'Mexican',
-    meals: [
-      {
+    meals: [{
         id: 'epl-1',
         name: 'Double Chicken Avocado Salad',
         carbs: 9,
@@ -1885,6 +2956,28 @@ export const restaurants: Restaurant[] = [
         price: 7.99,
         isOptimal: true,
         description: 'Fire-grilled chicken breast, no sides'
+      },
+      {
+        id: 'epl-3',
+        name: 'Chicken Leg & Thigh (2pc)',
+        carbs: 0,
+        protein: 42,
+        fat: 20,
+        calories: 350,
+        price: 6.99,
+        isOptimal: true,
+        description: 'Fire-grilled dark meat'
+      },
+      {
+        id: 'epl-4',
+        name: 'Pollo Bowl (no rice/beans)',
+        carbs: 8,
+        protein: 40,
+        fat: 24,
+        calories: 410,
+        price: 9.49,
+        isOptimal: true,
+        description: 'Chicken, cheese, sour cream, avocado'
       }
     ]
   },
@@ -2008,8 +3101,7 @@ export const restaurants: Restaurant[] = [
     id: 'peiwei',
     name: 'Pei Wei',
     category: 'Asian',
-    meals: [
-      {
+    meals: [{
         id: 'pw-1',
         name: 'Mongolian Steak (no rice)',
         carbs: 9,
@@ -2030,6 +3122,28 @@ export const restaurants: Restaurant[] = [
         price: 9.99,
         isOptimal: true,
         description: 'Marinated chicken with mixed veggies'
+      },
+      {
+        id: 'pw-3',
+        name: 'Kung Pao Chicken (no rice)',
+        carbs: 8,
+        protein: 30,
+        fat: 16,
+        calories: 290,
+        price: 10.49,
+        isOptimal: true,
+        description: 'Spicy chicken with peanuts, no rice'
+      },
+      {
+        id: 'pw-4',
+        name: 'Crispy Honey Shrimp Bowl (light sauce, no rice)',
+        carbs: 9,
+        protein: 26,
+        fat: 14,
+        calories: 270,
+        price: 11.99,
+        isOptimal: true,
+        description: 'Shrimp with light glaze, skip rice'
       }
     ]
   },
@@ -2037,8 +3151,7 @@ export const restaurants: Restaurant[] = [
     id: 'pandaexpress',
     name: 'Panda Express',
     category: 'Asian',
-    meals: [
-      {
+    meals: [{
         id: 'pe-1',
         name: 'Grilled Teriyaki Chicken (no rice)',
         carbs: 9,
@@ -2059,6 +3172,28 @@ export const restaurants: Restaurant[] = [
         price: 9.49,
         isOptimal: true,
         description: 'Beef and broccoli in savory sauce'
+      },
+      {
+        id: 'pe-3',
+        name: 'Mushroom Chicken (no rice)',
+        carbs: 7,
+        protein: 24,
+        fat: 10,
+        calories: 220,
+        price: 9.49,
+        isOptimal: true,
+        description: 'Chicken and mushrooms, no rice'
+      },
+      {
+        id: 'pe-4',
+        name: 'Black Pepper Chicken (no rice)',
+        carbs: 9,
+        protein: 32,
+        fat: 16,
+        calories: 300,
+        price: 9.99,
+        isOptimal: true,
+        description: 'Spicy chicken, skip rice and noodles'
       }
     ]
   },
@@ -2066,8 +3201,7 @@ export const restaurants: Restaurant[] = [
     id: 'noodles',
     name: 'Noodles & Company',
     category: 'Casual Dining',
-    meals: [
-      {
+    meals: [{
         id: 'nc-1',
         name: 'Zucchini Noodles with Chicken',
         carbs: 12,
@@ -2088,6 +3222,28 @@ export const restaurants: Restaurant[] = [
         price: 8.99,
         isOptimal: true,
         description: 'Grilled chicken Caesar salad'
+      },
+      {
+        id: 'nc-3',
+        name: 'Zucchini Rosa with Shrimp',
+        carbs: 10,
+        protein: 28,
+        fat: 20,
+        calories: 340,
+        price: 10.99,
+        isOptimal: true,
+        description: 'Zoodles with shrimp in rosa sauce'
+      },
+      {
+        id: 'nc-4',
+        name: 'Grilled Chicken Breast (a la carte)',
+        carbs: 2,
+        protein: 42,
+        fat: 12,
+        calories: 280,
+        price: 7.99,
+        isOptimal: true,
+        description: 'Plain grilled chicken with side salad'
       }
     ]
   },
@@ -2095,8 +3251,7 @@ export const restaurants: Restaurant[] = [
     id: 'jersey',
     name: 'Jersey Mikes',
     category: 'Sandwich Shop',
-    meals: [
-      {
+    meals: [{
         id: 'jer-1',
         name: '#13 Original Italian (sub in a tub)',
         carbs: 7,
@@ -2117,6 +3272,28 @@ export const restaurants: Restaurant[] = [
         price: 9.99,
         isOptimal: true,
         description: 'Turkey, cheese, lettuce, tomato'
+      },
+      {
+        id: 'jer-3',
+        name: 'Roast Beef & Provolone (sub in a tub)',
+        carbs: 6,
+        protein: 30,
+        fat: 24,
+        calories: 360,
+        price: 10.49,
+        isOptimal: true,
+        description: 'Roast beef, provolone, veggies in bowl'
+      },
+      {
+        id: 'jer-4',
+        name: 'Club Sub (sub in a tub)',
+        carbs: 7,
+        protein: 28,
+        fat: 22,
+        calories: 340,
+        price: 10.99,
+        isOptimal: true,
+        description: 'Turkey, ham, bacon, provolone'
       }
     ]
   },
@@ -2124,8 +3301,7 @@ export const restaurants: Restaurant[] = [
     id: 'potbelly',
     name: 'Potbelly',
     category: 'Sandwich Shop',
-    meals: [
-      {
+    meals: [{
         id: 'pot-1',
         name: 'Farmhouse Salad',
         carbs: 9,
@@ -2146,35 +3322,78 @@ export const restaurants: Restaurant[] = [
         price: 9.49,
         isOptimal: true,
         description: 'Grilled chicken with veggies'
+      },
+      {
+        id: 'pot-3',
+        name: 'Mediterranean Salad with Chicken',
+        carbs: 8,
+        protein: 30,
+        fat: 24,
+        calories: 370,
+        price: 9.49,
+        isOptimal: true,
+        description: 'Chicken, feta, olives, cucumbers, greens'
+      },
+      {
+        id: 'pot-4',
+        name: 'Protein Power Pack',
+        carbs: 6,
+        protein: 26,
+        fat: 20,
+        calories: 310,
+        price: 8.49,
+        isOptimal: true,
+        description: 'Turkey, cheese, eggs, veggies'
       }
     ]
   },
   {
     id: 'jersey',
-    name: "Which Wich",
+    name: 'Jersey Mikes',
     category: 'Sandwich Shop',
-    meals: [
-      {
-        id: 'ww-1',
-        name: 'Turkey Lettuce Wrap',
-        carbs: 6,
-        protein: 24,
-        fat: 18,
-        calories: 280,
-        price: 8.99,
+    meals: [{
+        id: 'jer-1',
+        name: '#13 Original Italian (sub in a tub)',
+        carbs: 7,
+        protein: 28,
+        fat: 32,
+        calories: 420,
+        price: 10.99,
         isOptimal: true,
-        description: 'Turkey, cheese, veggies in lettuce'
+        description: 'All meats, cheese, veggies in a bowl'
       },
       {
-        id: 'ww-2',
-        name: 'Italian Lettuce Wrap',
-        carbs: 7,
+        id: 'jer-2',
+        name: 'Turkey & Provolone (sub in a tub)',
+        carbs: 5,
         protein: 26,
-        fat: 28,
-        calories: 370,
-        price: 9.49,
+        fat: 20,
+        calories: 310,
+        price: 9.99,
         isOptimal: true,
-        description: 'Italian meats and cheese wrapped'
+        description: 'Turkey, cheese, lettuce, tomato'
+      },
+      {
+        id: 'jer-3',
+        name: 'Roast Beef & Provolone (sub in a tub)',
+        carbs: 6,
+        protein: 30,
+        fat: 24,
+        calories: 360,
+        price: 10.49,
+        isOptimal: true,
+        description: 'Roast beef, provolone, veggies in bowl'
+      },
+      {
+        id: 'jer-4',
+        name: 'Club Sub (sub in a tub)',
+        carbs: 7,
+        protein: 28,
+        fat: 22,
+        calories: 340,
+        price: 10.99,
+        isOptimal: true,
+        description: 'Turkey, ham, bacon, provolone'
       }
     ]
   },
@@ -2240,8 +3459,7 @@ export const restaurants: Restaurant[] = [
     id: 'wingstop',
     name: 'Wingstop',
     category: 'Fast Food',
-    meals: [
-      {
+    meals: [{
         id: 'ws-1',
         name: 'Classic Wings (10pc)',
         carbs: 3,
@@ -2262,6 +3480,28 @@ export const restaurants: Restaurant[] = [
         price: 10.99,
         isOptimal: true,
         description: 'Grilled chicken bites with sauce'
+      },
+      {
+        id: 'ws-3',
+        name: 'Classic Wings (6pc)',
+        carbs: 2,
+        protein: 30,
+        fat: 20,
+        calories: 300,
+        price: 9.99,
+        isOptimal: true,
+        description: 'Traditional wings, dry rubs available'
+      },
+      {
+        id: 'ws-4',
+        name: 'Boneless Wings Naked (8pc)',
+        carbs: 3,
+        protein: 36,
+        fat: 14,
+        calories: 280,
+        price: 10.49,
+        isOptimal: true,
+        description: 'Grilled chicken bites, sauce on side'
       }
     ]
   },
@@ -2269,8 +3509,7 @@ export const restaurants: Restaurant[] = [
     id: 'chickensalad',
     name: 'Chicken Salad Chick',
     category: 'Casual Dining',
-    meals: [
-      {
+    meals: [{
         id: 'csc-1',
         name: 'Classic Carol Salad',
         carbs: 7,
@@ -2291,6 +3530,28 @@ export const restaurants: Restaurant[] = [
         price: 9.49,
         isOptimal: true,
         description: 'Spicy buffalo chicken salad'
+      },
+      {
+        id: 'csc-3',
+        name: 'Chicken Salad Sampler on Greens',
+        carbs: 8,
+        protein: 26,
+        fat: 22,
+        calories: 330,
+        price: 9.99,
+        isOptimal: true,
+        description: 'Three chicken salad varieties on lettuce'
+      },
+      {
+        id: 'csc-4',
+        name: 'Fancy Nancy Salad',
+        carbs: 7,
+        protein: 32,
+        fat: 28,
+        calories: 390,
+        price: 9.99,
+        isOptimal: true,
+        description: 'Chicken salad with grapes and pecans on greens'
       }
     ]
   },
@@ -2356,8 +3617,7 @@ export const restaurants: Restaurant[] = [
     id: 'corner',
     name: 'Corner Bakery',
     category: 'Casual Dining',
-    meals: [
-      {
+    meals: [{
         id: 'cb-1',
         name: 'Harvest Salad with Chicken',
         carbs: 9,
@@ -2378,6 +3638,28 @@ export const restaurants: Restaurant[] = [
         price: 11.49,
         isOptimal: true,
         description: 'Grilled chicken with tomato basil, no pasta'
+      },
+      {
+        id: 'cb-3',
+        name: 'Mom\'s Chicken Noodle (no noodles)',
+        carbs: 6,
+        protein: 24,
+        fat: 8,
+        calories: 190,
+        price: 7.99,
+        isOptimal: true,
+        description: 'Chicken vegetable soup, no noodles'
+      },
+      {
+        id: 'cb-4',
+        name: 'Grilled Salmon Salad',
+        carbs: 9,
+        protein: 36,
+        fat: 28,
+        calories: 420,
+        price: 12.99,
+        isOptimal: true,
+        description: 'Grilled salmon, greens, veggies, vinaigrette'
       }
     ]
   },
@@ -2385,8 +3667,7 @@ export const restaurants: Restaurant[] = [
     id: 'cava',
     name: 'CAVA',
     category: 'Mediterranean',
-    meals: [
-      {
+    meals: [{
         id: 'cava-1',
         name: 'Grilled Chicken Bowl',
         carbs: 9,
@@ -2407,6 +3688,28 @@ export const restaurants: Restaurant[] = [
         price: 11.99,
         isOptimal: true,
         description: 'Steak, greens, hummus, veggies'
+      },
+      {
+        id: 'cava-3',
+        name: 'Spicy Lamb Meatball Bowl',
+        carbs: 8,
+        protein: 34,
+        fat: 26,
+        calories: 390,
+        price: 11.99,
+        isOptimal: true,
+        description: 'Lamb meatballs, greens, harissa, no rice'
+      },
+      {
+        id: 'cava-4',
+        name: 'Falafel Bowl (1-2 falafel, no rice)',
+        carbs: 12,
+        protein: 18,
+        fat: 28,
+        calories: 380,
+        price: 9.99,
+        isOptimal: false,
+        description: 'Limited falafel, greens, veggies, tahini'
       }
     ]
   },
@@ -2443,8 +3746,7 @@ export const restaurants: Restaurant[] = [
     id: 'lazydogsaloon',
     name: 'Lazy Dog Restaurant',
     category: 'Casual Dining',
-    meals: [
-      {
+    meals: [{
         id: 'ld-1',
         name: 'Grilled Chicken Breast',
         carbs: 4,
@@ -2465,6 +3767,28 @@ export const restaurants: Restaurant[] = [
         price: 13.99,
         isOptimal: true,
         description: 'Blackened fish, cabbage slaw in a bowl'
+      },
+      {
+        id: 'ld-3',
+        name: 'Grilled Steak',
+        carbs: 3,
+        protein: 44,
+        fat: 28,
+        calories: 430,
+        price: 18.99,
+        isOptimal: true,
+        description: 'Grilled sirloin with seasonal veggies'
+      },
+      {
+        id: 'ld-4',
+        name: 'Seared Ahi Tuna Bowl',
+        carbs: 7,
+        protein: 34,
+        fat: 20,
+        calories: 330,
+        price: 15.99,
+        isOptimal: true,
+        description: 'Seared tuna, avocado, greens, no rice'
       }
     ]
   },
@@ -2472,8 +3796,7 @@ export const restaurants: Restaurant[] = [
     id: 'californiapizzo',
     name: 'California Pizza Kitchen',
     category: 'Casual Dining',
-    meals: [
-      {
+    meals: [{
         id: 'cpk-1',
         name: 'Grilled Salmon',
         carbs: 6,
@@ -2494,6 +3817,28 @@ export const restaurants: Restaurant[] = [
         price: 13.99,
         isOptimal: true,
         description: 'Grilled chicken, greens, goat cheese'
+      },
+      {
+        id: 'cpk-3',
+        name: 'Grilled Chicken Breast',
+        carbs: 4,
+        protein: 46,
+        fat: 14,
+        calories: 320,
+        price: 15.99,
+        isOptimal: true,
+        description: 'Herb-grilled chicken with broccoli'
+      },
+      {
+        id: 'cpk-4',
+        name: 'Miso Salmon Bowl (no rice)',
+        carbs: 8,
+        protein: 38,
+        fat: 24,
+        calories: 390,
+        price: 19.99,
+        isOptimal: true,
+        description: 'Miso-glazed salmon, edamame, no rice'
       }
     ]
   },
@@ -2501,8 +3846,7 @@ export const restaurants: Restaurant[] = [
     id: 'yardhouse',
     name: 'Yard House',
     category: 'Casual Dining',
-    meals: [
-      {
+    meals: [{
         id: 'yh-1',
         name: 'Grilled Chicken Breast',
         carbs: 5,
@@ -2523,6 +3867,28 @@ export const restaurants: Restaurant[] = [
         price: 14.99,
         isOptimal: true,
         description: 'Fresh ahi tuna with avocado'
+      },
+      {
+        id: 'yh-3',
+        name: 'Grilled Salmon',
+        carbs: 6,
+        protein: 42,
+        fat: 26,
+        calories: 410,
+        price: 19.99,
+        isOptimal: true,
+        description: 'Fresh grilled salmon with asparagus'
+      },
+      {
+        id: 'yh-4',
+        name: 'Chicken Caesar Salad',
+        carbs: 8,
+        protein: 36,
+        fat: 28,
+        calories: 410,
+        price: 14.99,
+        isOptimal: true,
+        description: 'Grilled chicken, romaine, parmesan, no croutons'
       }
     ]
   },
@@ -2530,8 +3896,7 @@ export const restaurants: Restaurant[] = [
     id: 'bonefish',
     name: 'Bonefish Grill',
     category: 'Casual Dining',
-    meals: [
-      {
+    meals: [{
         id: 'bf-1',
         name: 'Grilled Salmon',
         carbs: 4,
@@ -2552,6 +3917,28 @@ export const restaurants: Restaurant[] = [
         price: 18.99,
         isOptimal: true,
         description: 'Grilled chicken with goat cheese and vegetables'
+      },
+      {
+        id: 'bf-3',
+        name: 'Mahi-Mahi',
+        carbs: 5,
+        protein: 38,
+        fat: 20,
+        calories: 340,
+        price: 20.99,
+        isOptimal: true,
+        description: 'Grilled mahi with asparagus'
+      },
+      {
+        id: 'bf-4',
+        name: 'Ahi Tuna Steak',
+        carbs: 3,
+        protein: 44,
+        fat: 16,
+        calories: 320,
+        price: 23.99,
+        isOptimal: true,
+        description: 'Seared rare ahi with vegetables'
       }
     ]
   },
@@ -2617,8 +4004,7 @@ export const restaurants: Restaurant[] = [
     id: 'waffehouse',
     name: 'Waffle House',
     category: 'Casual Dining',
-    meals: [
-      {
+    meals: [{
         id: 'wh-1',
         name: 'Eggs & Bacon',
         carbs: 2,
@@ -2639,6 +4025,28 @@ export const restaurants: Restaurant[] = [
         price: 8.99,
         isOptimal: true,
         description: 'Plain grilled chicken with side salad'
+      },
+      {
+        id: 'wh-3',
+        name: 'Ham & Cheese Omelette (no toast)',
+        carbs: 4,
+        protein: 32,
+        fat: 28,
+        calories: 390,
+        price: 8.49,
+        isOptimal: true,
+        description: 'Three-egg omelette with ham and cheese'
+      },
+      {
+        id: 'wh-4',
+        name: 'T-Bone Steak & Eggs',
+        carbs: 3,
+        protein: 56,
+        fat: 42,
+        calories: 620,
+        price: 13.99,
+        isOptimal: true,
+        description: 'T-bone steak with eggs, no hashbrowns'
       }
     ]
   },
@@ -2646,8 +4054,7 @@ export const restaurants: Restaurant[] = [
     id: 'jamba',
     name: 'Jamba Juice',
     category: 'Cafe',
-    meals: [
-      {
+    meals: [{
         id: 'jam-1',
         name: 'Impossible Breakfast Sandwich (no bread)',
         carbs: 8,
@@ -2668,6 +4075,28 @@ export const restaurants: Restaurant[] = [
         price: 8.99,
         isOptimal: true,
         description: 'Kale, mango, pineapple blend - skip granola'
+      },
+      {
+        id: 'jam-3',
+        name: 'Protein Berry Workout Bowl (no granola)',
+        carbs: 11,
+        protein: 22,
+        fat: 4,
+        calories: 160,
+        price: 8.49,
+        isOptimal: true,
+        description: 'Berry blend with protein, skip granola'
+      },
+      {
+        id: 'jam-4',
+        name: 'Açaí Primo Bowl (no granola)',
+        carbs: 13,
+        protein: 12,
+        fat: 8,
+        calories: 170,
+        price: 8.99,
+        isOptimal: false,
+        description: 'Açaí blend, skip granola topping'
       }
     ]
   },
@@ -2675,8 +4104,7 @@ export const restaurants: Restaurant[] = [
     id: 'smoothieking',
     name: 'Smoothie King',
     category: 'Cafe',
-    meals: [
-      {
+    meals: [{
         id: 'sk-1',
         name: 'Keto Champ Berry',
         carbs: 12,
@@ -2697,6 +4125,28 @@ export const restaurants: Restaurant[] = [
         price: 7.99,
         isOptimal: true,
         description: 'Coffee smoothie with keto ingredients'
+      },
+      {
+        id: 'sk-3',
+        name: 'Gladiator Strawberry',
+        carbs: 6,
+        protein: 45,
+        fat: 2,
+        calories: 230,
+        price: 7.99,
+        isOptimal: true,
+        description: 'Protein smoothie with minimal carbs'
+      },
+      {
+        id: 'sk-4',
+        name: 'Gladiator Chocolate',
+        carbs: 7,
+        protein: 45,
+        fat: 3,
+        calories: 240,
+        price: 7.99,
+        isOptimal: true,
+        description: 'Chocolate protein smoothie'
       }
     ]
   },
@@ -2704,8 +4154,7 @@ export const restaurants: Restaurant[] = [
     id: 'caribou',
     name: 'Caribou Coffee',
     category: 'Cafe',
-    meals: [
-      {
+    meals: [{
         id: 'cc-1',
         name: 'Protein Power Breakfast Bowl',
         carbs: 8,
@@ -2726,6 +4175,28 @@ export const restaurants: Restaurant[] = [
         price: 4.99,
         isOptimal: true,
         description: 'Egg bites with turkey sausage'
+      },
+      {
+        id: 'cc-3',
+        name: 'Sausage & Egg Sandwich (no bread)',
+        carbs: 5,
+        protein: 24,
+        fat: 26,
+        calories: 340,
+        price: 5.99,
+        isOptimal: true,
+        description: 'Sausage, egg, cheese - no bread'
+      },
+      {
+        id: 'cc-4',
+        name: 'Spinach & Feta Egg Bites',
+        carbs: 6,
+        protein: 16,
+        fat: 14,
+        calories: 210,
+        price: 4.49,
+        isOptimal: true,
+        description: 'Egg bites with spinach and feta'
       }
     ]
   },
@@ -2762,8 +4233,7 @@ export const restaurants: Restaurant[] = [
     id: 'pieology',
     name: 'Pieology',
     category: 'Pizza',
-    meals: [
-      {
+    meals: [{
         id: 'pieo-1',
         name: 'Caesar Salad with Chicken',
         carbs: 7,
@@ -2784,6 +4254,28 @@ export const restaurants: Restaurant[] = [
         price: 10.99,
         isOptimal: true,
         description: 'Traditional wings with buffalo sauce'
+      },
+      {
+        id: 'pieo-3',
+        name: 'Grilled Chicken Salad',
+        carbs: 6,
+        protein: 30,
+        fat: 20,
+        calories: 310,
+        price: 9.49,
+        isOptimal: true,
+        description: 'Grilled chicken, greens, Italian dressing'
+      },
+      {
+        id: 'pieo-4',
+        name: 'Traditional Wings (6pc)',
+        carbs: 2,
+        protein: 32,
+        fat: 20,
+        calories: 310,
+        price: 9.99,
+        isOptimal: true,
+        description: 'Wings with choice of sauce'
       }
     ]
   },
@@ -2791,8 +4283,7 @@ export const restaurants: Restaurant[] = [
     id: 'blaze',
     name: 'Blaze Pizza',
     category: 'Pizza',
-    meals: [
-      {
+    meals: [{
         id: 'blz-1',
         name: 'Grilled Chicken Salad',
         carbs: 8,
@@ -2813,6 +4304,28 @@ export const restaurants: Restaurant[] = [
         price: 11.99,
         isOptimal: true,
         description: 'Cauliflower crust with toppings'
+      },
+      {
+        id: 'blz-3',
+        name: 'Caesar Salad with Chicken',
+        carbs: 7,
+        protein: 32,
+        fat: 24,
+        calories: 360,
+        price: 9.49,
+        isOptimal: true,
+        description: 'Grilled chicken Caesar, no croutons'
+      },
+      {
+        id: 'blz-4',
+        name: 'Buffalo Wings (6pc)',
+        carbs: 3,
+        protein: 34,
+        fat: 22,
+        calories: 340,
+        price: 9.99,
+        isOptimal: true,
+        description: 'Spicy buffalo wings'
       }
     ]
   },
@@ -2820,7 +4333,39 @@ export const restaurants: Restaurant[] = [
     id: 'modsquad',
     name: 'MOD Pizza',
     category: 'Pizza',
-    meals: [
+    meals: [{
+        id: 'mod-1',
+        name: 'Salad - No Name',
+        carbs: 7,
+        protein: 30,
+        fat: 24,
+        calories: 350,
+        price: 9.99,
+        isOptimal: true,
+        description: 'Customizable salad with grilled chicken'
+      },
+      {
+        id: 'mod-2',
+        name: 'Cauliflower Crust Pizza',
+        carbs: 8,
+        protein: 26,
+        fat: 28,
+        calories: 380,
+        price: 10.99,
+        isOptimal: true,
+        description: 'Keto-friendly crust with toppings'
+      },
+      {
+        id: 'mod-3',
+        name: 'Caesar Salad',
+        carbs: 6,
+        protein: 8,
+        fat: 18,
+        calories: 220,
+        price: 8.99,
+        isOptimal: true,
+        description: 'Classic Caesar, add chicken for $2'
+      },
       {
         id: 'mod-1',
         name: 'Salad - No Name',
@@ -2842,6 +4387,17 @@ export const restaurants: Restaurant[] = [
         price: 10.99,
         isOptimal: true,
         description: 'Keto-friendly crust with toppings'
+      },
+      {
+        id: 'mod-4',
+        name: 'Garden Salad with Grilled Chicken',
+        carbs: 8,
+        protein: 32,
+        fat: 22,
+        calories: 350,
+        price: 9.99,
+        isOptimal: true,
+        description: 'Mixed greens, grilled chicken, veggies'
       }
     ]
   },
@@ -2849,8 +4405,7 @@ export const restaurants: Restaurant[] = [
     id: 'jitb',
     name: 'Jack in the Box',
     category: 'Fast Food',
-    meals: [
-      {
+    meals: [{
         id: 'jib-1',
         name: 'Grilled Chicken Salad',
         carbs: 8,
@@ -2871,6 +4426,28 @@ export const restaurants: Restaurant[] = [
         price: 6.99,
         isOptimal: true,
         description: 'Burger without bun, lettuce wrap'
+      },
+      {
+        id: 'jib-3',
+        name: 'Breakfast Jack (no bun)',
+        carbs: 4,
+        protein: 20,
+        fat: 18,
+        calories: 260,
+        price: 4.99,
+        isOptimal: true,
+        description: 'Egg, ham, cheese - no bun'
+      },
+      {
+        id: 'jib-4',
+        name: 'Sourdough Grilled Chicken (no bread)',
+        carbs: 6,
+        protein: 34,
+        fat: 20,
+        calories: 330,
+        price: 7.49,
+        isOptimal: true,
+        description: 'Grilled chicken, bacon, cheese, no bread'
       }
     ]
   },
@@ -2878,8 +4455,7 @@ export const restaurants: Restaurant[] = [
     id: 'checkers',
     name: 'Checkers',
     category: 'Fast Food',
-    meals: [
-      {
+    meals: [{
         id: 'chk-1',
         name: 'Grilled Chicken Sandwich (no bun)',
         carbs: 5,
@@ -2900,6 +4476,28 @@ export const restaurants: Restaurant[] = [
         price: 7.99,
         isOptimal: true,
         description: 'Double burger, cheese, bacon, no bun'
+      },
+      {
+        id: 'chk-3',
+        name: 'Fry Seasoned Chicken Bites (8pc, no breading)',
+        carbs: 4,
+        protein: 28,
+        fat: 12,
+        calories: 240,
+        price: 5.99,
+        isOptimal: true,
+        description: 'Grilled chicken bites'
+      },
+      {
+        id: 'chk-4',
+        name: 'Bacon Loaded Fries (no fries, toppings only)',
+        carbs: 6,
+        protein: 22,
+        fat: 32,
+        calories: 390,
+        price: 6.49,
+        isOptimal: true,
+        description: 'Bacon, cheese, ranch - skip the fries'
       }
     ]
   },
@@ -2936,8 +4534,7 @@ export const restaurants: Restaurant[] = [
     id: 'cookout',
     name: 'Cook Out',
     category: 'Fast Food',
-    meals: [
-      {
+    meals: [{
         id: 'cok-1',
         name: 'Grilled Chicken Breast',
         carbs: 3,
@@ -2958,6 +4555,28 @@ export const restaurants: Restaurant[] = [
         price: 4.99,
         isOptimal: true,
         description: 'Charbroiled burger, no bun'
+      },
+      {
+        id: 'cok-3',
+        name: 'BLT (no bun)',
+        carbs: 5,
+        protein: 18,
+        fat: 24,
+        calories: 310,
+        price: 4.49,
+        isOptimal: true,
+        description: 'Bacon, lettuce, tomato in a bowl'
+      },
+      {
+        id: 'cok-4',
+        name: 'Quesadilla (cheese only, 1/2)',
+        carbs: 8,
+        protein: 20,
+        fat: 22,
+        calories: 300,
+        price: 4.99,
+        isOptimal: true,
+        description: 'Half cheese quesadilla, keto-friendly portion'
       }
     ]
   }

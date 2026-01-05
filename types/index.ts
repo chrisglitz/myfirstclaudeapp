@@ -15,6 +15,7 @@ export interface Meal {
   price?: number;
   isOptimal: boolean;
   description?: string;
+  mealType?: 'breakfast' | 'lunch' | 'dinner' | 'snack' | 'anytime';
 }
 
 export interface DailyEntry {
