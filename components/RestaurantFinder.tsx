@@ -37,6 +37,37 @@ export default function RestaurantFinder() {
     return filtered;
   }, [selectedCategory, searchQuery]);
 
+  // Get all meals from all restaurants filtered by meal type
+  const getAllMealsByType = useMemo(() => {
+    if (selectedMealType === 'All') return [];
+
+    const allMeals: Array<Meal & { restaurantName: string; restaurantId: string }> = [];
+
+    filteredRestaurants.forEach(restaurant => {
+      restaurant.meals.forEach(meal => {
+        if (
+          meal.mealType === selectedMealType.toLowerCase() ||
+          meal.mealType === 'anytime' ||
+          !meal.mealType
+        ) {
+          allMeals.push({
+            ...meal,
+            restaurantName: restaurant.name,
+            restaurantId: restaurant.id
+          });
+        }
+      });
+    });
+
+    // Sort meals
+    return allMeals.sort((a, b) => {
+      if (sortBy === 'carbs') return a.carbs - b.carbs;
+      if (sortBy === 'protein') return b.protein - a.protein;
+      if (sortBy === 'price') return (a.price || 0) - (b.price || 0);
+      return 0;
+    });
+  }, [selectedMealType, filteredRestaurants, sortBy]);
+
   const sortedMeals = (meals: Meal[]) => {
     let filtered = meals;
 
@@ -138,24 +169,106 @@ export default function RestaurantFinder() {
         </div>
       </div>
 
+      {/* Sorting Options (shown when viewing meals by type) */}
+      {selectedMealType !== 'All' && (
+        <div className="flex flex-wrap gap-3 md:gap-2">
+          <button
+            onClick={() => setSortBy('carbs')}
+            className={`px-5 py-3 md:px-4 md:py-2 rounded-lg transition-all font-medium text-base md:text-sm ${
+              sortBy === 'carbs' ? 'bg-keto-secondary text-white shadow-md' : 'bg-gray-200 hover:bg-gray-300 text-gray-800 active:bg-gray-400'
+            }`}
+          >
+            Lowest Carbs
+          </button>
+          <button
+            onClick={() => setSortBy('protein')}
+            className={`px-5 py-3 md:px-4 md:py-2 rounded-lg transition-all font-medium text-base md:text-sm ${
+              sortBy === 'protein' ? 'bg-keto-secondary text-white shadow-md' : 'bg-gray-200 hover:bg-gray-300 text-gray-800 active:bg-gray-400'
+            }`}
+          >
+            Highest Protein
+          </button>
+          <button
+            onClick={() => setSortBy('price')}
+            className={`px-5 py-3 md:px-4 md:py-2 rounded-lg transition-all font-medium text-base md:text-sm ${
+              sortBy === 'price' ? 'bg-keto-secondary text-white shadow-md' : 'bg-gray-200 hover:bg-gray-300 text-gray-800 active:bg-gray-400'
+            }`}
+          >
+            Best Price
+          </button>
+        </div>
+      )}
+
       <div className="text-base md:text-sm font-medium text-gray-700 bg-keto-bg px-4 py-2 rounded-lg">
-        {filteredRestaurants.length} restaurants
+        {selectedMealType === 'All'
+          ? `${filteredRestaurants.length} restaurants`
+          : `${getAllMealsByType.length} ${selectedMealType.toLowerCase()} meals`}
       </div>
 
-      {/* Restaurant Selection */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-        {filteredRestaurants.map((restaurant) => (
-          <button
-            key={restaurant.id}
-            onClick={() => handleRestaurantClick(restaurant)}
-            className="p-5 md:p-4 rounded-lg border-2 transition-all border-gray-400 hover:border-keto-secondary active:border-keto-dark hover:shadow-lg active:shadow-xl bg-white"
-          >
-            <div className="font-bold text-lg md:text-base text-gray-900">{restaurant.name}</div>
-            <div className="text-sm md:text-xs text-gray-600 mt-2 md:mt-1 font-medium">{restaurant.category}</div>
-            <div className="text-base md:text-sm mt-2 md:mt-1 text-keto-secondary font-bold">{restaurant.meals.length} options</div>
-          </button>
-        ))}
-      </div>
+      {/* Meal List View (when meal type is selected) */}
+      {selectedMealType !== 'All' ? (
+        <div className="space-y-3">
+          {getAllMealsByType.map((meal) => (
+            <div
+              key={`${meal.restaurantId}-${meal.id}`}
+              className={`p-5 md:p-4 rounded-lg border-2 transition-all ${
+                meal.isOptimal ? 'border-keto-secondary bg-keto-bg' : 'border-gray-300 bg-white'
+              } hover:shadow-lg`}
+            >
+              <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-3">
+                <div className="flex-1">
+                  <h3 className="font-bold text-lg md:text-base text-gray-900">{meal.name}</h3>
+                  <p className="text-sm text-keto-dark font-semibold mt-1">📍 {meal.restaurantName}</p>
+                  {meal.description && (
+                    <p className="text-sm text-gray-600 mt-2">{meal.description}</p>
+                  )}
+                </div>
+                <div className="flex flex-row md:flex-col gap-4 md:gap-2 md:text-right">
+                  <div className="flex-1 md:flex-none">
+                    <div className="text-2xl md:text-xl font-bold text-keto-secondary">
+                      {meal.carbs}g
+                    </div>
+                    <div className="text-xs text-gray-600 font-medium">carbs</div>
+                  </div>
+                  <div className="flex-1 md:flex-none">
+                    <div className="text-lg md:text-base font-semibold text-gray-700">
+                      {meal.protein}g
+                    </div>
+                    <div className="text-xs text-gray-600">protein</div>
+                  </div>
+                  <div className="flex-1 md:flex-none">
+                    <div className="text-lg md:text-base font-semibold text-gray-700">
+                      {meal.fat}g
+                    </div>
+                    <div className="text-xs text-gray-600">fat</div>
+                  </div>
+                  <div className="flex-1 md:flex-none">
+                    <div className="text-lg md:text-base font-bold text-keto-dark">
+                      ${meal.price?.toFixed(2) || 'N/A'}
+                    </div>
+                    <div className="text-xs text-gray-600">price</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      ) : (
+        /* Restaurant Selection (when meal type is "All") */
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+          {filteredRestaurants.map((restaurant) => (
+            <button
+              key={restaurant.id}
+              onClick={() => handleRestaurantClick(restaurant)}
+              className="p-5 md:p-4 rounded-lg border-2 transition-all border-gray-400 hover:border-keto-secondary active:border-keto-dark hover:shadow-lg active:shadow-xl bg-white"
+            >
+              <div className="font-bold text-lg md:text-base text-gray-900">{restaurant.name}</div>
+              <div className="text-sm md:text-xs text-gray-600 mt-2 md:mt-1 font-medium">{restaurant.category}</div>
+              <div className="text-base md:text-sm mt-2 md:mt-1 text-keto-secondary font-bold">{restaurant.meals.length} options</div>
+            </button>
+          ))}
+        </div>
+      )}
 
       {/* Modal Popup for Meal Display */}
       {isModalOpen && selectedRestaurant && (
