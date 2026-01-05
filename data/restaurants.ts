@@ -2807,60 +2807,6 @@ export const restaurants: Restaurant[] = [
     ]
   },
   {
-    id: 'panagrill',
-    name: 'Panda Express',
-    category: 'Asian',
-    meals: [{
-        id: 'panda-1',
-        name: 'Grilled Teriyaki Chicken (no rice)',
-        carbs: 9,
-        protein: 36,
-        fat: 14,
-        calories: 300,
-        price: 9.99,
-        isOptimal: true,
-        description: 'Grilled chicken with teriyaki, skip rice and noodles',
-        mealType: 'lunch'
-      },
-      {
-        id: 'panda-2',
-        name: 'String Bean Chicken Breast (no rice)',
-        carbs: 8,
-        protein: 28,
-        fat: 12,
-        calories: 240,
-        price: 9.49,
-        isOptimal: true,
-        description: 'Chicken and green beans, no rice',
-        mealType: 'snack'
-      },
-      {
-        id: 'panda-3',
-        name: 'Mushroom Chicken (no rice)',
-        carbs: 7,
-        protein: 24,
-        fat: 10,
-        calories: 220,
-        price: 9.49,
-        isOptimal: true,
-        description: 'Chicken and mushrooms, no rice or noodles',
-        mealType: 'anytime'
-      },
-      {
-        id: 'panda-4',
-        name: 'Black Pepper Chicken (no rice)',
-        carbs: 9,
-        protein: 32,
-        fat: 16,
-        calories: 300,
-        price: 9.99,
-        isOptimal: true,
-        description: 'Spicy chicken in black pepper sauce, skip rice',
-        mealType: 'anytime'
-      }
-    ]
-  },
-  {
     id: 'benihana',
     name: 'Benihana',
     category: 'Asian',
@@ -3606,60 +3552,6 @@ export const restaurants: Restaurant[] = [
         isOptimal: true,
         description: 'Turkey, cheese, eggs, veggies',
         mealType: 'anytime'
-      }
-    ]
-  },
-  {
-    id: 'jersey',
-    name: 'Jersey Mikes',
-    category: 'Sandwich Shop',
-    meals: [{
-        id: 'jer-1',
-        name: '#13 Original Italian (sub in a tub)',
-        carbs: 7,
-        protein: 28,
-        fat: 32,
-        calories: 420,
-        price: 10.99,
-        isOptimal: true,
-        description: 'All meats, cheese, veggies in a bowl',
-        mealType: 'lunch'
-      },
-      {
-        id: 'jer-2',
-        name: 'Turkey & Provolone (sub in a tub)',
-        carbs: 5,
-        protein: 26,
-        fat: 20,
-        calories: 310,
-        price: 9.99,
-        isOptimal: true,
-        description: 'Turkey, cheese, lettuce, tomato',
-        mealType: 'lunch'
-      },
-      {
-        id: 'jer-3',
-        name: 'Roast Beef & Provolone (sub in a tub)',
-        carbs: 6,
-        protein: 30,
-        fat: 24,
-        calories: 360,
-        price: 10.49,
-        isOptimal: true,
-        description: 'Roast beef, provolone, veggies in bowl',
-        mealType: 'lunch'
-      },
-      {
-        id: 'jer-4',
-        name: 'Club Sub (sub in a tub)',
-        carbs: 7,
-        protein: 28,
-        fat: 22,
-        calories: 340,
-        price: 10.99,
-        isOptimal: true,
-        description: 'Turkey, ham, bacon, provolone',
-        mealType: 'lunch'
       }
     ]
   },
@@ -4935,6 +4827,2017 @@ export const restaurants: Restaurant[] = [
         isOptimal: true,
         description: 'Half cheese quesadilla, keto-friendly portion',
         mealType: 'anytime'
+      }
+    ]
+  }
+,
+  {
+    id: 'farmer-cow',
+    name: 'Farmer & The Cow',
+    category: 'Casual Dining',
+    meals: [
+      {
+        id: 'farmer-cow-1',
+        name: 'Grilled Chicken Breast',
+        carbs: 2,
+        protein: 36,
+        fat: 12,
+        calories: 250,
+        price: 12.99,
+        isOptimal: true,
+        description: 'Plain grilled chicken with steamed vegetables',
+        mealType: 'lunch'
+      },
+      {
+        id: 'farmer-cow-2',
+        name: 'Sirloin Steak (8oz)',
+        carbs: 1,
+        protein: 42,
+        fat: 24,
+        calories: 380,
+        price: 18.99,
+        isOptimal: true,
+        description: 'Grilled sirloin with side salad',
+        mealType: 'dinner'
+      },
+      {
+        id: 'farmer-cow-3',
+        name: 'Cobb Salad (no croutons)',
+        carbs: 7,
+        protein: 28,
+        fat: 22,
+        calories: 320,
+        price: 11.99,
+        isOptimal: true,
+        description: 'Chicken, bacon, egg, avocado, cheese',
+        mealType: 'lunch'
+      },
+      {
+        id: 'farmer-cow-4',
+        name: 'Bunless Cheeseburger',
+        carbs: 5,
+        protein: 30,
+        fat: 26,
+        calories: 370,
+        price: 10.99,
+        isOptimal: true,
+        description: 'Lettuce-wrapped burger with cheese',
+        mealType: 'anytime'
+      },
+      {
+        id: 'farmer-cow-5',
+        name: 'Breakfast Scramble',
+        carbs: 4,
+        protein: 24,
+        fat: 22,
+        calories: 300,
+        price: 9.99,
+        isOptimal: true,
+        description: 'Eggs, cheese, sausage, peppers',
+        mealType: 'breakfast'
+      }
+    ]
+  },
+  {
+    id: 'mrs-robinos',
+    name: 'Mrs. Robino\'s Restaurant',
+    category: 'Casual Dining',
+    meals: [
+      {
+        id: 'mrs-robinos-1',
+        name: 'Grilled Chicken Breast',
+        carbs: 2,
+        protein: 36,
+        fat: 12,
+        calories: 250,
+        price: 12.99,
+        isOptimal: true,
+        description: 'Plain grilled chicken with steamed vegetables',
+        mealType: 'lunch'
+      },
+      {
+        id: 'mrs-robinos-2',
+        name: 'Sirloin Steak (8oz)',
+        carbs: 1,
+        protein: 42,
+        fat: 24,
+        calories: 380,
+        price: 18.99,
+        isOptimal: true,
+        description: 'Grilled sirloin with side salad',
+        mealType: 'dinner'
+      },
+      {
+        id: 'mrs-robinos-3',
+        name: 'Cobb Salad (no croutons)',
+        carbs: 7,
+        protein: 28,
+        fat: 22,
+        calories: 320,
+        price: 11.99,
+        isOptimal: true,
+        description: 'Chicken, bacon, egg, avocado, cheese',
+        mealType: 'lunch'
+      },
+      {
+        id: 'mrs-robinos-4',
+        name: 'Bunless Cheeseburger',
+        carbs: 5,
+        protein: 30,
+        fat: 26,
+        calories: 370,
+        price: 10.99,
+        isOptimal: true,
+        description: 'Lettuce-wrapped burger with cheese',
+        mealType: 'anytime'
+      },
+      {
+        id: 'mrs-robinos-5',
+        name: 'Breakfast Scramble',
+        carbs: 4,
+        protein: 24,
+        fat: 22,
+        calories: 300,
+        price: 9.99,
+        isOptimal: true,
+        description: 'Eggs, cheese, sausage, peppers',
+        mealType: 'breakfast'
+      }
+    ]
+  },
+  {
+    id: 'capers-lemons',
+    name: 'Capers & Lemons',
+    category: 'Casual Dining',
+    meals: [
+      {
+        id: 'capers-lemons-1',
+        name: 'Grilled Chicken Breast',
+        carbs: 2,
+        protein: 36,
+        fat: 12,
+        calories: 250,
+        price: 12.99,
+        isOptimal: true,
+        description: 'Plain grilled chicken with steamed vegetables',
+        mealType: 'lunch'
+      },
+      {
+        id: 'capers-lemons-2',
+        name: 'Sirloin Steak (8oz)',
+        carbs: 1,
+        protein: 42,
+        fat: 24,
+        calories: 380,
+        price: 18.99,
+        isOptimal: true,
+        description: 'Grilled sirloin with side salad',
+        mealType: 'dinner'
+      },
+      {
+        id: 'capers-lemons-3',
+        name: 'Cobb Salad (no croutons)',
+        carbs: 7,
+        protein: 28,
+        fat: 22,
+        calories: 320,
+        price: 11.99,
+        isOptimal: true,
+        description: 'Chicken, bacon, egg, avocado, cheese',
+        mealType: 'lunch'
+      },
+      {
+        id: 'capers-lemons-4',
+        name: 'Bunless Cheeseburger',
+        carbs: 5,
+        protein: 30,
+        fat: 26,
+        calories: 370,
+        price: 10.99,
+        isOptimal: true,
+        description: 'Lettuce-wrapped burger with cheese',
+        mealType: 'anytime'
+      },
+      {
+        id: 'capers-lemons-5',
+        name: 'Breakfast Scramble',
+        carbs: 4,
+        protein: 24,
+        fat: 22,
+        calories: 300,
+        price: 9.99,
+        isOptimal: true,
+        description: 'Eggs, cheese, sausage, peppers',
+        mealType: 'breakfast'
+      }
+    ]
+  },
+  {
+    id: 'cafe-napoli',
+    name: 'Cafe Napoli',
+    category: 'Italian',
+    meals: [
+      {
+        id: 'cafe-napoli-1',
+        name: 'Chicken Parmigiana (no breading)',
+        carbs: 8,
+        protein: 42,
+        fat: 24,
+        calories: 400,
+        price: 16.99,
+        isOptimal: true,
+        description: 'Grilled chicken with marinara and mozzarella',
+        mealType: 'dinner'
+      },
+      {
+        id: 'cafe-napoli-2',
+        name: 'Caprese Salad',
+        carbs: 6,
+        protein: 12,
+        fat: 18,
+        calories: 230,
+        price: 9.99,
+        isOptimal: true,
+        description: 'Fresh mozzarella, tomatoes, basil, olive oil',
+        mealType: 'lunch'
+      },
+      {
+        id: 'cafe-napoli-3',
+        name: 'Shrimp Scampi (zucchini noodles)',
+        carbs: 9,
+        protein: 26,
+        fat: 22,
+        calories: 330,
+        price: 18.99,
+        isOptimal: false,
+        description: 'Garlic butter shrimp over zoodles',
+        mealType: 'dinner'
+      },
+      {
+        id: 'cafe-napoli-4',
+        name: 'Italian Sausage & Peppers',
+        carbs: 7,
+        protein: 24,
+        fat: 28,
+        calories: 370,
+        price: 13.99,
+        isOptimal: true,
+        description: 'Grilled sausage with peppers and onions',
+        mealType: 'anytime'
+      },
+      {
+        id: 'cafe-napoli-5',
+        name: 'Antipasto Platter',
+        carbs: 8,
+        protein: 18,
+        fat: 24,
+        calories: 310,
+        price: 14.99,
+        isOptimal: true,
+        description: 'Salami, prosciutto, cheese, olives',
+        mealType: 'anytime'
+      }
+    ]
+  },
+  {
+    id: 'cosmos',
+    name: 'Cosmos Restaurant',
+    category: 'Casual Dining',
+    meals: [
+      {
+        id: 'cosmos-1',
+        name: 'Grilled Chicken Breast',
+        carbs: 2,
+        protein: 36,
+        fat: 12,
+        calories: 250,
+        price: 12.99,
+        isOptimal: true,
+        description: 'Plain grilled chicken with steamed vegetables',
+        mealType: 'lunch'
+      },
+      {
+        id: 'cosmos-2',
+        name: 'Sirloin Steak (8oz)',
+        carbs: 1,
+        protein: 42,
+        fat: 24,
+        calories: 380,
+        price: 18.99,
+        isOptimal: true,
+        description: 'Grilled sirloin with side salad',
+        mealType: 'dinner'
+      },
+      {
+        id: 'cosmos-3',
+        name: 'Cobb Salad (no croutons)',
+        carbs: 7,
+        protein: 28,
+        fat: 22,
+        calories: 320,
+        price: 11.99,
+        isOptimal: true,
+        description: 'Chicken, bacon, egg, avocado, cheese',
+        mealType: 'lunch'
+      },
+      {
+        id: 'cosmos-4',
+        name: 'Bunless Cheeseburger',
+        carbs: 5,
+        protein: 30,
+        fat: 26,
+        calories: 370,
+        price: 10.99,
+        isOptimal: true,
+        description: 'Lettuce-wrapped burger with cheese',
+        mealType: 'anytime'
+      },
+      {
+        id: 'cosmos-5',
+        name: 'Breakfast Scramble',
+        carbs: 4,
+        protein: 24,
+        fat: 22,
+        calories: 300,
+        price: 9.99,
+        isOptimal: true,
+        description: 'Eggs, cheese, sausage, peppers',
+        mealType: 'breakfast'
+      }
+    ]
+  },
+  {
+    id: 'libbys',
+    name: 'Libby\'s Restaurant',
+    category: 'Casual Dining',
+    meals: [
+      {
+        id: 'libbys-1',
+        name: 'Grilled Chicken Breast',
+        carbs: 2,
+        protein: 36,
+        fat: 12,
+        calories: 250,
+        price: 12.99,
+        isOptimal: true,
+        description: 'Plain grilled chicken with steamed vegetables',
+        mealType: 'lunch'
+      },
+      {
+        id: 'libbys-2',
+        name: 'Sirloin Steak (8oz)',
+        carbs: 1,
+        protein: 42,
+        fat: 24,
+        calories: 380,
+        price: 18.99,
+        isOptimal: true,
+        description: 'Grilled sirloin with side salad',
+        mealType: 'dinner'
+      },
+      {
+        id: 'libbys-3',
+        name: 'Cobb Salad (no croutons)',
+        carbs: 7,
+        protein: 28,
+        fat: 22,
+        calories: 320,
+        price: 11.99,
+        isOptimal: true,
+        description: 'Chicken, bacon, egg, avocado, cheese',
+        mealType: 'lunch'
+      },
+      {
+        id: 'libbys-4',
+        name: 'Bunless Cheeseburger',
+        carbs: 5,
+        protein: 30,
+        fat: 26,
+        calories: 370,
+        price: 10.99,
+        isOptimal: true,
+        description: 'Lettuce-wrapped burger with cheese',
+        mealType: 'anytime'
+      },
+      {
+        id: 'libbys-5',
+        name: 'Breakfast Scramble',
+        carbs: 4,
+        protein: 24,
+        fat: 22,
+        calories: 300,
+        price: 9.99,
+        isOptimal: true,
+        description: 'Eggs, cheese, sausage, peppers',
+        mealType: 'breakfast'
+      }
+    ]
+  },
+  {
+    id: 'marys-kountry',
+    name: 'Mary\'s Kountry Kitchen',
+    category: 'Casual Dining',
+    meals: [
+      {
+        id: 'marys-kountry-1',
+        name: 'Grilled Chicken Breast',
+        carbs: 2,
+        protein: 36,
+        fat: 12,
+        calories: 250,
+        price: 12.99,
+        isOptimal: true,
+        description: 'Plain grilled chicken with steamed vegetables',
+        mealType: 'lunch'
+      },
+      {
+        id: 'marys-kountry-2',
+        name: 'Sirloin Steak (8oz)',
+        carbs: 1,
+        protein: 42,
+        fat: 24,
+        calories: 380,
+        price: 18.99,
+        isOptimal: true,
+        description: 'Grilled sirloin with side salad',
+        mealType: 'dinner'
+      },
+      {
+        id: 'marys-kountry-3',
+        name: 'Cobb Salad (no croutons)',
+        carbs: 7,
+        protein: 28,
+        fat: 22,
+        calories: 320,
+        price: 11.99,
+        isOptimal: true,
+        description: 'Chicken, bacon, egg, avocado, cheese',
+        mealType: 'lunch'
+      },
+      {
+        id: 'marys-kountry-4',
+        name: 'Bunless Cheeseburger',
+        carbs: 5,
+        protein: 30,
+        fat: 26,
+        calories: 370,
+        price: 10.99,
+        isOptimal: true,
+        description: 'Lettuce-wrapped burger with cheese',
+        mealType: 'anytime'
+      },
+      {
+        id: 'marys-kountry-5',
+        name: 'Breakfast Scramble',
+        carbs: 4,
+        protein: 24,
+        fat: 22,
+        calories: 300,
+        price: 9.99,
+        isOptimal: true,
+        description: 'Eggs, cheese, sausage, peppers',
+        mealType: 'breakfast'
+      }
+    ]
+  },
+  {
+    id: 'smileys-diner',
+    name: 'Smiley\'s Diner',
+    category: 'Casual Dining',
+    meals: [
+      {
+        id: 'smileys-diner-1',
+        name: 'Grilled Chicken Breast',
+        carbs: 2,
+        protein: 36,
+        fat: 12,
+        calories: 250,
+        price: 12.99,
+        isOptimal: true,
+        description: 'Plain grilled chicken with steamed vegetables',
+        mealType: 'lunch'
+      },
+      {
+        id: 'smileys-diner-2',
+        name: 'Sirloin Steak (8oz)',
+        carbs: 1,
+        protein: 42,
+        fat: 24,
+        calories: 380,
+        price: 18.99,
+        isOptimal: true,
+        description: 'Grilled sirloin with side salad',
+        mealType: 'dinner'
+      },
+      {
+        id: 'smileys-diner-3',
+        name: 'Cobb Salad (no croutons)',
+        carbs: 7,
+        protein: 28,
+        fat: 22,
+        calories: 320,
+        price: 11.99,
+        isOptimal: true,
+        description: 'Chicken, bacon, egg, avocado, cheese',
+        mealType: 'lunch'
+      },
+      {
+        id: 'smileys-diner-4',
+        name: 'Bunless Cheeseburger',
+        carbs: 5,
+        protein: 30,
+        fat: 26,
+        calories: 370,
+        price: 10.99,
+        isOptimal: true,
+        description: 'Lettuce-wrapped burger with cheese',
+        mealType: 'anytime'
+      },
+      {
+        id: 'smileys-diner-5',
+        name: 'Breakfast Scramble',
+        carbs: 4,
+        protein: 24,
+        fat: 22,
+        calories: 300,
+        price: 9.99,
+        isOptimal: true,
+        description: 'Eggs, cheese, sausage, peppers',
+        mealType: 'breakfast'
+      }
+    ]
+  },
+  {
+    id: 'derbys',
+    name: 'Derby\'s Bar & Restaurant',
+    category: 'Bar & Grill',
+    meals: [
+      {
+        id: 'derbys-1',
+        name: 'Bunless Burger',
+        carbs: 4,
+        protein: 32,
+        fat: 28,
+        calories: 390,
+        price: 11.99,
+        isOptimal: true,
+        description: 'Half-pound burger, lettuce wrapped',
+        mealType: 'lunch'
+      },
+      {
+        id: 'derbys-2',
+        name: 'Buffalo Wings',
+        carbs: 2,
+        protein: 28,
+        fat: 24,
+        calories: 340,
+        price: 12.99,
+        isOptimal: true,
+        description: 'Traditional wings, no breading',
+        mealType: 'anytime'
+      },
+      {
+        id: 'derbys-3',
+        name: 'Grilled Chicken Caesar (no croutons)',
+        carbs: 6,
+        protein: 36,
+        fat: 18,
+        calories: 320,
+        price: 10.99,
+        isOptimal: true,
+        description: 'Romaine, parmesan, Caesar dressing',
+        mealType: 'lunch'
+      },
+      {
+        id: 'derbys-4',
+        name: 'Steak Tips',
+        carbs: 3,
+        protein: 34,
+        fat: 26,
+        calories: 380,
+        price: 15.99,
+        isOptimal: true,
+        description: 'Marinated sirloin tips with vegetables',
+        mealType: 'dinner'
+      },
+      {
+        id: 'derbys-5',
+        name: 'Bacon-Wrapped Shrimp',
+        carbs: 4,
+        protein: 22,
+        fat: 18,
+        calories: 270,
+        price: 13.99,
+        isOptimal: true,
+        description: 'Jumbo shrimp wrapped in bacon',
+        mealType: 'anytime'
+      }
+    ]
+  },
+  {
+    id: 'grain-craft',
+    name: 'Grain Craft Bar + Kitchen',
+    category: 'Bar & Grill',
+    meals: [
+      {
+        id: 'grain-craft-1',
+        name: 'Bunless Burger',
+        carbs: 4,
+        protein: 32,
+        fat: 28,
+        calories: 390,
+        price: 11.99,
+        isOptimal: true,
+        description: 'Half-pound burger, lettuce wrapped',
+        mealType: 'lunch'
+      },
+      {
+        id: 'grain-craft-2',
+        name: 'Buffalo Wings',
+        carbs: 2,
+        protein: 28,
+        fat: 24,
+        calories: 340,
+        price: 12.99,
+        isOptimal: true,
+        description: 'Traditional wings, no breading',
+        mealType: 'anytime'
+      },
+      {
+        id: 'grain-craft-3',
+        name: 'Grilled Chicken Caesar (no croutons)',
+        carbs: 6,
+        protein: 36,
+        fat: 18,
+        calories: 320,
+        price: 10.99,
+        isOptimal: true,
+        description: 'Romaine, parmesan, Caesar dressing',
+        mealType: 'lunch'
+      },
+      {
+        id: 'grain-craft-4',
+        name: 'Steak Tips',
+        carbs: 3,
+        protein: 34,
+        fat: 26,
+        calories: 380,
+        price: 15.99,
+        isOptimal: true,
+        description: 'Marinated sirloin tips with vegetables',
+        mealType: 'dinner'
+      },
+      {
+        id: 'grain-craft-5',
+        name: 'Bacon-Wrapped Shrimp',
+        carbs: 4,
+        protein: 22,
+        fat: 18,
+        calories: 270,
+        price: 13.99,
+        isOptimal: true,
+        description: 'Jumbo shrimp wrapped in bacon',
+        mealType: 'anytime'
+      }
+    ]
+  },
+  {
+    id: 'two-stones',
+    name: 'Two Stones Pub',
+    category: 'Bar & Grill',
+    meals: [
+      {
+        id: 'two-stones-1',
+        name: 'Bunless Burger',
+        carbs: 4,
+        protein: 32,
+        fat: 28,
+        calories: 390,
+        price: 11.99,
+        isOptimal: true,
+        description: 'Half-pound burger, lettuce wrapped',
+        mealType: 'lunch'
+      },
+      {
+        id: 'two-stones-2',
+        name: 'Buffalo Wings',
+        carbs: 2,
+        protein: 28,
+        fat: 24,
+        calories: 340,
+        price: 12.99,
+        isOptimal: true,
+        description: 'Traditional wings, no breading',
+        mealType: 'anytime'
+      },
+      {
+        id: 'two-stones-3',
+        name: 'Grilled Chicken Caesar (no croutons)',
+        carbs: 6,
+        protein: 36,
+        fat: 18,
+        calories: 320,
+        price: 10.99,
+        isOptimal: true,
+        description: 'Romaine, parmesan, Caesar dressing',
+        mealType: 'lunch'
+      },
+      {
+        id: 'two-stones-4',
+        name: 'Steak Tips',
+        carbs: 3,
+        protein: 34,
+        fat: 26,
+        calories: 380,
+        price: 15.99,
+        isOptimal: true,
+        description: 'Marinated sirloin tips with vegetables',
+        mealType: 'dinner'
+      },
+      {
+        id: 'two-stones-5',
+        name: 'Bacon-Wrapped Shrimp',
+        carbs: 4,
+        protein: 22,
+        fat: 18,
+        calories: 270,
+        price: 13.99,
+        isOptimal: true,
+        description: 'Jumbo shrimp wrapped in bacon',
+        mealType: 'anytime'
+      }
+    ]
+  },
+  {
+    id: 'bbc-tavern',
+    name: 'BBC Tavern & Grill',
+    category: 'Bar & Grill',
+    meals: [
+      {
+        id: 'bbc-tavern-1',
+        name: 'Bunless Burger',
+        carbs: 4,
+        protein: 32,
+        fat: 28,
+        calories: 390,
+        price: 11.99,
+        isOptimal: true,
+        description: 'Half-pound burger, lettuce wrapped',
+        mealType: 'lunch'
+      },
+      {
+        id: 'bbc-tavern-2',
+        name: 'Buffalo Wings',
+        carbs: 2,
+        protein: 28,
+        fat: 24,
+        calories: 340,
+        price: 12.99,
+        isOptimal: true,
+        description: 'Traditional wings, no breading',
+        mealType: 'anytime'
+      },
+      {
+        id: 'bbc-tavern-3',
+        name: 'Grilled Chicken Caesar (no croutons)',
+        carbs: 6,
+        protein: 36,
+        fat: 18,
+        calories: 320,
+        price: 10.99,
+        isOptimal: true,
+        description: 'Romaine, parmesan, Caesar dressing',
+        mealType: 'lunch'
+      },
+      {
+        id: 'bbc-tavern-4',
+        name: 'Steak Tips',
+        carbs: 3,
+        protein: 34,
+        fat: 26,
+        calories: 380,
+        price: 15.99,
+        isOptimal: true,
+        description: 'Marinated sirloin tips with vegetables',
+        mealType: 'dinner'
+      },
+      {
+        id: 'bbc-tavern-5',
+        name: 'Bacon-Wrapped Shrimp',
+        carbs: 4,
+        protein: 22,
+        fat: 18,
+        calories: 270,
+        price: 13.99,
+        isOptimal: true,
+        description: 'Jumbo shrimp wrapped in bacon',
+        mealType: 'anytime'
+      }
+    ]
+  },
+  {
+    id: 'iron-hill',
+    name: 'Iron Hill Brewery',
+    category: 'Bar & Grill',
+    meals: [
+      {
+        id: 'iron-hill-1',
+        name: 'Bunless Burger',
+        carbs: 4,
+        protein: 32,
+        fat: 28,
+        calories: 390,
+        price: 11.99,
+        isOptimal: true,
+        description: 'Half-pound burger, lettuce wrapped',
+        mealType: 'lunch'
+      },
+      {
+        id: 'iron-hill-2',
+        name: 'Buffalo Wings',
+        carbs: 2,
+        protein: 28,
+        fat: 24,
+        calories: 340,
+        price: 12.99,
+        isOptimal: true,
+        description: 'Traditional wings, no breading',
+        mealType: 'anytime'
+      },
+      {
+        id: 'iron-hill-3',
+        name: 'Grilled Chicken Caesar (no croutons)',
+        carbs: 6,
+        protein: 36,
+        fat: 18,
+        calories: 320,
+        price: 10.99,
+        isOptimal: true,
+        description: 'Romaine, parmesan, Caesar dressing',
+        mealType: 'lunch'
+      },
+      {
+        id: 'iron-hill-4',
+        name: 'Steak Tips',
+        carbs: 3,
+        protein: 34,
+        fat: 26,
+        calories: 380,
+        price: 15.99,
+        isOptimal: true,
+        description: 'Marinated sirloin tips with vegetables',
+        mealType: 'dinner'
+      },
+      {
+        id: 'iron-hill-5',
+        name: 'Bacon-Wrapped Shrimp',
+        carbs: 4,
+        protein: 22,
+        fat: 18,
+        calories: 270,
+        price: 13.99,
+        isOptimal: true,
+        description: 'Jumbo shrimp wrapped in bacon',
+        mealType: 'anytime'
+      }
+    ]
+  },
+  {
+    id: 'po-boys',
+    name: 'Po\' Boys Creole Restaurant',
+    category: 'Cajun/Creole',
+    meals: [
+      {
+        id: 'po-boys-1',
+        name: 'Blackened Catfish',
+        carbs: 3,
+        protein: 28,
+        fat: 16,
+        calories: 270,
+        price: 14.99,
+        isOptimal: true,
+        description: 'Cajun-spiced catfish with remoulade',
+        mealType: 'dinner'
+      },
+      {
+        id: 'po-boys-2',
+        name: 'Shrimp Étouffée (no rice)',
+        carbs: 8,
+        protein: 24,
+        fat: 22,
+        calories: 320,
+        price: 16.99,
+        isOptimal: true,
+        description: 'Spicy shrimp stew, skip the rice',
+        mealType: 'lunch'
+      },
+      {
+        id: 'po-boys-3',
+        name: 'Jambalaya (low-rice version)',
+        carbs: 9,
+        protein: 26,
+        fat: 18,
+        calories: 300,
+        price: 13.99,
+        isOptimal: false,
+        description: 'Request extra meat, light on rice',
+        mealType: 'dinner'
+      },
+      {
+        id: 'po-boys-4',
+        name: 'Boudin Sausage',
+        carbs: 7,
+        protein: 20,
+        fat: 24,
+        calories: 320,
+        price: 10.99,
+        isOptimal: true,
+        description: 'Cajun pork and rice sausage',
+        mealType: 'anytime'
+      },
+      {
+        id: 'po-boys-5',
+        name: 'Crawfish Boil (1 lb)',
+        carbs: 2,
+        protein: 22,
+        fat: 4,
+        calories: 130,
+        price: 15.99,
+        isOptimal: true,
+        description: 'Boiled crawfish, seasoned',
+        mealType: 'anytime'
+      }
+    ]
+  },
+  {
+    id: 'bangkok-bistro',
+    name: 'Bangkok Bistro',
+    category: 'Asian',
+    meals: [
+      {
+        id: 'bangkok-bistro-1',
+        name: 'Thai Basil Chicken (no rice)',
+        carbs: 8,
+        protein: 32,
+        fat: 18,
+        calories: 310,
+        price: 13.99,
+        isOptimal: true,
+        description: 'Stir-fried chicken with basil and vegetables',
+        mealType: 'lunch'
+      },
+      {
+        id: 'bangkok-bistro-2',
+        name: 'Curry Shrimp (no rice)',
+        carbs: 9,
+        protein: 24,
+        fat: 22,
+        calories: 320,
+        price: 15.99,
+        isOptimal: false,
+        description: 'Red curry with shrimp and vegetables',
+        mealType: 'dinner'
+      },
+      {
+        id: 'bangkok-bistro-3',
+        name: 'Larb Gai Salad',
+        carbs: 7,
+        protein: 28,
+        fat: 16,
+        calories: 280,
+        price: 12.99,
+        isOptimal: true,
+        description: 'Minced chicken salad with herbs and lime',
+        mealType: 'lunch'
+      },
+      {
+        id: 'bangkok-bistro-4',
+        name: 'Satay Chicken Skewers',
+        carbs: 6,
+        protein: 26,
+        fat: 20,
+        calories: 290,
+        price: 11.99,
+        isOptimal: true,
+        description: 'Grilled chicken skewers with peanut sauce',
+        mealType: 'anytime'
+      },
+      {
+        id: 'bangkok-bistro-5',
+        name: 'Tom Yum Soup',
+        carbs: 8,
+        protein: 18,
+        fat: 12,
+        calories: 200,
+        price: 9.99,
+        isOptimal: true,
+        description: 'Spicy Thai soup with shrimp',
+        mealType: 'anytime'
+      }
+    ]
+  },
+  {
+    id: 'magnolia',
+    name: 'Magnolia Restaurant',
+    category: 'Casual Dining',
+    meals: [
+      {
+        id: 'magnolia-1',
+        name: 'Grilled Chicken Breast',
+        carbs: 2,
+        protein: 36,
+        fat: 12,
+        calories: 250,
+        price: 12.99,
+        isOptimal: true,
+        description: 'Plain grilled chicken with steamed vegetables',
+        mealType: 'lunch'
+      },
+      {
+        id: 'magnolia-2',
+        name: 'Sirloin Steak (8oz)',
+        carbs: 1,
+        protein: 42,
+        fat: 24,
+        calories: 380,
+        price: 18.99,
+        isOptimal: true,
+        description: 'Grilled sirloin with side salad',
+        mealType: 'dinner'
+      },
+      {
+        id: 'magnolia-3',
+        name: 'Cobb Salad (no croutons)',
+        carbs: 7,
+        protein: 28,
+        fat: 22,
+        calories: 320,
+        price: 11.99,
+        isOptimal: true,
+        description: 'Chicken, bacon, egg, avocado, cheese',
+        mealType: 'lunch'
+      },
+      {
+        id: 'magnolia-4',
+        name: 'Bunless Cheeseburger',
+        carbs: 5,
+        protein: 30,
+        fat: 26,
+        calories: 370,
+        price: 10.99,
+        isOptimal: true,
+        description: 'Lettuce-wrapped burger with cheese',
+        mealType: 'anytime'
+      },
+      {
+        id: 'magnolia-5',
+        name: 'Breakfast Scramble',
+        carbs: 4,
+        protein: 24,
+        fat: 22,
+        calories: 300,
+        price: 9.99,
+        isOptimal: true,
+        description: 'Eggs, cheese, sausage, peppers',
+        mealType: 'breakfast'
+      }
+    ]
+  },
+  {
+    id: 'rudys',
+    name: 'Rudy\'s Family Restaurant',
+    category: 'Casual Dining',
+    meals: [
+      {
+        id: 'rudys-1',
+        name: 'Grilled Chicken Breast',
+        carbs: 2,
+        protein: 36,
+        fat: 12,
+        calories: 250,
+        price: 12.99,
+        isOptimal: true,
+        description: 'Plain grilled chicken with steamed vegetables',
+        mealType: 'lunch'
+      },
+      {
+        id: 'rudys-2',
+        name: 'Sirloin Steak (8oz)',
+        carbs: 1,
+        protein: 42,
+        fat: 24,
+        calories: 380,
+        price: 18.99,
+        isOptimal: true,
+        description: 'Grilled sirloin with side salad',
+        mealType: 'dinner'
+      },
+      {
+        id: 'rudys-3',
+        name: 'Cobb Salad (no croutons)',
+        carbs: 7,
+        protein: 28,
+        fat: 22,
+        calories: 320,
+        price: 11.99,
+        isOptimal: true,
+        description: 'Chicken, bacon, egg, avocado, cheese',
+        mealType: 'lunch'
+      },
+      {
+        id: 'rudys-4',
+        name: 'Bunless Cheeseburger',
+        carbs: 5,
+        protein: 30,
+        fat: 26,
+        calories: 370,
+        price: 10.99,
+        isOptimal: true,
+        description: 'Lettuce-wrapped burger with cheese',
+        mealType: 'anytime'
+      },
+      {
+        id: 'rudys-5',
+        name: 'Breakfast Scramble',
+        carbs: 4,
+        protein: 24,
+        fat: 22,
+        calories: 300,
+        price: 9.99,
+        isOptimal: true,
+        description: 'Eggs, cheese, sausage, peppers',
+        mealType: 'breakfast'
+      }
+    ]
+  },
+  {
+    id: 'brick-wood',
+    name: 'The Brick-Wood Fired Eats',
+    category: 'Casual Dining',
+    meals: [
+      {
+        id: 'brick-wood-1',
+        name: 'Grilled Chicken Breast',
+        carbs: 2,
+        protein: 36,
+        fat: 12,
+        calories: 250,
+        price: 12.99,
+        isOptimal: true,
+        description: 'Plain grilled chicken with steamed vegetables',
+        mealType: 'lunch'
+      },
+      {
+        id: 'brick-wood-2',
+        name: 'Sirloin Steak (8oz)',
+        carbs: 1,
+        protein: 42,
+        fat: 24,
+        calories: 380,
+        price: 18.99,
+        isOptimal: true,
+        description: 'Grilled sirloin with side salad',
+        mealType: 'dinner'
+      },
+      {
+        id: 'brick-wood-3',
+        name: 'Cobb Salad (no croutons)',
+        carbs: 7,
+        protein: 28,
+        fat: 22,
+        calories: 320,
+        price: 11.99,
+        isOptimal: true,
+        description: 'Chicken, bacon, egg, avocado, cheese',
+        mealType: 'lunch'
+      },
+      {
+        id: 'brick-wood-4',
+        name: 'Bunless Cheeseburger',
+        carbs: 5,
+        protein: 30,
+        fat: 26,
+        calories: 370,
+        price: 10.99,
+        isOptimal: true,
+        description: 'Lettuce-wrapped burger with cheese',
+        mealType: 'anytime'
+      },
+      {
+        id: 'brick-wood-5',
+        name: 'Breakfast Scramble',
+        carbs: 4,
+        protein: 24,
+        fat: 22,
+        calories: 300,
+        price: 9.99,
+        isOptimal: true,
+        description: 'Eggs, cheese, sausage, peppers',
+        mealType: 'breakfast'
+      }
+    ]
+  },
+  {
+    id: 'mcglynns',
+    name: 'McGlynn\'s Pub',
+    category: 'Bar & Grill',
+    meals: [
+      {
+        id: 'mcglynns-1',
+        name: 'Bunless Burger',
+        carbs: 4,
+        protein: 32,
+        fat: 28,
+        calories: 390,
+        price: 11.99,
+        isOptimal: true,
+        description: 'Half-pound burger, lettuce wrapped',
+        mealType: 'lunch'
+      },
+      {
+        id: 'mcglynns-2',
+        name: 'Buffalo Wings',
+        carbs: 2,
+        protein: 28,
+        fat: 24,
+        calories: 340,
+        price: 12.99,
+        isOptimal: true,
+        description: 'Traditional wings, no breading',
+        mealType: 'anytime'
+      },
+      {
+        id: 'mcglynns-3',
+        name: 'Grilled Chicken Caesar (no croutons)',
+        carbs: 6,
+        protein: 36,
+        fat: 18,
+        calories: 320,
+        price: 10.99,
+        isOptimal: true,
+        description: 'Romaine, parmesan, Caesar dressing',
+        mealType: 'lunch'
+      },
+      {
+        id: 'mcglynns-4',
+        name: 'Steak Tips',
+        carbs: 3,
+        protein: 34,
+        fat: 26,
+        calories: 380,
+        price: 15.99,
+        isOptimal: true,
+        description: 'Marinated sirloin tips with vegetables',
+        mealType: 'dinner'
+      },
+      {
+        id: 'mcglynns-5',
+        name: 'Bacon-Wrapped Shrimp',
+        carbs: 4,
+        protein: 22,
+        fat: 18,
+        calories: 270,
+        price: 13.99,
+        isOptimal: true,
+        description: 'Jumbo shrimp wrapped in bacon',
+        mealType: 'anytime'
+      }
+    ]
+  },
+  {
+    id: 'grey-fox',
+    name: 'Grey Fox Grille & Public House',
+    category: 'Bar & Grill',
+    meals: [
+      {
+        id: 'grey-fox-1',
+        name: 'Bunless Burger',
+        carbs: 4,
+        protein: 32,
+        fat: 28,
+        calories: 390,
+        price: 11.99,
+        isOptimal: true,
+        description: 'Half-pound burger, lettuce wrapped',
+        mealType: 'lunch'
+      },
+      {
+        id: 'grey-fox-2',
+        name: 'Buffalo Wings',
+        carbs: 2,
+        protein: 28,
+        fat: 24,
+        calories: 340,
+        price: 12.99,
+        isOptimal: true,
+        description: 'Traditional wings, no breading',
+        mealType: 'anytime'
+      },
+      {
+        id: 'grey-fox-3',
+        name: 'Grilled Chicken Caesar (no croutons)',
+        carbs: 6,
+        protein: 36,
+        fat: 18,
+        calories: 320,
+        price: 10.99,
+        isOptimal: true,
+        description: 'Romaine, parmesan, Caesar dressing',
+        mealType: 'lunch'
+      },
+      {
+        id: 'grey-fox-4',
+        name: 'Steak Tips',
+        carbs: 3,
+        protein: 34,
+        fat: 26,
+        calories: 380,
+        price: 15.99,
+        isOptimal: true,
+        description: 'Marinated sirloin tips with vegetables',
+        mealType: 'dinner'
+      },
+      {
+        id: 'grey-fox-5',
+        name: 'Bacon-Wrapped Shrimp',
+        carbs: 4,
+        protein: 22,
+        fat: 18,
+        calories: 270,
+        price: 13.99,
+        isOptimal: true,
+        description: 'Jumbo shrimp wrapped in bacon',
+        mealType: 'anytime'
+      }
+    ]
+  },
+  {
+    id: 'abbotts',
+    name: 'Abbott\'s on Broad Creek',
+    category: 'Seafood',
+    meals: [
+      {
+        id: 'abbotts-1',
+        name: 'Grilled Salmon',
+        carbs: 2,
+        protein: 34,
+        fat: 18,
+        calories: 310,
+        price: 18.99,
+        isOptimal: true,
+        description: 'Fresh Atlantic salmon, grilled with lemon butter',
+        mealType: 'lunch'
+      },
+      {
+        id: 'abbotts-2',
+        name: 'Blackened Mahi-Mahi',
+        carbs: 3,
+        protein: 28,
+        fat: 14,
+        calories: 250,
+        price: 16.99,
+        isOptimal: true,
+        description: 'Cajun-spiced, served with side salad',
+        mealType: 'dinner'
+      },
+      {
+        id: 'abbotts-3',
+        name: 'Shrimp Scampi (no pasta)',
+        carbs: 5,
+        protein: 24,
+        fat: 22,
+        calories: 310,
+        price: 17.99,
+        isOptimal: true,
+        description: 'Garlic butter shrimp with vegetables',
+        mealType: 'dinner'
+      },
+      {
+        id: 'abbotts-4',
+        name: 'Crab Cake',
+        carbs: 6,
+        protein: 18,
+        fat: 16,
+        calories: 240,
+        price: 14.99,
+        isOptimal: true,
+        description: 'Lump crab meat, minimal fillers',
+        mealType: 'anytime'
+      },
+      {
+        id: 'abbotts-5',
+        name: 'Grilled Tuna Steak',
+        carbs: 1,
+        protein: 32,
+        fat: 12,
+        calories: 240,
+        price: 19.99,
+        isOptimal: true,
+        description: 'Seared rare with wasabi aioli',
+        mealType: 'dinner'
+      }
+    ]
+  },
+  {
+    id: 'southern-grille',
+    name: 'The Southern Grille',
+    category: 'Casual Dining',
+    meals: [
+      {
+        id: 'southern-grille-1',
+        name: 'Grilled Chicken Breast',
+        carbs: 2,
+        protein: 36,
+        fat: 12,
+        calories: 250,
+        price: 12.99,
+        isOptimal: true,
+        description: 'Plain grilled chicken with steamed vegetables',
+        mealType: 'lunch'
+      },
+      {
+        id: 'southern-grille-2',
+        name: 'Sirloin Steak (8oz)',
+        carbs: 1,
+        protein: 42,
+        fat: 24,
+        calories: 380,
+        price: 18.99,
+        isOptimal: true,
+        description: 'Grilled sirloin with side salad',
+        mealType: 'dinner'
+      },
+      {
+        id: 'southern-grille-3',
+        name: 'Cobb Salad (no croutons)',
+        carbs: 7,
+        protein: 28,
+        fat: 22,
+        calories: 320,
+        price: 11.99,
+        isOptimal: true,
+        description: 'Chicken, bacon, egg, avocado, cheese',
+        mealType: 'lunch'
+      },
+      {
+        id: 'southern-grille-4',
+        name: 'Bunless Cheeseburger',
+        carbs: 5,
+        protein: 30,
+        fat: 26,
+        calories: 370,
+        price: 10.99,
+        isOptimal: true,
+        description: 'Lettuce-wrapped burger with cheese',
+        mealType: 'anytime'
+      },
+      {
+        id: 'southern-grille-5',
+        name: 'Breakfast Scramble',
+        carbs: 4,
+        protein: 24,
+        fat: 22,
+        calories: 300,
+        price: 9.99,
+        isOptimal: true,
+        description: 'Eggs, cheese, sausage, peppers',
+        mealType: 'breakfast'
+      }
+    ]
+  },
+  {
+    id: 'little-creek',
+    name: 'Little Creek Grill',
+    category: 'Casual Dining',
+    meals: [
+      {
+        id: 'little-creek-1',
+        name: 'Grilled Chicken Breast',
+        carbs: 2,
+        protein: 36,
+        fat: 12,
+        calories: 250,
+        price: 12.99,
+        isOptimal: true,
+        description: 'Plain grilled chicken with steamed vegetables',
+        mealType: 'lunch'
+      },
+      {
+        id: 'little-creek-2',
+        name: 'Sirloin Steak (8oz)',
+        carbs: 1,
+        protein: 42,
+        fat: 24,
+        calories: 380,
+        price: 18.99,
+        isOptimal: true,
+        description: 'Grilled sirloin with side salad',
+        mealType: 'dinner'
+      },
+      {
+        id: 'little-creek-3',
+        name: 'Cobb Salad (no croutons)',
+        carbs: 7,
+        protein: 28,
+        fat: 22,
+        calories: 320,
+        price: 11.99,
+        isOptimal: true,
+        description: 'Chicken, bacon, egg, avocado, cheese',
+        mealType: 'lunch'
+      },
+      {
+        id: 'little-creek-4',
+        name: 'Bunless Cheeseburger',
+        carbs: 5,
+        protein: 30,
+        fat: 26,
+        calories: 370,
+        price: 10.99,
+        isOptimal: true,
+        description: 'Lettuce-wrapped burger with cheese',
+        mealType: 'anytime'
+      },
+      {
+        id: 'little-creek-5',
+        name: 'Breakfast Scramble',
+        carbs: 4,
+        protein: 24,
+        fat: 22,
+        calories: 300,
+        price: 9.99,
+        isOptimal: true,
+        description: 'Eggs, cheese, sausage, peppers',
+        mealType: 'breakfast'
+      }
+    ]
+  },
+  {
+    id: 'arenas-deli',
+    name: 'Arena\'s Deli',
+    category: 'Deli',
+    meals: [
+      {
+        id: 'arenas-deli-1',
+        name: 'Turkey & Cheese Lettuce Wrap',
+        carbs: 4,
+        protein: 24,
+        fat: 14,
+        calories: 230,
+        price: 8.99,
+        isOptimal: true,
+        description: 'Sliced turkey, cheese, wrapped in lettuce',
+        mealType: 'lunch'
+      },
+      {
+        id: 'arenas-deli-2',
+        name: 'Italian Sub Bowl',
+        carbs: 6,
+        protein: 28,
+        fat: 22,
+        calories: 320,
+        price: 10.99,
+        isOptimal: true,
+        description: 'Sub ingredients in a bowl, no bread',
+        mealType: 'lunch'
+      },
+      {
+        id: 'arenas-deli-3',
+        name: 'Roast Beef & Cheddar Wrap',
+        carbs: 5,
+        protein: 26,
+        fat: 18,
+        calories: 280,
+        price: 9.99,
+        isOptimal: true,
+        description: 'Lettuce-wrapped roast beef',
+        mealType: 'anytime'
+      },
+      {
+        id: 'arenas-deli-4',
+        name: 'Chef Salad',
+        carbs: 7,
+        protein: 22,
+        fat: 20,
+        calories: 290,
+        price: 9.49,
+        isOptimal: true,
+        description: 'Ham, turkey, cheese, hard-boiled egg',
+        mealType: 'lunch'
+      },
+      {
+        id: 'arenas-deli-5',
+        name: 'Chicken Salad (on lettuce)',
+        carbs: 5,
+        protein: 20,
+        fat: 16,
+        calories: 240,
+        price: 8.49,
+        isOptimal: true,
+        description: 'House-made chicken salad on lettuce',
+        mealType: 'anytime'
+      }
+    ]
+  },
+  {
+    id: 'big-fish',
+    name: 'Big Fish Grill',
+    category: 'Seafood',
+    meals: [
+      {
+        id: 'big-fish-1',
+        name: 'Grilled Salmon',
+        carbs: 2,
+        protein: 34,
+        fat: 18,
+        calories: 310,
+        price: 18.99,
+        isOptimal: true,
+        description: 'Fresh Atlantic salmon, grilled with lemon butter',
+        mealType: 'lunch'
+      },
+      {
+        id: 'big-fish-2',
+        name: 'Blackened Mahi-Mahi',
+        carbs: 3,
+        protein: 28,
+        fat: 14,
+        calories: 250,
+        price: 16.99,
+        isOptimal: true,
+        description: 'Cajun-spiced, served with side salad',
+        mealType: 'dinner'
+      },
+      {
+        id: 'big-fish-3',
+        name: 'Shrimp Scampi (no pasta)',
+        carbs: 5,
+        protein: 24,
+        fat: 22,
+        calories: 310,
+        price: 17.99,
+        isOptimal: true,
+        description: 'Garlic butter shrimp with vegetables',
+        mealType: 'dinner'
+      },
+      {
+        id: 'big-fish-4',
+        name: 'Crab Cake',
+        carbs: 6,
+        protein: 18,
+        fat: 16,
+        calories: 240,
+        price: 14.99,
+        isOptimal: true,
+        description: 'Lump crab meat, minimal fillers',
+        mealType: 'anytime'
+      },
+      {
+        id: 'big-fish-5',
+        name: 'Grilled Tuna Steak',
+        carbs: 1,
+        protein: 32,
+        fat: 12,
+        calories: 240,
+        price: 19.99,
+        isOptimal: true,
+        description: 'Seared rare with wasabi aioli',
+        mealType: 'dinner'
+      }
+    ]
+  },
+  {
+    id: 'go-fish',
+    name: 'Go Fish!',
+    category: 'Seafood',
+    meals: [
+      {
+        id: 'go-fish-1',
+        name: 'Grilled Salmon',
+        carbs: 2,
+        protein: 34,
+        fat: 18,
+        calories: 310,
+        price: 18.99,
+        isOptimal: true,
+        description: 'Fresh Atlantic salmon, grilled with lemon butter',
+        mealType: 'lunch'
+      },
+      {
+        id: 'go-fish-2',
+        name: 'Blackened Mahi-Mahi',
+        carbs: 3,
+        protein: 28,
+        fat: 14,
+        calories: 250,
+        price: 16.99,
+        isOptimal: true,
+        description: 'Cajun-spiced, served with side salad',
+        mealType: 'dinner'
+      },
+      {
+        id: 'go-fish-3',
+        name: 'Shrimp Scampi (no pasta)',
+        carbs: 5,
+        protein: 24,
+        fat: 22,
+        calories: 310,
+        price: 17.99,
+        isOptimal: true,
+        description: 'Garlic butter shrimp with vegetables',
+        mealType: 'dinner'
+      },
+      {
+        id: 'go-fish-4',
+        name: 'Crab Cake',
+        carbs: 6,
+        protein: 18,
+        fat: 16,
+        calories: 240,
+        price: 14.99,
+        isOptimal: true,
+        description: 'Lump crab meat, minimal fillers',
+        mealType: 'anytime'
+      },
+      {
+        id: 'go-fish-5',
+        name: 'Grilled Tuna Steak',
+        carbs: 1,
+        protein: 32,
+        fat: 12,
+        calories: 240,
+        price: 19.99,
+        isOptimal: true,
+        description: 'Seared rare with wasabi aioli',
+        mealType: 'dinner'
+      }
+    ]
+  },
+  {
+    id: 'seedbol',
+    name: 'Seedbol Kitchen',
+    category: 'Casual Dining',
+    meals: [
+      {
+        id: 'seedbol-1',
+        name: 'Grilled Chicken Breast',
+        carbs: 2,
+        protein: 36,
+        fat: 12,
+        calories: 250,
+        price: 12.99,
+        isOptimal: true,
+        description: 'Plain grilled chicken with steamed vegetables',
+        mealType: 'lunch'
+      },
+      {
+        id: 'seedbol-2',
+        name: 'Sirloin Steak (8oz)',
+        carbs: 1,
+        protein: 42,
+        fat: 24,
+        calories: 380,
+        price: 18.99,
+        isOptimal: true,
+        description: 'Grilled sirloin with side salad',
+        mealType: 'dinner'
+      },
+      {
+        id: 'seedbol-3',
+        name: 'Cobb Salad (no croutons)',
+        carbs: 7,
+        protein: 28,
+        fat: 22,
+        calories: 320,
+        price: 11.99,
+        isOptimal: true,
+        description: 'Chicken, bacon, egg, avocado, cheese',
+        mealType: 'lunch'
+      },
+      {
+        id: 'seedbol-4',
+        name: 'Bunless Cheeseburger',
+        carbs: 5,
+        protein: 30,
+        fat: 26,
+        calories: 370,
+        price: 10.99,
+        isOptimal: true,
+        description: 'Lettuce-wrapped burger with cheese',
+        mealType: 'anytime'
+      },
+      {
+        id: 'seedbol-5',
+        name: 'Breakfast Scramble',
+        carbs: 4,
+        protein: 24,
+        fat: 22,
+        calories: 300,
+        price: 9.99,
+        isOptimal: true,
+        description: 'Eggs, cheese, sausage, peppers',
+        mealType: 'breakfast'
+      }
+    ]
+  },
+  {
+    id: 'bluecoast',
+    name: 'Bluecoast Seafood Grill',
+    category: 'Seafood',
+    meals: [
+      {
+        id: 'bluecoast-1',
+        name: 'Grilled Salmon',
+        carbs: 2,
+        protein: 34,
+        fat: 18,
+        calories: 310,
+        price: 18.99,
+        isOptimal: true,
+        description: 'Fresh Atlantic salmon, grilled with lemon butter',
+        mealType: 'lunch'
+      },
+      {
+        id: 'bluecoast-2',
+        name: 'Blackened Mahi-Mahi',
+        carbs: 3,
+        protein: 28,
+        fat: 14,
+        calories: 250,
+        price: 16.99,
+        isOptimal: true,
+        description: 'Cajun-spiced, served with side salad',
+        mealType: 'dinner'
+      },
+      {
+        id: 'bluecoast-3',
+        name: 'Shrimp Scampi (no pasta)',
+        carbs: 5,
+        protein: 24,
+        fat: 22,
+        calories: 310,
+        price: 17.99,
+        isOptimal: true,
+        description: 'Garlic butter shrimp with vegetables',
+        mealType: 'dinner'
+      },
+      {
+        id: 'bluecoast-4',
+        name: 'Crab Cake',
+        carbs: 6,
+        protein: 18,
+        fat: 16,
+        calories: 240,
+        price: 14.99,
+        isOptimal: true,
+        description: 'Lump crab meat, minimal fillers',
+        mealType: 'anytime'
+      },
+      {
+        id: 'bluecoast-5',
+        name: 'Grilled Tuna Steak',
+        carbs: 1,
+        protein: 32,
+        fat: 12,
+        calories: 240,
+        price: 19.99,
+        isOptimal: true,
+        description: 'Seared rare with wasabi aioli',
+        mealType: 'dinner'
+      }
+    ]
+  },
+  {
+    id: 'bethany-blues',
+    name: 'Bethany Blues BBQ',
+    category: 'BBQ',
+    meals: [
+      {
+        id: 'bethany-blues-1',
+        name: 'Pulled Pork (no sauce)',
+        carbs: 2,
+        protein: 36,
+        fat: 24,
+        calories: 380,
+        price: 12.99,
+        isOptimal: true,
+        description: 'Smoked pork shoulder, sauce on side',
+        mealType: 'lunch'
+      },
+      {
+        id: 'bethany-blues-2',
+        name: 'Beef Brisket',
+        carbs: 3,
+        protein: 38,
+        fat: 28,
+        calories: 420,
+        price: 15.99,
+        isOptimal: true,
+        description: '12-hour smoked brisket, no sauce',
+        mealType: 'dinner'
+      },
+      {
+        id: 'bethany-blues-3',
+        name: 'BBQ Chicken Leg Quarters',
+        carbs: 4,
+        protein: 32,
+        fat: 22,
+        calories: 340,
+        price: 11.99,
+        isOptimal: true,
+        description: 'Dry rub chicken, sauce optional',
+        mealType: 'anytime'
+      },
+      {
+        id: 'bethany-blues-4',
+        name: 'Smoked Sausage',
+        carbs: 5,
+        protein: 20,
+        fat: 26,
+        calories: 330,
+        price: 9.99,
+        isOptimal: true,
+        description: 'House-made smoked sausage',
+        mealType: 'anytime'
+      },
+      {
+        id: 'bethany-blues-5',
+        name: 'BBQ Burnt Ends',
+        carbs: 4,
+        protein: 28,
+        fat: 32,
+        calories: 400,
+        price: 14.99,
+        isOptimal: true,
+        description: 'Crispy brisket tips',
+        mealType: 'lunch'
+      }
+    ]
+  },
+  {
+    id: 'nicola-pizza',
+    name: 'Nicola Pizza',
+    category: 'Pizza',
+    meals: [
+      {
+        id: 'nicola-pizza-1',
+        name: 'Crustless Pizza Bowl',
+        carbs: 8,
+        protein: 24,
+        fat: 26,
+        calories: 350,
+        price: 12.99,
+        isOptimal: true,
+        description: 'Pizza toppings in a bowl, no crust',
+        mealType: 'anytime'
+      },
+      {
+        id: 'nicola-pizza-2',
+        name: 'Caprese Salad',
+        carbs: 6,
+        protein: 12,
+        fat: 18,
+        calories: 230,
+        price: 8.99,
+        isOptimal: true,
+        description: 'Fresh mozzarella, tomatoes, basil',
+        mealType: 'lunch'
+      },
+      {
+        id: 'nicola-pizza-3',
+        name: 'Meatball Marinara (no pasta)',
+        carbs: 9,
+        protein: 28,
+        fat: 22,
+        calories: 340,
+        price: 11.99,
+        isOptimal: false,
+        description: 'Italian meatballs in marinara sauce',
+        mealType: 'dinner'
+      },
+      {
+        id: 'nicola-pizza-4',
+        name: 'Antipasto Salad',
+        carbs: 7,
+        protein: 18,
+        fat: 24,
+        calories: 300,
+        price: 10.99,
+        isOptimal: true,
+        description: 'Salami, ham, cheese, olives, peppers',
+        mealType: 'anytime'
+      },
+      {
+        id: 'nicola-pizza-5',
+        name: 'Buffalo Chicken Salad',
+        carbs: 6,
+        protein: 26,
+        fat: 20,
+        calories: 300,
+        price: 11.49,
+        isOptimal: true,
+        description: 'Grilled chicken, buffalo sauce, blue cheese',
+        mealType: 'lunch'
       }
     ]
   }
